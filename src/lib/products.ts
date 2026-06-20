@@ -53,6 +53,21 @@ export async function getAllProducts(): Promise<ProductDTO[]> {
   return products.map(toProductDTO);
 }
 
+/** A limited set for the homepage featured section (prefers featured/bestseller). */
+export async function getFeaturedProducts(limit = 8): Promise<ProductDTO[]> {
+  const products = await prisma.product.findMany({
+    where: { active: true, needsFile: false },
+    orderBy: [
+      { featured: "desc" },
+      { bestseller: "desc" },
+      { sortOrder: "asc" },
+      { createdAt: "asc" },
+    ],
+    take: limit,
+  });
+  return products.map(toProductDTO);
+}
+
 export async function getProductBySlug(
   slug: string,
 ): Promise<ProductDTO | null> {

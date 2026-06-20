@@ -22,12 +22,15 @@ interface ProductGridProps {
   initialCategory?: string;
   /** Sync the active filter to the URL query (used on the /shop page). */
   syncUrl?: boolean;
+  /** Show the category filter tabs (off for curated homepage sets). */
+  showFilters?: boolean;
 }
 
 export function ProductGrid({
   products,
   initialCategory = "all",
   syncUrl = false,
+  showFilters = true,
 }: ProductGridProps) {
   const validInitial = PRODUCT_FILTERS.some((f) => f.id === initialCategory)
     ? initialCategory
@@ -53,27 +56,34 @@ export function ProductGrid({
 
   return (
     <>
-      <div className="flex flex-wrap justify-center gap-2">
-        {PRODUCT_FILTERS.map((f) => (
-          <button
-            key={f.id}
-            type="button"
-            onClick={() => setFilter(f.id)}
-            aria-pressed={filter === f.id}
-            className={clsx(
-              "rounded-full border px-4 py-2 text-sm font-medium transition-all",
-              filter === f.id
-                ? "border-transparent bg-accent-gradient text-base shadow-glow"
-                : "border-subtle bg-white/5 text-body hover:border-lavender/40 hover:text-heading",
-            )}
-          >
-            {f.label}
-          </button>
-        ))}
-      </div>
+      {showFilters && (
+        <div className="flex flex-wrap justify-center gap-2">
+          {PRODUCT_FILTERS.map((f) => (
+            <button
+              key={f.id}
+              type="button"
+              onClick={() => setFilter(f.id)}
+              aria-pressed={filter === f.id}
+              className={clsx(
+                "rounded-full border px-4 py-2 text-sm font-medium transition-all",
+                filter === f.id
+                  ? "border-transparent bg-accent-gradient text-base shadow-glow"
+                  : "border-subtle bg-white/5 text-body hover:border-lavender/40 hover:text-heading",
+              )}
+            >
+              {f.label}
+            </button>
+          ))}
+        </div>
+      )}
 
       <LayoutGroup>
-        <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div
+          className={clsx(
+            "grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3",
+            showFilters && "mt-10",
+          )}
+        >
           <AnimatePresence mode="popLayout">
             {visible.map((product) => (
               <ProductCard

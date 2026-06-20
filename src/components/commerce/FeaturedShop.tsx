@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { getAllProducts } from "@/lib/products";
+import { getFeaturedProducts } from "@/lib/products";
 import { ProductGrid } from "@/components/commerce/ProductGrid";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export async function FeaturedShop() {
-  const products = await getAllProducts();
+  // Homepage shows a curated subset; the full catalog lives on /shop.
+  const products = await getFeaturedProducts(8);
 
   return (
     <section id="shop" className="section-pad">
@@ -22,7 +23,7 @@ export async function FeaturedShop() {
         />
 
         <div className="mt-10">
-          <ProductGrid products={products} />
+          <ProductGrid products={products} showFilters={false} />
         </div>
 
         <div className="mt-12 text-center">

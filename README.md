@@ -98,6 +98,49 @@ This is the primary, always-working path.
 Editing, hiding (toggle active), and deleting all work inline from the product
 table and revalidate the storefront the same way.
 
+### Bulk import (many packs at once)
+
+For a large catalog, don't enter packs one-by-one — use the CSV pipeline.
+
+1. **Fill the spreadsheet.** Copy [`scripts/packs-template.csv`](scripts/packs-template.csv)
+   and add one row per pack. Columns (only `name` and `price` are required):
+
+   | column | notes |
+   | --- | --- |
+   | `name` | pack title |
+   | `price` | `24.00` or `$24.99` |
+   | `category` | `cat`/`dragon`/`fox`/`bear`/`japanese`/`frog`/`other` |
+   | `description` | quote it if it contains commas |
+   | `image` | public preview image URL |
+   | `video` | optional preview video URL |
+   | `features` | pipe-separated: `Animated Screens\|Alerts\|Panels` |
+   | `file` | deliverable filename, e.g. `cat-forest.pdf` |
+   | `featured` / `bestseller` | `true`/`false` |
+   | `sortorder` | integer (optional) |
+
+2. **Import the metadata:**
+
+   ```bash
+   npm run import:packs -- ./your-packs.csv
+   ```
+
+   Every pack is created/updated but stays **hidden** (`needsFile=true`) so an
+   undeliverable pack can never go live.
+
+3. **Drop the deliverables in a folder** (filenames matching the `file` column
+   or the slug, e.g. `cat-forest.pdf`) and upload + publish them all:
+
+   ```bash
+   npm run upload:files -- ./your-pdf-folder
+   ```
+
+   Each file uploads to storage, its pack's `fileKey` is set, and the pack goes
+   **live** automatically. Files with no matching pack are reported, not uploaded.
+   (Requires the `STORAGE_*` env vars.)
+
+> The deliverable can be a **`.pdf` or a `.zip`** — both the admin upload and the
+> bulk uploader accept either and set the correct content type.
+
 ---
 
 ## 🔐 Security model
