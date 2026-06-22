@@ -21,7 +21,7 @@ const PRODUCTS: SeedProduct[] = [
     category: "cat",
     priceCents: 2400,
     description:
-      "Fireflies drift and the lantern light glows — forest cats keeping watch over your whole stream.",
+      "Dreamy glowing forest cats, soft light, magical woodland atmosphere.",
     image:
       "https://i.etsystatic.com/61635066/r/il/316113/7805031188/il_794xN.7805031188_mn58.jpg",
     video:
@@ -34,7 +34,7 @@ const PRODUCTS: SeedProduct[] = [
     category: "dragon",
     priceCents: 2539,
     description:
-      "A lofi dragon coiled in cherry blossoms, petals falling on an endless loop.",
+      "Majestic lofi dragon amid cherry blossoms — fantasy at its finest.",
     image:
       "https://i.etsystatic.com/61635066/r/il/be4ff6/7769904430/il_794xN.7769904430_keij.jpg",
     video:
@@ -48,7 +48,7 @@ const PRODUCTS: SeedProduct[] = [
     category: "bear",
     priceCents: 2400,
     description:
-      "A panda dozing under pink blossoms while petals drift across every screen.",
+      "Soft pink blossom world with a gentle panda — pure kawaii energy.",
     image:
       "https://i.etsystatic.com/61635066/r/il/52ef5f/7803817421/il_794xN.7803817421_5b3q.jpg",
     video:
@@ -61,7 +61,7 @@ const PRODUCTS: SeedProduct[] = [
     category: "fox",
     priceCents: 2400,
     description:
-      "A fox curled in a glowing wood, warm light breathing through the trees.",
+      "A magical lofi fox in a glowing woodland — warm and enchanting.",
     image:
       "https://i.etsystatic.com/61635066/r/il/5fc1ac/7822491494/il_794xN.7822491494_cm0u.jpg",
     features: ["Animated Screens", "Alerts", "Panels"],
@@ -72,7 +72,7 @@ const PRODUCTS: SeedProduct[] = [
     category: "frog",
     priceCents: 2300,
     description:
-      "A cheerful frog in a rain-bright forest — the scene chat actually lingers in.",
+      "A cheerful frog in a lush magical forest — unique and charming.",
     image:
       "https://i.etsystatic.com/61635066/r/il/f1e940/7907499425/il_794xN.7907499425_l3np.jpg",
     features: ["Animated Screens", "Alerts", "Emotes"],
@@ -83,7 +83,7 @@ const PRODUCTS: SeedProduct[] = [
     category: "japanese",
     priceCents: 2400,
     description:
-      "A lone samurai under a huge moon and drifting clouds — cinematic enough to be your brand.",
+      "A cinematic Japanese samurai night scene — bold, dramatic, timeless.",
     image:
       "https://i.etsystatic.com/61635066/r/il/15bcaa/7553109646/il_794xN.7553109646_i5lk.jpg",
     features: ["Animated Screens", "Alerts", "Panels", "Sub Badges"],
@@ -94,7 +94,7 @@ const PRODUCTS: SeedProduct[] = [
     category: "dragon",
     priceCents: 2400,
     description:
-      "Soft matcha greens and a tiny dragon — cozy that doesn't look like everyone's pastel.",
+      "Soft green matcha vibes with a cute dragon — cozy meets fantasy.",
     image:
       "https://i.etsystatic.com/61635066/r/il/283dce/7971118785/il_794xN.7971118785_iw6c.jpg",
     features: ["Animated Screens", "Alerts", "Panels", "Emotes"],
@@ -105,7 +105,7 @@ const PRODUCTS: SeedProduct[] = [
     category: "cat",
     priceCents: 2400,
     description:
-      "A cat among cherry blossoms, petals falling on loop — romantic without trying too hard.",
+      "Cherry blossom themed cat overlay — romantic, soft, and cozy.",
     image:
       "https://i.etsystatic.com/61635066/r/il/893484/7609041778/il_794xN.7609041778_oo5u.jpg",
     features: ["Animated Screens", "Alerts", "Panels"],
@@ -115,7 +115,7 @@ const PRODUCTS: SeedProduct[] = [
     name: "Wolf Train Lofi Animated Pack",
     category: "japanese",
     priceCents: 2400,
-    description: "A lofi wolf on a sunset coffee train — your BRB screen, but cinematic.",
+    description: "Sunset coffee train lofi wolf — cozy, warm, cinematic vibes.",
     image:
       "https://i.etsystatic.com/61635066/r/il/f04082/8010234087/il_794xN.8010234087_3v2u.jpg",
     features: ["Animated Screens", "Alerts", "Panels", "Emotes"],
@@ -126,7 +126,7 @@ const PRODUCTS: SeedProduct[] = [
     category: "frog",
     priceCents: 2400,
     description:
-      "A playful otter in a glowing forest — little details that reward the people who watch.",
+      "Adorable otter in a magical forest — playful and full of charm.",
     image:
       "https://i.etsystatic.com/61635066/r/il/b58b2c/7863397025/il_794xN.7863397025_b0kv.jpg",
     features: ["Animated Screens", "Alerts", "Emotes"],
@@ -137,7 +137,7 @@ const PRODUCTS: SeedProduct[] = [
     category: "japanese",
     priceCents: 2400,
     description:
-      "Endless pink sakura petals over warm light — the calm your Starting Soon screen is missing.",
+      "Iconic falling sakura petals, warm pink tones — beautiful Japanese theme.",
     image:
       "https://i.etsystatic.com/61635066/r/il/9c4fac/7563052034/il_794xN.7563052034_p6la.jpg",
     features: ["Animated Screens", "Alerts", "Panels", "Sub Badges"],
@@ -148,7 +148,7 @@ const PRODUCTS: SeedProduct[] = [
     category: "cat",
     priceCents: 2400,
     description:
-      "Cozy, but make it gothic — a midnight cat in candlelight, for streamers over pastel.",
+      "Gothic dark cat aesthetic — moody, mysterious, and totally cozy.",
     image:
       "https://i.etsystatic.com/61635066/r/il/f3bb2b/7580540193/il_794xN.7580540193_qr8u.jpg",
     features: ["Animated Screens", "Alerts", "Panels", "Emotes"],
