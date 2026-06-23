@@ -39,6 +39,8 @@ export const NAV_LINKS = [
   { label: "Browse", href: "/#browse" },
   { label: "Reviews", href: "/#reviews" },
   { label: "How It Works", href: "/#how" },
+  { label: "Tutorials", href: "/#tutorials" },
+  { label: "Blog", href: "/blog" },
   { label: "FAQ", href: "/#faq" },
 ] as const;
 

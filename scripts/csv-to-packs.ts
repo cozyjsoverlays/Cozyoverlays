@@ -12,7 +12,33 @@ import { readFileSync, writeFileSync } from "fs";
 import { resolve } from "path";
 import { parseCsvToObjects } from "./lib/csv";
 
-const SHOP_URL = "https://www.etsy.com/shop/CozyJsStudio";
+const SHOP_URL = "https://cozyjsstudio.etsy.com";
+
+// Known per-listing IDs (keyed by a distinctive slug fragment). The Etsy CSV
+// export has no listing URLs, so only these — carried over from the original
+// site — can deep-link to their exact listing. Everything else falls back to
+// the shop home. Add more here (fragment -> listing id) as you collect them.
+const KNOWN_LISTINGS: Array<[string, string]> = [
+  ["cat-forest", "4471959754"],
+  ["dragon-sakura", "4466565669"],
+  ["sakura-panda", "4464457983"],
+  ["fox-forest", "4474605659"],
+  ["frog-forest", "4480209391"],
+  ["moonlit-samurai", "4433133162"],
+  ["matcha-dragon", "4490240905"],
+  ["sakura-cat", "4443095417"],
+  ["wolf-train", "4500984671"],
+  ["otter-forest", "4480782954"],
+  ["dream-sakura", "4438531426"],
+  ["midnight-cozy-cat", "4440435657"],
+];
+
+function etsyUrlFor(slug: string): string {
+  for (const [fragment, id] of KNOWN_LISTINGS) {
+    if (slug.includes(fragment)) return `${SHOP_URL}/listing/${id}`;
+  }
+  return SHOP_URL;
+}
 
 type Category =
   | "cat"
@@ -123,7 +149,7 @@ function main() {
       price: priceStr(r.price),
       description: describe(name),
       image,
-      etsy: SHOP_URL,
+      etsy: etsyUrlFor(slug),
       features: features(`${title} ${r.description || ""} ${r.tags || ""}`),
     };
 

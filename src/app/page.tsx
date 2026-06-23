@@ -8,6 +8,8 @@ import { HowItWorks } from "@/components/HowItWorks";
 import { Compatibility } from "@/components/Compatibility";
 import { CustomCommission } from "@/components/CustomCommission";
 import { About } from "@/components/About";
+import { Tutorials } from "@/components/Tutorials";
+import { BlogTeaser } from "@/components/BlogTeaser";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
 
@@ -27,8 +29,10 @@ export default function HomePage() {
         <Reviews />
         <HowItWorks />
         <Compatibility />
+        <Tutorials />
         <CustomCommission />
         <About />
+        <BlogTeaser />
         <FAQ />
       </main>
       <Footer />

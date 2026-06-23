@@ -11,7 +11,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Turtle Forest Magic — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/14b031/7853062092/il_fullxfull.7853062092_oi2k.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -21,7 +21,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Cat Forest — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/316113/7805031188/il_fullxfull.7805031188_mn58.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4471959754",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -31,7 +31,7 @@ export const PACKS: Pack[] = [
     price: "$499.00",
     description: "Custom Full Bundle — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/ec62d3/8051291023/il_fullxfull.8051291023_50oc.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -41,7 +41,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Sakura Fox Setup : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/7d3bb4/8019522845/il_fullxfull.8019522845_b2zl.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -51,7 +51,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Forest Wolf : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/a6b6d6/7535689210/il_fullxfull.7535689210_jqdo.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -61,7 +61,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Lavender Spring Cat — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/4edf40/7911696648/il_fullxfull.7911696648_oick.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -71,7 +71,7 @@ export const PACKS: Pack[] = [
     price: "$14.84",
     description: "Whimsical Witch's Library Cats — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/1b174e/8212663465/il_fullxfull.8212663465_12ej.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -81,7 +81,7 @@ export const PACKS: Pack[] = [
     price: "$14.85",
     description: "Star Pink — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/299a1b/7507371086/il_fullxfull.7507371086_mfqy.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -91,7 +91,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Moonlit Samurai : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/15bcaa/7553109646/il_fullxfull.7553109646_i5lk.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4433133162",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -101,7 +101,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Cherry Blossom — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/008707/7699138341/il_fullxfull.7699138341_6bwl.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -111,7 +111,7 @@ export const PACKS: Pack[] = [
     price: "$12.85",
     description: "Panda Sakura — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/a96351/7807247199/il_fullxfull.7807247199_2ave.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -121,7 +121,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Blossom Panda : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/8dc885/7638251243/il_fullxfull.7638251243_cwu1.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -131,7 +131,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Matcha Wolf : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/f53bf5/7967202381/il_fullxfull.7967202381_1o3d.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -141,7 +141,7 @@ export const PACKS: Pack[] = [
     price: "$13.84",
     description: "Magical Night Garden Room — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/5998d0/8033872950/il_fullxfull.8033872950_byom.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -151,7 +151,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Starry Forest Dragon : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/ca313f/7859035077/il_fullxfull.7859035077_5pc0.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -161,7 +161,7 @@ export const PACKS: Pack[] = [
     price: "$3.19",
     description: "Purple Clouds TikTok : TikTok (Digital Download) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/10e0f1/7427401403/il_fullxfull.7427401403_i1d3.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -171,7 +171,7 @@ export const PACKS: Pack[] = [
     price: "$15.84",
     description: "Y2K Spooky Cat — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/69d58c/8198518705/il_fullxfull.8198518705_n9zb.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -181,7 +181,7 @@ export const PACKS: Pack[] = [
     price: "$12.85",
     description: "Frog Forest Magic — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/f1e940/7907499425/il_fullxfull.7907499425_l3np.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4480209391",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -191,7 +191,7 @@ export const PACKS: Pack[] = [
     price: "$15.24",
     description: "Dragon Sakura — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/be4ff6/7769904430/il_fullxfull.7769904430_keij.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4466565669",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -201,7 +201,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Otter Forest Magic — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/c50869/7911234815/il_fullxfull.7911234815_tvym.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4480782954",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -211,7 +211,7 @@ export const PACKS: Pack[] = [
     price: "$14.84",
     description: "Spooky Witch Cat — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/75bae2/8196268417/il_fullxfull.8196268417_d5zu.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -221,7 +221,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Sakura Panda : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/52ef5f/7803817421/il_fullxfull.7803817421_5b3q.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4464457983",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -231,7 +231,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Blossom Fox — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/7d6aa0/7730524819/il_fullxfull.7730524819_mz18.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -241,7 +241,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Train Sunset Dog : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/5f774d/8046819159/il_fullxfull.8046819159_lan2.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -251,7 +251,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Dragon Magical — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/cbf675/7777007240/il_fullxfull.7777007240_i5rk.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -261,7 +261,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Sakura Cat — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/4963d2/7662523487/il_fullxfull.7662523487_fu57.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4443095417",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -271,7 +271,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Sakura Cat (/YouTube/Kick) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/88a884/7724019599/il_fullxfull.7724019599_74oy.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4443095417",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -281,7 +281,7 @@ export const PACKS: Pack[] = [
     price: "$14.85",
     description: "Train Sunset Monkey : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/197a8d/7998905040/il_fullxfull.7998905040_on5z.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -291,7 +291,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Train Sunset Fox : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/5d098b/8046741255/il_fullxfull.8046741255_c45g.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -301,7 +301,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Train Sunset Otter : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/e0d40c/7998970704/il_fullxfull.7998970704_dtbu.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -311,7 +311,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Cozy animated stream overlays — screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/26e058/7570981459/il_fullxfull.7570981459_sndd.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -321,7 +321,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Lofi Sunset Panda : Cozy — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/83b48a/8034034919/il_fullxfull.8034034919_cea7.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -331,7 +331,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Sakura Panda (/YouTube/Kick) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/d25dda/7695876678/il_fullxfull.7695876678_lufo.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4464457983",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -341,7 +341,7 @@ export const PACKS: Pack[] = [
     price: "$1.19",
     description: "Silent Wolf Screens — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/47eff9/7539835150/il_fullxfull.7539835150_nqxm.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -351,7 +351,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Lofi Sunset Orange Cat : Cozy — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/fb39bb/8034286055/il_fullxfull.8034286055_fqqi.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -361,7 +361,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Lofi Sunset Dog Shiba : Cozy — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/de77b4/8034402643/il_fullxfull.8034402643_r6q4.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -371,7 +371,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Wolf Night Forest — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/3badee/7808569986/il_fullxfull.7808569986_kctc.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -381,7 +381,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Dream Sakura : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/16cae0/7585451914/il_fullxfull.7585451914_4hm3.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4438531426",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -391,7 +391,7 @@ export const PACKS: Pack[] = [
     price: "$14.84",
     description: "Magical Celestial Bedroom — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/aa3dad/8111284118/il_fullxfull.8111284118_2umq.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -401,7 +401,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Star Bloom TikTok , TikTok (Digital Download) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/99231c/7447487859/il_fullxfull.7447487859_hcro.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -411,7 +411,7 @@ export const PACKS: Pack[] = [
     price: "$13.84",
     description: "Cozy Midnight Garden — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/59584f/8014637362/il_fullxfull.8014637362_bp9a.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -421,7 +421,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Matcha Dragon : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/283dce/7971118785/il_fullxfull.7971118785_iw6c.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4490240905",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -431,7 +431,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Lavender Spring Red Panda — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/75d66e/7911948846/il_fullxfull.7911948846_9nlu.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -441,7 +441,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Sakura Cat : , YouTube, Kick (Digital Download) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/9eb09b/7611888637/il_fullxfull.7611888637_tfx9.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4443095417",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -451,7 +451,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Lofi Sunset Raccoon : Cozy — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/0873d2/8033742237/il_fullxfull.8033742237_mbkp.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -461,7 +461,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Starry Forest Bear : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/9e0203/7859134683/il_fullxfull.7859134683_7hcf.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -471,7 +471,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Matcha Panda : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/c68db2/7915215454/il_fullxfull.7915215454_fbqw.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -481,7 +481,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Fox Forest Magic — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/5fc1ac/7822491494/il_fullxfull.7822491494_cm0u.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4474605659",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -491,7 +491,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Red Panda : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/038c73/7925951724/il_fullxfull.7925951724_femu.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -501,7 +501,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Midnight Cozy Cat : Gothic (Digital Download) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/2dfdd0/7597610202/il_fullxfull.7597610202_9lmj.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4440435657",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -511,7 +511,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Ghost Forest Magic — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/e0de0e/7923972759/il_fullxfull.7923972759_iuac.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -521,7 +521,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Starry Forest Reaper : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/0281bc/7811259654/il_fullxfull.7811259654_7k7r.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -531,7 +531,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Green Anime Girl Black Cat : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/382880/7728885730/il_fullxfull.7728885730_ixwp.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -541,7 +541,7 @@ export const PACKS: Pack[] = [
     price: "$12.34",
     description: "Cozy Witchy — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/9ef18e/8058722832/il_fullxfull.8058722832_i89b.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -551,7 +551,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Lavender Spring Dog — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/01a1d1/7912173856/il_fullxfull.7912173856_ijzd.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -561,7 +561,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Lofi Sunset Wolf : Cozy — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/b9e38a/8033760591/il_fullxfull.8033760591_rrof.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -571,7 +571,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Lofi Sunset Otter : Cozy — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/fffb4f/7986145508/il_fullxfull.7986145508_mitr.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -581,7 +581,7 @@ export const PACKS: Pack[] = [
     price: "$13.84",
     description: "Magical Moonlight Balcony — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/612f51/8093363083/il_fullxfull.8093363083_3y2n.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -591,7 +591,7 @@ export const PACKS: Pack[] = [
     price: "$13.84",
     description: "Magical Garden — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/709c6b/8044980166/il_fullxfull.8044980166_g2q4.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -601,7 +601,7 @@ export const PACKS: Pack[] = [
     price: "$2.19",
     description: "Cherry Blossom Screens — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/5f7fec/7539795404/il_fullxfull.7539795404_sbp4.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -611,7 +611,7 @@ export const PACKS: Pack[] = [
     price: "$14.84",
     description: "Starry Night Moon — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/35a60f/8022116082/il_fullxfull.8022116082_fac2.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -621,7 +621,7 @@ export const PACKS: Pack[] = [
     price: "$15.34",
     description: "Neon Bedroom — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/530e06/8066184471/il_fullxfull.8066184471_7k0e.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -631,7 +631,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Cat Train Lofi — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/7654cc/7992959456/il_fullxfull.7992959456_98b0.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -641,7 +641,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Sakura Setup Bunny — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/28fd78/8009826537/il_fullxfull.8009826537_orje.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -651,7 +651,7 @@ export const PACKS: Pack[] = [
     price: "$14.34",
     description: "Cozy Terrace Night Cityscape — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/470d7c/8062605651/il_fullxfull.8062605651_k82q.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -661,7 +661,7 @@ export const PACKS: Pack[] = [
     price: "$14.34",
     description: "Neon Bedroom — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/80384a/8014713366/il_fullxfull.8014713366_24x7.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -671,7 +671,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Sakura Wolf Setup : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/207433/8010828929/il_fullxfull.8010828929_1jws.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -681,7 +681,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Royal Purple Night : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/2add26/7555325791/il_fullxfull.7555325791_axhs.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -691,7 +691,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Capybara Forest : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/04cdef/7828034799/il_fullxfull.7828034799_9353.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -701,7 +701,7 @@ export const PACKS: Pack[] = [
     price: "$11.35",
     description: "Train Sunset Panda : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/286287/8049097647/il_fullxfull.8049097647_5uxp.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -711,7 +711,7 @@ export const PACKS: Pack[] = [
     price: "$14.35",
     description: "Train Sunset Rabbit : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/3f7299/7999931874/il_fullxfull.7999931874_aiqb.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -721,7 +721,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Wolf Train Lofi — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/9142b4/8041950575/il_fullxfull.8041950575_he6k.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4500984671",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -731,7 +731,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Sakura Snake Night — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/15d3ca/7845624487/il_fullxfull.7845624487_ecw2.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -741,7 +741,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Moonlit Raven — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/e77a53/7859313713/il_fullxfull.7859313713_hbxv.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -751,7 +751,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Raccoon Forest Magic — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/0a7560/7890249571/il_fullxfull.7890249571_niuh.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -761,7 +761,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Purple Clouds : , Kick, Facecam, Panels, Alerts, — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/3d629f/7555346215/il_fullxfull.7555346215_rnng.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -771,7 +771,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Purple Moon Sakura TikTok , TikTok (Digital Download) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/968221/7440106263/il_fullxfull.7440106263_2kqg.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -781,7 +781,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Matcha Koala — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/ac52e4/7963597931/il_fullxfull.7963597931_dl75.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -791,7 +791,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Shiba Dog — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/77b2dc/8023911529/il_fullxfull.8023911529_s3zu.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -801,7 +801,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Blossom Wolf : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/bfd537/7670672551/il_fullxfull.7670672551_hcam.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -811,7 +811,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Cat Sakura Moon Setup — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/05e4cc/7984277025/il_fullxfull.7984277025_tvhp.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -821,7 +821,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Raccoon — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/c6396a/7973993816/il_fullxfull.7973993816_nk3x.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -831,7 +831,7 @@ export const PACKS: Pack[] = [
     price: "$2.19",
     description: "Festival : , YouTube, Kick, Purple — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/4f373a/7365131058/il_fullxfull.7365131058_i23d.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -841,7 +841,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Galaxy Eyes Cat — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/f1da15/7971694548/il_fullxfull.7971694548_3gne.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -851,7 +851,7 @@ export const PACKS: Pack[] = [
     price: "$2.19",
     description: "Red Gold : , YouTube, Kick, Red — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/841c64/7507264826/il_fullxfull.7507264826_5mej.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -861,7 +861,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Royal Purple Night TikTok , TikTok (Digital Download) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/bbc498/7379325212/il_fullxfull.7379325212_tuar.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -871,7 +871,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Sakura Setup Cat — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/3805d1/8009704849/il_fullxfull.8009704849_hzqs.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -881,7 +881,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Cozy Night : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/c1239c/7793803319/il_fullxfull.7793803319_c7dz.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -891,7 +891,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Lavender Spring Rabbit — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/7080d0/7959822653/il_fullxfull.7959822653_flh5.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -901,7 +901,7 @@ export const PACKS: Pack[] = [
     price: "$2.19",
     description: "Royal Purple Night Screens: , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/084b7a/7539978002/il_fullxfull.7539978002_t3mg.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -911,7 +911,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Wolf : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/bb6013/7926113872/il_fullxfull.7926113872_iu5x.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -921,7 +921,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Panda Room Setup — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/a792d4/7987513949/il_fullxfull.7987513949_kqm9.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -931,7 +931,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Wolf Sakura Moon Setup — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/c1739a/7987463525/il_fullxfull.7987463525_3tfw.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -941,7 +941,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Otter : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/76a964/7928779136/il_fullxfull.7928779136_apkb.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -951,7 +951,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Fox : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/bc40af/7939112448/il_fullxfull.7939112448_sfuc.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -961,7 +961,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Cat : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/cd7299/7973996981/il_fullxfull.7973996981_ijmf.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -971,7 +971,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Lavender Spring Fox — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/988488/7960605351/il_fullxfull.7960605351_cqhj.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -981,7 +981,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Pink Cherry Blossom Black Wolf (/YouTube/Kick) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/76d4b1/7711711408/il_fullxfull.7711711408_4l7a.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -991,7 +991,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Turtle Under Sea Room — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/7746e7/7942347621/il_fullxfull.7942347621_3bqs.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -1001,7 +1001,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Matcha Cat : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/68af0b/7963517195/il_fullxfull.7963517195_49ec.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -1011,7 +1011,7 @@ export const PACKS: Pack[] = [
     price: "$2.19",
     description: "Christmas TikTok (Digital Download) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/2e71b0/7379465446/il_fullxfull.7379465446_q7wn.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1021,7 +1021,7 @@ export const PACKS: Pack[] = [
     price: "$2.19",
     description: "Christmas : , YouTube, Kick, Facecam, Alerts, Christmas — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/d73af3/7555303959/il_fullxfull.7555303959_9zjy.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1031,7 +1031,7 @@ export const PACKS: Pack[] = [
     price: "$1.19",
     description: "Star Bloom Screens — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/93e83e/7587974197/il_fullxfull.7587974197_sp2o.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1041,7 +1041,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Cat Cozy Room Screens — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/b8b2c7/7539898266/il_fullxfull.7539898266_8nz2.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1051,7 +1051,7 @@ export const PACKS: Pack[] = [
     price: "$1.19",
     description: "Moonlit Samurai Screens — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/21d46c/7604369677/il_fullxfull.7604369677_hz83.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4433133162",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1061,7 +1061,7 @@ export const PACKS: Pack[] = [
     price: "$2.19",
     description: "New Year Screens — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/75979e/7560727548/il_fullxfull.7560727548_kfu2.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1071,7 +1071,7 @@ export const PACKS: Pack[] = [
     price: "$2.19",
     description: "Purple Clouds Screens — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/cc09b6/7608687525/il_fullxfull.7608687525_cc2f.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1081,7 +1081,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Purple Moon Sakura Screens — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/1e4347/7560769882/il_fullxfull.7560769882_m1wb.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1091,7 +1091,7 @@ export const PACKS: Pack[] = [
     price: "$2.19",
     description: "Red Gold Screens — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/775904/7560805166/il_fullxfull.7560805166_im54.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1101,7 +1101,7 @@ export const PACKS: Pack[] = [
     price: "$2.19",
     description: "Purple Cozy Cat Screens — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/511019/7608785113/il_fullxfull.7608785113_g02a.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1111,7 +1111,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Cherry Blossom TikTok , TikTok (Digital Download) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/1dda52/7426286422/il_fullxfull.7426286422_m3ri.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1121,7 +1121,7 @@ export const PACKS: Pack[] = [
     price: "$9.85",
     description: "Frog Under Sea Room — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/ee18a2/7945645635/il_fullxfull.7945645635_fgr1.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -1131,7 +1131,7 @@ export const PACKS: Pack[] = [
     price: "$2.19",
     description: "Cozy Christmas Cat TikTok (Digital Download) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/ef5cf8/7524383409/il_fullxfull.7524383409_7jgv.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1141,7 +1141,7 @@ export const PACKS: Pack[] = [
     price: "$14.85",
     description: "Wolf Under Sea Room — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/31aede/7942855439/il_fullxfull.7942855439_66hf.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -1151,7 +1151,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Cherry Blossom : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/090930/7555294611/il_fullxfull.7555294611_93gh.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1161,7 +1161,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Otter Under Sea Room — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/2f445e/7890891492/il_fullxfull.7890891492_hb89.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -1171,7 +1171,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Cat Under Sea Room — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/c6d987/7936459157/il_fullxfull.7936459157_t5wp.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -1181,7 +1181,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Dream Cats Sakura : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/1f8ca5/7648970225/il_fullxfull.7648970225_pp0c.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1191,7 +1191,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Sakura Moon — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/1c3532/7822069169/il_fullxfull.7822069169_16ra.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -1201,7 +1201,7 @@ export const PACKS: Pack[] = [
     price: "$1.19",
     description: "Red Gold Christmas TikTok (Digital Download) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/992bae/7456723550/il_fullxfull.7456723550_cvjr.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1211,7 +1211,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Purple Moon Sakura : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/ad0828/7555559757/il_fullxfull.7555559757_mtlj.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1221,7 +1221,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Mid-day Cats Sakura : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/159503/7633172258/il_fullxfull.7633172258_4guh.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1231,7 +1231,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Swan Forest Magic — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/70120e/7846513934/il_fullxfull.7846513934_qdq5.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -1241,7 +1241,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Purple Cat — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/8cc075/7480110140/il_fullxfull.7480110140_3x3n.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1251,7 +1251,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Midnight Cozy Cat Orange : , YouTube, Kick, Cats — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/5ebbc0/7464226226/il_fullxfull.7464226226_7cb1.jpg",
-    etsy: "https://www.etsy.com/shop/CozyJsStudio",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4440435657",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
 ];
