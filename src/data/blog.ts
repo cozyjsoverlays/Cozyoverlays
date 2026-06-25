@@ -1,4 +1,5 @@
 import type { BlogPost } from "@/lib/types";
+import { EXTRA_POSTS } from "@/data/blog-extra";
 
 // Reusable destinations so every article funnels readers to the shop + Etsy.
 const SHOP = "/shop";
@@ -8,7 +9,7 @@ const DRAGON_SAKURA = "/shop/dragon-sakura-animated-stream-package";
 const WOLF_TRAIN = "/shop/wolf-train-lofi-animated-stream-pack";
 const OBS = "https://obsproject.com/";
 
-export const BLOG_POSTS: BlogPost[] = [
+const CORE_POSTS: BlogPost[] = [
   {
     slug: "set-up-stream-overlay-obs-5-minutes",
     title: "How to Set Up Your Stream Overlay in OBS in Under 5 Minutes",
@@ -405,6 +406,9 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
 ];
+
+// Core how-to/story posts first, then the broader problem-solving library.
+export const BLOG_POSTS: BlogPost[] = [...CORE_POSTS, ...EXTRA_POSTS];
 
 export function getPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);

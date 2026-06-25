@@ -21,7 +21,7 @@ export function BlogTeaser() {
         />
 
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {BLOG_POSTS.map((post, i) => (
+          {BLOG_POSTS.slice(0, 3).map((post, i) => (
             <Reveal key={post.slug} delay={(i % 3) * 0.06}>
               <BlogCard post={post} />
             </Reveal>
