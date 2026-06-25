@@ -1,5 +1,6 @@
 import type { BlogPost } from "@/lib/types";
 import { EXTRA_POSTS } from "@/data/blog-extra";
+import { EXTRA_POSTS_2 } from "@/data/blog-extra-2";
 
 // Reusable destinations so every article funnels readers to the shop + Etsy.
 const SHOP = "/shop";
@@ -408,7 +409,11 @@ const CORE_POSTS: BlogPost[] = [
 ];
 
 // Core how-to/story posts first, then the broader problem-solving library.
-export const BLOG_POSTS: BlogPost[] = [...CORE_POSTS, ...EXTRA_POSTS];
+export const BLOG_POSTS: BlogPost[] = [
+  ...CORE_POSTS,
+  ...EXTRA_POSTS,
+  ...EXTRA_POSTS_2,
+];
 
 export function getPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
