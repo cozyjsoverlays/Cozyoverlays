@@ -20,6 +20,16 @@ export const BUY_ON_ETSY = true;
 /** Etsy shop home — fallback target when a pack has no specific listing URL. */
 export const ETSY_SHOP_URL = "https://cozyjsstudio.etsy.com";
 
+/**
+ * Email lead-magnet (Cozy Starter Pack popup). Static site = no server, so the
+ * popup posts the email straight to your provider's PUBLIC form endpoint (no
+ * secret key). Paste your Kit/ConvertKit/MailerLite/Beehiiv form POST URL here.
+ *   Kit example: https://app.kit.com/forms/0000000/subscriptions
+ * Leave empty to keep the popup in demo mode (it shows success but won't capture).
+ * Then set your provider's automation to email the download link on signup.
+ */
+export const NEWSLETTER_FORM_ACTION = "";
+
 export const LINKS = {
   etsy: "https://cozyjsstudio.etsy.com",
   etsyCats:
