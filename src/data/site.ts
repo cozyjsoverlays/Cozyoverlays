@@ -57,7 +57,6 @@ export const TRUST_ITEMS = [
   "⚡ Instant secure download",
   "OBS & Streamlabs",
   ".WEBM + .PNG included",
-  "💳 Pay safely with PayPal",
 ] as const;
 
 export const COMPATIBILITY = [
@@ -117,11 +116,6 @@ export const TUTORIALS = [
 ] as const;
 
 export const FAQ: FaqEntry[] = [
-  {
-    question: "How do I get my files after paying?",
-    answer:
-      "The moment your PayPal payment is confirmed, you're taken to a success page with secure, private download links — and we email the same links to you. Downloads are instant; there's no waiting and nothing ships.",
-  },
   {
     question: "Will these work with OBS and Streamlabs?",
     answer:
