@@ -1,9 +1,34 @@
 import type { Pack, PackCategory } from "@/lib/types";
 
 // AUTO-GENERATED from the Etsy listings CSV export by scripts/csv-to-packs.ts.
-// Re-run that script to regenerate. 125 packs.
+// Re-run that script to regenerate. 125 packs + 2 newer listings added from
+// the shop RSS feed (they'll be in the next CSV export natively).
 
 export const PACKS: Pack[] = [
+  {
+    slug: "cozy-cats-jars-twitch-sub-badges",
+    name: "Cozy Cats Jars Twitch Sub Badges",
+    category: "cat",
+    price: "$5.70",
+    description:
+      "Kawaii cats in jars under a pastel night sky — loyalty badges your subs will actually show off.",
+    image:
+      "https://i.etsystatic.com/61635066/r/il/0e9933/8215805950/il_570xN.8215805950_109n.jpg",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4533092634",
+    features: ["Sub Badges"],
+  },
+  {
+    slug: "cozy-garden-animated-overlay-bundle",
+    name: "Cozy Garden Animated Overlay Bundle",
+    category: "room",
+    price: "$16.34",
+    description:
+      "A lo-fi flower garden in gentle motion — a full bundle of screens, alerts and panels.",
+    image:
+      "https://i.etsystatic.com/61635066/r/il/fe88d6/8256317065/il_570xN.8256317065_ckqp.jpg",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4532079977",
+    features: ["Animated Screens", "Alerts", "Panels"],
+  },
   {
     slug: "turtle-forest-magic-animated-stream-package",
     name: "Turtle Forest Magic Animated Stream Package",
