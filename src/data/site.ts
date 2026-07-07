@@ -21,6 +21,16 @@ export const BUY_ON_ETSY = true;
 export const ETSY_SHOP_URL = "https://cozyjsstudio.etsy.com";
 
 /**
+ * Direct on-site purchase via PayPal Smart Buttons (runs fully in the browser —
+ * static-site friendly). Paste your LIVE PayPal **Client ID** (a public value,
+ * safe to commit) from https://developer.paypal.com/dashboard/ → Apps & Credentials.
+ * Leave empty to hide the "Buy on Site" button (Etsy stays the only option).
+ * Fulfillment is manual: PayPal emails you each sale; send the pack to the
+ * buyer's PayPal email.
+ */
+export const PAYPAL_CLIENT_ID = "";
+
+/**
  * Email lead-magnet (Cozy Starter Pack popup). Static site = no server, so the
  * popup posts the email straight to your provider's PUBLIC form endpoint (no
  * secret key). Paste your Kit/ConvertKit/MailerLite/Beehiiv form POST URL here.
