@@ -37,7 +37,7 @@ export function Hero() {
         >
           <motion.div variants={reduce ? undefined : item}>
             <span className="inline-flex items-center gap-2 rounded-full border border-subtle bg-white/5 px-4 py-1.5 text-xs font-medium text-body backdrop-blur">
-              <Star size={14} className="fill-warm text-warm" />
+              <Star size={14} className="fill-pink text-pink" />
               ⭐ 4.9 (108 reviews) · 807+ streamers · Etsy Star Seller
             </span>
           </motion.div>

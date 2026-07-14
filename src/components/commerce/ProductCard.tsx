@@ -125,7 +125,7 @@ export function ProductCard({ product, onOpenMedia }: ProductCardProps) {
             </Link>
           </h3>
           <span className="flex shrink-0 flex-col items-end">
-            <span className="rounded-full border border-subtle bg-white/5 px-2.5 py-1 text-sm font-bold text-warm">
+            <span className="rounded-full border border-subtle bg-white/5 px-2.5 py-1 text-sm font-bold text-lavender">
               {formatCents(product.priceCents, product.currency)}
             </span>
             {product.compareAtCents && (

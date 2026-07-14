@@ -153,7 +153,7 @@ export default async function ProductDetailPage({
                 <p className="mt-4 text-lg text-body">{product.description}</p>
 
                 <div className="mt-6 flex items-baseline gap-3">
-                  <span className="text-3xl font-extrabold text-warm">
+                  <span className="text-3xl font-extrabold text-lavender">
                     {formatCents(product.priceCents, product.currency)}
                   </span>
                   {product.compareAtCents && (

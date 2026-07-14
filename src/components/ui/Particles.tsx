@@ -3,7 +3,7 @@
 import { useMemo } from "react";
 import { useReducedMotion } from "framer-motion";
 
-const COLORS = ["#A78BFA", "#F9A8D4", "#FCD9A0"];
+const COLORS = ["#B088FF", "#FF6BD6", "#46E5FF"];
 
 /** Deterministic pseudo-random so SSR and client markup match (no hydration warnings). */
 function seeded(i: number, salt: number) {

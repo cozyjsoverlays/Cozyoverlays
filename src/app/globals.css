@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 :root {
-  /* "Cozy Night Studio" — a warm lofi bedroom at night */
-  --base: #14121f;
-  --surface: #1e1b2e;
-  --surface-2: #282440;
-  --lavender: #a78bfa;
-  --pink: #f9a8d4;
-  --cyan: #fcd9a0; /* candle glow (legacy var name) */
-  --warm: #fcd9a0;
-  --heading: #f3f0ff;
-  --body: #cfc9e4;
-  --muted: #9b94b8;
-  --border-subtle: rgba(167, 139, 250, 0.14);
+  /* Original CozyOverlays palette */
+  --base: #0d0814;
+  --surface: #130d26;
+  --surface-2: #1a1230;
+  --lavender: #b088ff;
+  --pink: #ff6bd6;
+  --cyan: #46e5ff;
+  --warm: #46e5ff;
+  --heading: #f0ecfa;
+  --body: #c4bbd9;
+  --muted: #8a82a0;
+  --border-subtle: rgba(176, 136, 255, 0.12);
 }
 
 @layer base {
@@ -36,7 +36,7 @@
   }
 
   ::selection {
-    background: rgba(167, 139, 250, 0.3);
+    background: rgba(176, 136, 255, 0.3);
     color: var(--heading);
   }
 
@@ -69,12 +69,12 @@
     background: var(--base);
   }
   ::-webkit-scrollbar-thumb {
-    background: rgba(167, 139, 250, 0.25);
+    background: rgba(176, 136, 255, 0.25);
     border-radius: 999px;
     border: 2px solid var(--base);
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(167, 139, 250, 0.45);
+    background: rgba(176, 136, 255, 0.45);
   }
 }
 
@@ -83,8 +83,8 @@
   .glass {
     background: linear-gradient(
       180deg,
-      rgba(40, 36, 64, 0.7) 0%,
-      rgba(30, 27, 46, 0.55) 100%
+      rgba(26, 18, 48, 0.7) 0%,
+      rgba(19, 13, 38, 0.55) 100%
     );
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
@@ -92,7 +92,7 @@
   }
 
   .gradient-text {
-    background: linear-gradient(120deg, #a78bfa 0%, #f9a8d4 55%, #fcd9a0 100%);
+    background: linear-gradient(120deg, #b088ff 0%, #ff6bd6 55%, #46e5ff 100%);
     background-size: 200% auto;
     -webkit-background-clip: text;
     background-clip: text;

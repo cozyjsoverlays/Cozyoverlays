@@ -9,39 +9,39 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // "Cozy Night Studio" palette — a warm lofi bedroom at night.
+        // Original CozyOverlays palette.
         // Backgrounds
-        base: "#14121F", // deep plum-navy night
-        surface: "#1E1B2E", // card
-        "surface-2": "#282440",
+        base: "#0D0814",
+        surface: "#130D26",
+        "surface-2": "#1A1230",
         // Accents
-        lavender: "#A78BFA", // primary — buttons, links
-        pink: "#F9A8D4", // sakura pink — badges, highlights
-        cyan: "#FCD9A0", // candle glow — stars, prices (legacy token name)
-        warm: "#FCD9A0",
+        lavender: "#B088FF",
+        pink: "#FF6BD6",
+        cyan: "#46E5FF",
+        warm: "#46E5FF", // alias used by sale badges/prices — original cyan accent
         // Text
-        heading: "#F3F0FF",
-        body: "#CFC9E4",
-        muted: "#9B94B8",
+        heading: "#F0ECFA",
+        body: "#C4BBD9",
+        muted: "#8A82A0",
       },
       borderColor: {
-        subtle: "rgba(167,139,250,.14)",
+        subtle: "rgba(176,136,255,.12)",
       },
       fontFamily: {
         sans: ["var(--font-nunito)", "system-ui", "sans-serif"],
         display: ["var(--font-fraunces)", "serif"],
       },
       boxShadow: {
-        glow: "0 0 40px -8px rgba(167,139,250,.45)",
-        "glow-pink": "0 0 40px -8px rgba(249,168,212,.45)",
-        "glow-cyan": "0 0 40px -8px rgba(252,217,160,.45)",
+        glow: "0 0 40px -8px rgba(176,136,255,.45)",
+        "glow-pink": "0 0 40px -8px rgba(255,107,214,.45)",
+        "glow-cyan": "0 0 40px -8px rgba(70,229,255,.45)",
         card: "0 20px 60px -20px rgba(0,0,0,.6)",
         "card-hover":
-          "0 30px 80px -20px rgba(167,139,250,.35), 0 0 0 1px rgba(167,139,250,.25)",
+          "0 30px 80px -20px rgba(176,136,255,.35), 0 0 0 1px rgba(176,136,255,.25)",
       },
       backgroundImage: {
         "accent-gradient":
-          "linear-gradient(120deg, #A78BFA 0%, #F9A8D4 55%, #FCD9A0 100%)",
+          "linear-gradient(120deg, #B088FF 0%, #FF6BD6 50%, #46E5FF 100%)",
       },
       keyframes: {
         "aurora-1": {

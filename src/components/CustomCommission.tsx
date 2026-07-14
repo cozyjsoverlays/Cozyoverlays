@@ -44,7 +44,7 @@ export function CustomCommission() {
                   <span className="text-lg font-semibold text-muted line-through">
                     $399.50
                   </span>
-                  <span className="text-4xl font-extrabold text-warm">
+                  <span className="text-4xl font-extrabold text-heading">
                     $99.87
                   </span>
                   <span className="rounded-full bg-pink/15 px-2.5 py-1 text-xs font-bold text-pink">
