@@ -4,7 +4,6 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import { SITE, LINKS } from "@/data/site";
 import { CartDrawer } from "@/components/commerce/CartDrawer";
-import { StarterPackPopupController } from "@/components/marketing/StarterPackPopupController";
 import { JsonLd } from "@/components/seo/JsonLd";
 
 const organizationLd = {
@@ -100,7 +99,6 @@ export default function RootLayout({
         <JsonLd data={websiteLd} />
         {children}
         <CartDrawer />
-        <StarterPackPopupController />
         <GoogleAnalytics gaId="G-6GX8B1FJVT" />
       </body>
     </html>
