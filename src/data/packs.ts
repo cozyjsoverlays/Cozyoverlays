@@ -1,9 +1,42 @@
 import type { Pack, PackCategory } from "@/lib/types";
 
 // AUTO-GENERATED from the Etsy listings CSV export by scripts/csv-to-packs.ts.
-// Re-run that script to regenerate. 127 packs.
+// Re-run that script to regenerate. 130 packs.
 
 export const PACKS: Pack[] = [
+  {
+    slug: "custom-twitch-emotes-chibi-commission",
+    name: "Custom Twitch Emotes — Chibi Emote Commission",
+    category: "frog",
+    price: "$48.79",
+    description: "Custom static chibi emotes drawn for you — for Twitch, Discord, Kick & YouTube. Perfect for VTubers and streamers who want a matching set.",
+    image: "https://i.etsystatic.com/61635066/r/il/c2da0c/8353129255/il_570xN.8353129255_9nhd.jpg",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4537273533",
+    features: ["Emotes"],
+    isNew: true,
+  },
+  {
+    slug: "spooky-raven-twitch-animated-stream-package",
+    name: "Spooky Raven Twitch Animated Stream Package",
+    category: "witchy",
+    price: "$23.25",
+    description: "Crows drifting through a dark magic forest — a spooky animated overlay set for Twitch, YouTube & Kick.",
+    image: "https://i.etsystatic.com/61635066/r/il/b88bf3/8303387848/il_570xN.8303387848_g0e2.jpg",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4544831639",
+    features: ["Animated Screens","Alerts","Panels","Emotes"],
+    isNew: true,
+  },
+  {
+    slug: "spooky-frog-raven-animated-stream-package",
+    name: "Spooky Frog Raven Animated Stream Package",
+    category: "witchy",
+    price: "$23.25",
+    description: "A moody night-forest of frogs and ravens — spooky, candle-lit overlays for cozy-gothic streams.",
+    image: "https://i.etsystatic.com/61635066/r/il/76a232/8303653614/il_570xN.8303653614_ktat.jpg",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4544858985",
+    features: ["Animated Screens","Alerts","Panels","Emotes"],
+    isNew: true,
+  },
   {
     slug: "cozy-garden-animated-overlay-bundle",
     name: "Cozy Garden Animated Overlay Bundle",
@@ -510,7 +543,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Matcha Panda : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/c68db2/7915215454/il_fullxfull.7915215454_fbqw.jpg",
-    etsy: "https://cozyjsstudio.etsy.com",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4489068202",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -860,7 +893,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Cat Sakura Moon Setup — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/05e4cc/7984277025/il_fullxfull.7984277025_tvhp.jpg",
-    etsy: "https://cozyjsstudio.etsy.com",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4492271882",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {

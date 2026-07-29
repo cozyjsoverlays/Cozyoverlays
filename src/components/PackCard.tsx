@@ -5,6 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ExternalLink, Play, Maximize2 } from "lucide-react";
 import type { Pack } from "@/lib/types";
+import { packImageAlt } from "@/lib/seo";
 
 interface PackCardProps {
   pack: Pack;
@@ -47,7 +48,7 @@ export function PackCard({ pack, onOpen }: PackCardProps) {
       >
         <Image
           src={pack.image}
-          alt={pack.name}
+          alt={packImageAlt(pack.name, pack.category)}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className={`object-cover transition-all duration-500 ${

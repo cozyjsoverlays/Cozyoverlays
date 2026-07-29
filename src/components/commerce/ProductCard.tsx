@@ -9,6 +9,7 @@ import type { ProductDTO } from "@/lib/products";
 import { formatCents } from "@/lib/money";
 import { AddToCartButtons } from "@/components/commerce/AddToCartButtons";
 import { WishlistButton } from "@/components/commerce/WishlistButton";
+import { packImageAlt } from "@/lib/seo";
 
 interface ProductCardProps {
   product: ProductDTO;
@@ -50,12 +51,12 @@ export function ProductCard({ product, onOpenMedia }: ProductCardProps) {
       <button
         type="button"
         onClick={() => onOpenMedia(product)}
-        aria-label={`Open ${product.name} preview`}
+        aria-label={`Open preview of ${product.name} animated stream overlay pack`}
         className="relative block aspect-[4/3] w-full overflow-hidden bg-black/40"
       >
         <Image
           src={product.image}
-          alt={product.name}
+          alt={packImageAlt(product.name, product.category)}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className={`object-cover transition-all duration-500 ${
@@ -76,6 +77,8 @@ export function ProductCard({ product, onOpenMedia }: ProductCardProps) {
             loop
             playsInline
             preload="none"
+            aria-label={`Animated preview of the ${product.name} stream overlay pack`}
+            title={`${product.name} — animated stream overlay preview`}
             className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-500 ${
               hover ? "opacity-100" : "opacity-0"
             }`}

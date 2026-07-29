@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Play, Maximize2 } from "lucide-react";
 import type { ProductDTO } from "@/lib/products";
 import { ProductLightbox } from "@/components/commerce/ProductLightbox";
+import { packImageAlt } from "@/lib/seo";
 
 export function ProductGallery({ product }: { product: ProductDTO }) {
   const [open, setOpen] = useState(false);
@@ -14,7 +15,7 @@ export function ProductGallery({ product }: { product: ProductDTO }) {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        aria-label={`Open ${product.name} preview`}
+        aria-label={`Open larger preview of the ${product.name} animated stream overlay pack`}
         className="group relative block aspect-[4/3] w-full overflow-hidden rounded-2xl border border-subtle bg-black/40"
       >
         {product.video ? (
@@ -25,12 +26,14 @@ export function ProductGallery({ product }: { product: ProductDTO }) {
             loop
             playsInline
             preload="metadata"
+            aria-label={`Animated preview of the ${product.name} stream overlay pack`}
+            title={`${product.name} — animated stream overlay preview`}
             className="h-full w-full object-cover"
           />
         ) : (
           <Image
             src={product.image}
-            alt={product.name}
+            alt={packImageAlt(product.name, product.category)}
             fill
             priority
             sizes="(max-width: 1024px) 100vw, 50vw"

@@ -5,6 +5,7 @@ import { createPortal } from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { X, ExternalLink } from "lucide-react";
 import type { Pack } from "@/lib/types";
+import { packImageAlt } from "@/lib/seo";
 
 interface LightboxProps {
   pack: Pack | null;
@@ -74,7 +75,7 @@ export function Lightbox({ pack, onClose }: LightboxProps) {
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
                   src={pack.image}
-                  alt={pack.name}
+                  alt={packImageAlt(pack.name, pack.category)}
                   className="h-full w-full object-cover"
                 />
               )}

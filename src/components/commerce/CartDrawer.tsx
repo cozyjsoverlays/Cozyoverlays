@@ -8,6 +8,7 @@ import { X, Trash2, ShoppingBag, ArrowRight } from "lucide-react";
 import { useCart, cartSubtotalCents } from "@/store/cart";
 import { useHydrated } from "@/lib/use-hydrated";
 import { formatCents } from "@/lib/money";
+import { packThumbAlt } from "@/lib/seo";
 
 export function CartDrawer() {
   const { items, isOpen, closeCart, remove } = useCart();
@@ -90,7 +91,7 @@ export function CartDrawer() {
                       <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-lg bg-black/40">
                         <Image
                           src={item.image}
-                          alt={item.name}
+                          alt={packThumbAlt(item.name)}
                           fill
                           sizes="64px"
                           className="object-cover"

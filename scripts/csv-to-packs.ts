@@ -28,6 +28,7 @@ const OVERRIDES: Array<[string, Override]> = [
   // — specific-first collision guards —
   ["sakura-cats-moon", { id: "4435002769", price: 3.89, compareAt: 15.55 }],
   ["sakura-cat-animated-stream-overlay", { id: "4452517237", price: 4.14, compareAt: 16.55 }],
+  ["cat-sakura-moon", { id: "4492271882" }],
   ["sakura-cat", { id: "4443095417" }],
   ["purple-clouds-animated-tiktok", { id: "4396354259", price: 2.22, compareAt: 8.89 }],
   ["purple-clouds", { id: "4424184954", price: 3.89, compareAt: 15.55 }],
@@ -42,6 +43,7 @@ const OVERRIDES: Array<[string, Override]> = [
   // — dragons —
   ["dragon-sakura", { id: "4466565669", price: 4.23, compareAt: 16.94 }],
   ["matcha-dragon", { id: "4490240905" }],
+  ["matcha-panda", { id: "4489068202" }],
   ["starry-forest-dragon", { id: "4472823464" }],
   // — pandas / bears —
   ["sakura-panda", { id: "4464457983" }],
@@ -111,6 +113,45 @@ const EXTRA_PACKS = [
       "https://i.etsystatic.com/61635066/r/il/fe88d6/8256317065/il_570xN.8256317065_ckqp.jpg",
     etsy: `${SHOP_URL}/listing/4532079977`,
     features: ["Animated Screens", "Alerts", "Panels"],
+    isNew: true,
+  },
+  {
+    slug: "spooky-frog-raven-animated-stream-package",
+    name: "Spooky Frog Raven Animated Stream Package",
+    category: "witchy",
+    price: "$23.25",
+    description:
+      "A moody night-forest of frogs and ravens — spooky, candle-lit overlays for cozy-gothic streams.",
+    image:
+      "https://i.etsystatic.com/61635066/r/il/76a232/8303653614/il_570xN.8303653614_ktat.jpg",
+    etsy: `${SHOP_URL}/listing/4544858985`,
+    features: ["Animated Screens", "Alerts", "Panels", "Emotes"],
+    isNew: true,
+  },
+  {
+    slug: "spooky-raven-twitch-animated-stream-package",
+    name: "Spooky Raven Twitch Animated Stream Package",
+    category: "witchy",
+    price: "$23.25",
+    description:
+      "Crows drifting through a dark magic forest — a spooky animated overlay set for Twitch, YouTube & Kick.",
+    image:
+      "https://i.etsystatic.com/61635066/r/il/b88bf3/8303387848/il_570xN.8303387848_g0e2.jpg",
+    etsy: `${SHOP_URL}/listing/4544831639`,
+    features: ["Animated Screens", "Alerts", "Panels", "Emotes"],
+    isNew: true,
+  },
+  {
+    slug: "custom-twitch-emotes-chibi-commission",
+    name: "Custom Twitch Emotes — Chibi Emote Commission",
+    category: "frog",
+    price: "$48.79",
+    description:
+      "Custom static chibi emotes drawn for you — for Twitch, Discord, Kick & YouTube. Perfect for VTubers and streamers who want a matching set.",
+    image:
+      "https://i.etsystatic.com/61635066/r/il/c2da0c/8353129255/il_570xN.8353129255_9nhd.jpg",
+    etsy: `${SHOP_URL}/listing/4537273533`,
+    features: ["Emotes"],
     isNew: true,
   },
 ];

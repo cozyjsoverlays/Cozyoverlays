@@ -16,7 +16,7 @@ export function About() {
               />
               <Image
                 src={SITE.avatar}
-                alt="CozyJsStudio avatar"
+                alt="CozyJsStudio — Etsy Star Seller shop making animated cozy stream overlays for Twitch, YouTube, Kick and TikTok"
                 width={180}
                 height={180}
                 className="rounded-3xl border border-subtle shadow-card"

@@ -8,6 +8,7 @@ import { X } from "lucide-react";
 import type { ProductDTO } from "@/lib/products";
 import { formatCents } from "@/lib/money";
 import { AddToCartButtons } from "@/components/commerce/AddToCartButtons";
+import { packImageAlt } from "@/lib/seo";
 
 interface ProductLightboxProps {
   product: ProductDTO | null;
@@ -70,12 +71,14 @@ export function ProductLightbox({ product, onClose }: ProductLightboxProps) {
                   loop
                   playsInline
                   controls
+                  aria-label={`Animated preview of the ${product.name} stream overlay pack`}
+                  title={`${product.name} — animated stream overlay preview`}
                 />
               ) : (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
                   src={product.image}
-                  alt={product.name}
+                  alt={packImageAlt(product.name, product.category)}
                   className="h-full w-full object-cover"
                 />
               )}
