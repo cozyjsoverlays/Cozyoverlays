@@ -3,8 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Heart, Share2, Check, ArrowRight } from "lucide-react";
-import { PACKS } from "@/data/packs";
-import { getAllProductsSync } from "@/lib/products";
+import { getAllProductsSync, getCatalogPacks } from "@/lib/products";
 import { useWishlist } from "@/lib/wishlist";
 import { useHydrated } from "@/lib/use-hydrated";
 import { ProductGrid } from "@/components/commerce/ProductGrid";
@@ -22,7 +21,7 @@ export function SavedClient() {
       const valid = items
         .split(",")
         .map((s) => s.trim())
-        .filter((s) => PACKS.some((p) => p.slug === s));
+        .filter((s) => getCatalogPacks().some((p) => p.slug === s));
       if (valid.length) setSharedSlugs(valid);
     }
   }, []);

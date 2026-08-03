@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SITE } from "@/data/site";
 import { BLOG_POSTS } from "@/data/blog";
-import { PACKS } from "@/data/packs";
+import { getCatalogPacks } from "@/lib/products";
 import { TOOLS } from "@/lib/tools-config";
 import { COLLECTIONS } from "@/data/collections";
 
@@ -34,7 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const products: MetadataRoute.Sitemap = PACKS.map((p) => ({
+  const products: MetadataRoute.Sitemap = getCatalogPacks().map((p) => ({
     url: `${SITE.url}/shop/${p.slug}`,
     lastModified: now,
     changeFrequency: "weekly",

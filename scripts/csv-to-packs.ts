@@ -44,6 +44,7 @@ const OVERRIDES: Array<[string, Override]> = [
   ["dragon-sakura", { id: "4466565669", price: 4.23, compareAt: 16.94 }],
   ["matcha-dragon", { id: "4490240905" }],
   ["matcha-panda", { id: "4489068202" }],
+  ["dragon-magical", { id: "4467654101" }],
   ["starry-forest-dragon", { id: "4472823464" }],
   // — pandas / bears —
   ["sakura-panda", { id: "4464457983" }],
@@ -65,6 +66,7 @@ const OVERRIDES: Array<[string, Override]> = [
   ["dream-sakura", { id: "4438531426" }],
   ["cherry-blossom", { id: "4448676932", price: 3.89, compareAt: 15.55 }],
   ["purple-moon-sakura", { id: "4424215981", price: 4.14, compareAt: 16.55 }],
+  ["sakura-moon-animated", { id: "4467216339" }],
   // — dark / witchy —
   ["moonlit-raven", { id: "4472851841", price: 3.89, compareAt: 15.55 }],
   ["royal-purple-night", { id: "4424177557", price: 3.89, compareAt: 15.55 }],
@@ -75,6 +77,9 @@ const OVERRIDES: Array<[string, Override]> = [
   ["cozy-midnight-garden", { id: "4503610815", price: 3.88, compareAt: 15.54 }],
   ["cozy-night-animated", { id: "4462927898", price: 3.89, compareAt: 15.55 }],
   ["cozy-garden", { id: "4532079977" }],
+  // — seasonal / misc —
+  ["red-gold-christmas", { id: "4414848255" }],
+  ["lofi-sunset-raccoon", { id: "4499654979" }],
 ];
 
 function findOverride(slug: string): Override | null {

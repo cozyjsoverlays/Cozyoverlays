@@ -7,9 +7,8 @@ import { Footer } from "@/components/Footer";
 import { AuroraBackground } from "@/components/ui/AuroraBackground";
 import { ProductGrid } from "@/components/commerce/ProductGrid";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { PACKS } from "@/data/packs";
 import { COLLECTIONS, getCollection, packsInCollection } from "@/data/collections";
-import { getAllProductsSync } from "@/lib/products";
+import { getAllProductsSync, getCatalogPacks } from "@/lib/products";
 import { SITE } from "@/data/site";
 
 interface PageProps {
@@ -40,7 +39,7 @@ export default function CollectionPage({ params }: PageProps) {
   const collection = getCollection(params.slug);
   if (!collection) notFound();
 
-  const slugs = new Set(packsInCollection(PACKS, collection).map((p) => p.slug));
+  const slugs = new Set(packsInCollection(getCatalogPacks(), collection).map((p) => p.slug));
   const products = getAllProductsSync().filter((p) => slugs.has(p.slug));
 
   const collectionLd = {

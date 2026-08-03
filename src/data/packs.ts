@@ -319,7 +319,7 @@ export const PACKS: Pack[] = [
     price: "$10.85",
     description: "Dragon Magical — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/cbf675/7777007240/il_fullxfull.7777007240_i5rk.jpg",
-    etsy: "https://cozyjsstudio.etsy.com",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4467654101",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -523,7 +523,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Lofi Sunset Raccoon : Cozy — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/0873d2/8033742237/il_fullxfull.8033742237_mbkp.jpg",
-    etsy: "https://cozyjsstudio.etsy.com",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4499654979",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -1284,7 +1284,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Sakura Moon — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/1c3532/7822069169/il_fullxfull.7822069169_16ra.jpg",
-    etsy: "https://cozyjsstudio.etsy.com",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4467216339",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -1294,7 +1294,7 @@ export const PACKS: Pack[] = [
     price: "$1.19",
     description: "Red Gold Christmas TikTok (Digital Download) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/992bae/7456723550/il_fullxfull.7456723550_cvjr.jpg",
-    etsy: "https://cozyjsstudio.etsy.com",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4414848255",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {

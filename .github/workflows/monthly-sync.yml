@@ -1,0 +1,48 @@
+name: Monthly Etsy sync
+
+# Pulls the newest listings from the shop's Etsy RSS feed once a month and,
+# if anything new is found, commits it. The push to main triggers Hostinger's
+# auto-deploy, so the live site updates itself with no manual step.
+#
+# Run it by hand any time from the Actions tab ("Run workflow").
+
+on:
+  schedule:
+    # 06:00 UTC on the 1st of every month.
+    - cron: "0 6 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# Never let two syncs run at once.
+concurrency:
+  group: monthly-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Sync newest listings from Etsy RSS
+        run: node scripts/sync-rss.mjs
+
+      - name: Commit & push if anything changed
+        run: |
+          if [[ -z "$(git status --porcelain src/data/rss-packs.json)" ]]; then
+            echo "No new packs this month."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/rss-packs.json
+          git commit -m "chore: monthly Etsy RSS sync — new packs"
+          git push
