@@ -1,10 +1,10 @@
 /**
- * Monthly auto-sync: pull the newest listings from the shop's official Etsy RSS
+ * Weekly auto-sync: pull the newest listings from the shop's official Etsy RSS
  * feed and append any that aren't on the site yet into src/data/rss-packs.json.
  *
  *   node scripts/sync-rss.mjs
  *
- * Runs unattended in CI (see .github/workflows/monthly-sync.yml). It only ADDS
+ * Runs unattended in CI (see .github/workflows/etsy-sync.yml). It only ADDS
  * new listings — it never edits the CSV-generated src/data/packs.ts. The site
  * merges both sources at runtime (src/lib/products.ts), CSV packs winning on
  * any duplicate. Etsy RSS only exposes the ~10 newest listings, so this catches
