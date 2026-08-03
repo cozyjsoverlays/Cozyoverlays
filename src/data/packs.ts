@@ -1,7 +1,7 @@
 import type { Pack, PackCategory } from "@/lib/types";
 
 // AUTO-GENERATED from the Etsy listings CSV export by scripts/csv-to-packs.ts.
-// Re-run that script to regenerate. 130 packs.
+// Re-run that script to regenerate. 135 packs.
 
 export const PACKS: Pack[] = [
   {
@@ -13,6 +13,61 @@ export const PACKS: Pack[] = [
     image: "https://i.etsystatic.com/61635066/r/il/c2da0c/8353129255/il_570xN.8353129255_9nhd.jpg",
     etsy: "https://cozyjsstudio.etsy.com/listing/4537273533",
     features: ["Emotes"],
+    isNew: true,
+  },
+  {
+    slug: "spooky-raven-cat-animated-stream-package",
+    name: "Spooky Raven & Cat Animated Stream Package",
+    category: "witchy",
+    price: "$23.25",
+    description: "A black cat and its raven familiar — spooky night-forest overlays for Twitch, YouTube & Kick.",
+    image: "https://i.etsystatic.com/61635066/r/il/dcc994/8341337659/il_1080xN.8341337659_kpov.jpg",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4543341419",
+    features: ["Animated Screens","Alerts","Panels","Emotes"],
+    isNew: true,
+  },
+  {
+    slug: "spooky-raven-dragon-animated-stream-package",
+    name: "Spooky Raven Dragon Animated Stream Package",
+    category: "witchy",
+    price: "$23.25",
+    description: "A dragon roosting with the ravens — dark-fantasy night overlays for Twitch, YouTube & Kick.",
+    image: "https://i.etsystatic.com/61635066/r/il/a29eed/8343512239/il_1080xN.8343512239_29vl.jpg",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4543737543",
+    features: ["Animated Screens","Alerts","Panels","Emotes"],
+    isNew: true,
+  },
+  {
+    slug: "spooky-raven-fox-animated-stream-package",
+    name: "Spooky Raven Fox Animated Stream Package",
+    category: "witchy",
+    price: "$23.25",
+    description: "A sly fox in a crow-haunted wood — spooky-cozy overlays for Twitch, YouTube & Kick.",
+    image: "https://i.etsystatic.com/61635066/r/il/5aa05c/8297369046/il_1080xN.8297369046_7ipa.jpg",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4543889700",
+    features: ["Animated Screens","Alerts","Panels","Emotes"],
+    isNew: true,
+  },
+  {
+    slug: "spooky-raven-wolf-animated-stream-package",
+    name: "Spooky Raven Wolf Animated Stream Package",
+    category: "witchy",
+    price: "$23.25",
+    description: "A lone wolf under circling crows — moody night-forest overlays for Twitch, YouTube & Kick.",
+    image: "https://i.etsystatic.com/61635066/r/il/5b5af5/8347172703/il_1080xN.8347172703_2l50.jpg",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4544272556",
+    features: ["Animated Screens","Alerts","Panels","Emotes"],
+    isNew: true,
+  },
+  {
+    slug: "spooky-raccoon-raven-animated-stream-package",
+    name: "Spooky Raccoon Raven Animated Stream Package",
+    category: "witchy",
+    price: "$23.25",
+    description: "A mischievous raccoon among the ravens — spooky night-forest overlays for Twitch, YouTube & Kick.",
+    image: "https://i.etsystatic.com/61635066/r/il/bfde8e/8347616583/il_1080xN.8347616583_27a9.jpg",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4544278053",
+    features: ["Animated Screens","Alerts","Panels","Emotes"],
     isNew: true,
   },
   {
