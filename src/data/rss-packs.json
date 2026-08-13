@@ -1,18 +1,24 @@
 [
   {
-    "slug": "sakura-cat-jars-twitch-badges",
-    "name": "Sakura Cat Jars Twitch Badges",
+    "slug": "sakura-cat-jars-twitch-badges-orange-tabby",
+    "name": "Sakura Cat Jars Twitch Badges — Orange Tabby",
     "category": "cat",
     "price": "$8.09",
-    "description": "Sakura Cat Jars Badges — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "description": "Kawaii orange tabbies in sakura jars — sub badges, bit badges and channel-point icons your chat will collect.",
     "image": "https://i.etsystatic.com/61635066/r/il/30c216/8358355852/il_570xN.8358355852_nvor.jpg",
     "etsy": "https://cozyjsstudio.etsy.com/listing/4552395178",
-    "features": [
-      "Animated Screens",
-      "Alerts",
-      "Panels",
-      "Sub Badges"
-    ],
+    "features": ["Sub Badges"],
+    "isNew": true
+  },
+  {
+    "slug": "sakura-cat-jars-twitch-badges-black-cat",
+    "name": "Sakura Cat Jars Twitch Badges — Black Cat",
+    "category": "cat",
+    "price": "$7.99",
+    "description": "Kawaii black cats in sakura jars — a cozy loyalty badge set for Twitch subs, bits and channel points.",
+    "image": "https://i.etsystatic.com/61635066/r/il/c79386/8413167917/il_570xN.8413167917_5f10.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4553491392",
+    "features": ["Sub Badges"],
     "isNew": true
   },
   {
@@ -20,15 +26,10 @@
     "name": "Sakura Bat Jars Twitch Badges",
     "category": "witchy",
     "price": "$8.09",
-    "description": "Sakura Bat Jars Badges — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "description": "Tiny bats tucked into sakura jars — a spooky-cute badge set for Twitch subs and bits.",
     "image": "https://i.etsystatic.com/61635066/r/il/8400eb/8406317067/il_570xN.8406317067_rg1f.jpg",
     "etsy": "https://cozyjsstudio.etsy.com/listing/4552566671",
-    "features": [
-      "Animated Screens",
-      "Alerts",
-      "Panels",
-      "Sub Badges"
-    ],
+    "features": ["Sub Badges"],
     "isNew": true
   },
   {
@@ -36,15 +37,10 @@
     "name": "Sakura Bunny Jars Twitch Badges",
     "category": "japanese",
     "price": "$8.09",
-    "description": "Sakura Bunny Jars Badges — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "description": "Soft bunnies in sakura jars — pastel sub badges and channel-point icons for your channel.",
     "image": "https://i.etsystatic.com/61635066/r/il/45cf53/8358507826/il_570xN.8358507826_dl96.jpg",
     "etsy": "https://cozyjsstudio.etsy.com/listing/4552571851",
-    "features": [
-      "Animated Screens",
-      "Alerts",
-      "Panels",
-      "Sub Badges"
-    ],
+    "features": ["Sub Badges"],
     "isNew": true
   },
   {
@@ -52,15 +48,10 @@
     "name": "Sakura Bear Jars Twitch Badges",
     "category": "bear",
     "price": "$8.09",
-    "description": "Sakura Bear Jars Badges — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "description": "Sleepy bears in sakura jars — a warm, collectible badge set for Twitch subs and bits.",
     "image": "https://i.etsystatic.com/61635066/r/il/002f86/8407506545/il_570xN.8407506545_9hcs.jpg",
     "etsy": "https://cozyjsstudio.etsy.com/listing/4552730235",
-    "features": [
-      "Animated Screens",
-      "Alerts",
-      "Panels",
-      "Sub Badges"
-    ],
+    "features": ["Sub Badges"],
     "isNew": true
   },
   {
@@ -68,15 +59,43 @@
     "name": "Sakura Capybara Jars Twitch Badges",
     "category": "japanese",
     "price": "$8.09",
-    "description": "Sakura Capybara Jars Badges — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "description": "Unbothered capybaras in sakura jars — the coziest sub badge set on the shelf.",
     "image": "https://i.etsystatic.com/61635066/r/il/a3dce4/8360102218/il_570xN.8360102218_pigw.jpg",
     "etsy": "https://cozyjsstudio.etsy.com/listing/4552793252",
-    "features": [
-      "Animated Screens",
-      "Alerts",
-      "Panels",
-      "Sub Badges"
-    ],
+    "features": ["Sub Badges"],
+    "isNew": true
+  },
+  {
+    "slug": "sakura-raccoon-jars-twitch-badges",
+    "name": "Sakura Raccoon Jars Twitch Badges",
+    "category": "japanese",
+    "price": "$7.99",
+    "description": "Cheeky raccoons in sakura jars — a full set of cozy Twitch sub badges and channel-point icons.",
+    "image": "https://i.etsystatic.com/61635066/r/il/2fdd00/8413221883/il_570xN.8413221883_qc2m.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4553489599",
+    "features": ["Sub Badges"],
+    "isNew": true
+  },
+  {
+    "slug": "sakura-panda-jars-twitch-badges",
+    "name": "Sakura Panda Jars Twitch Badges",
+    "category": "bear",
+    "price": "$7.99",
+    "description": "Pandas napping in sakura jars — soft pastel sub badges and bit icons for your channel.",
+    "image": "https://i.etsystatic.com/61635066/r/il/19e1f2/8365495070/il_570xN.8365495070_9b0h.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4553513089",
+    "features": ["Sub Badges"],
+    "isNew": true
+  },
+  {
+    "slug": "sakura-polar-bear-jars-twitch-badges",
+    "name": "Sakura Polar Bear Jars Twitch Badges",
+    "category": "bear",
+    "price": "$7.99",
+    "description": "Polar bears tucked into sakura jars — a cozy loyalty badge set for Twitch subs and bits.",
+    "image": "https://i.etsystatic.com/61635066/r/il/af5429/8413406593/il_570xN.8413406593_7fev.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4553528712",
+    "features": ["Sub Badges"],
     "isNew": true
   }
 ]

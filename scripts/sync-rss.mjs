@@ -58,18 +58,34 @@ function cleanName(title) {
     .trim();
 }
 
+/** True for badge/emote-only products (no screens/alerts/panels in them). */
+function isAssetOnly(text) {
+  return /\b(badges?|bits|icons?|emotes?)\b/i.test(text) && !/\b(package|bundle|overlay)\b/i.test(text);
+}
+
 function features(text) {
+  if (isAssetOnly(text)) {
+    const f = [];
+    if (/badge|bits|icon/i.test(text)) f.push("Sub Badges");
+    if (/emote/i.test(text)) f.push("Emotes");
+    return f.length ? f : ["Sub Badges"];
+  }
   const f = ["Animated Screens", "Alerts", "Panels"];
   if (/emote/i.test(text)) f.push("Emotes");
   if (/badge|bits/i.test(text)) f.push("Sub Badges");
   return f;
 }
 
-function describe(name, category) {
+function describe(name) {
   const theme = name
     .replace(/\b(animated|stream|package|overlay|overlays|twitch|pack|for|setup)\b/gi, "")
     .replace(/\s+/g, " ")
     .trim();
+  if (isAssetOnly(name)) {
+    return theme
+      ? `${theme} — a cozy set of Twitch sub badges, bit badges and channel-point icons.`
+      : "A cozy set of Twitch sub badges, bit badges and channel-point icons.";
+  }
   return theme
     ? `${theme} — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.`
     : "Cozy animated stream overlays: screens, alerts, panels & emotes.";
@@ -136,7 +152,7 @@ async function main() {
       name,
       category,
       price,
-      description: describe(name, category),
+      description: describe(name),
       image,
       etsy: `${SHOP_URL}/listing/${id}`,
       features: features(title),
