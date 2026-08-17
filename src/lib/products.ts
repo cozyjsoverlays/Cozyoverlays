@@ -14,14 +14,43 @@ function listingId(etsy?: string): string | null {
  * scripts/sync-rss.mjs). CSV packs win on any duplicate slug or listing id;
  * new RSS packs are shown first.
  */
+/** Etsy image fingerprint — the numeric asset id identifies the same artwork
+ *  even when the URL size/hash segments differ. */
+function imageKey(image?: string): string | null {
+  const m = (image || "").match(/\/(\d{9,})\//);
+  return m ? m[1] : null;
+}
+
 const ALL_PACKS: Pack[] = (() => {
-  const slugs = new Set(PACKS.map((p) => p.slug));
-  const ids = new Set(PACKS.map((p) => listingId(p.etsy)).filter(Boolean) as string[]);
-  const extra = (rssPacks as Pack[]).filter((p) => {
-    const id = listingId(p.etsy);
-    return !slugs.has(p.slug) && !(id && ids.has(id));
-  });
-  return [...extra, ...PACKS];
+  // Merge CSV + RSS-synced packs, then collapse entries that are really the
+  // same product. The same pack can arrive twice — once from the CSV export
+  // (long truncated slug, often no deep-link) and once from the store sync
+  // (clean slug + exact listing URL) — so dedupe on slug, listing id AND
+  // artwork, keeping whichever entry actually deep-links to its listing.
+  const merged = [...(rssPacks as Pack[]), ...PACKS];
+  const bySlug = new Map<string, Pack>();
+  const byId = new Map<string, string>(); // listing id -> winning slug
+  const byImg = new Map<string, string>(); // artwork  -> winning slug
+
+  for (const pack of merged) {
+    const id = listingId(pack.etsy);
+    const img = imageKey(pack.image);
+    const rivalSlug =
+      (id && byId.get(id)) || (img && byImg.get(img)) || (bySlug.has(pack.slug) ? pack.slug : null);
+
+    if (rivalSlug) {
+      const rival = bySlug.get(rivalSlug);
+      // Prefer the entry that deep-links; otherwise keep the incumbent.
+      if (!rival || listingId(rival.etsy) || !id) continue;
+      bySlug.delete(rivalSlug);
+    }
+
+    bySlug.set(pack.slug, pack);
+    if (id) byId.set(id, pack.slug);
+    if (img) byImg.set(img, pack.slug);
+  }
+
+  return [...bySlug.values()];
 })();
 
 /** UI-facing product shape (features deserialized, price kept as cents). */

@@ -90,9 +90,18 @@ const OVERRIDES: Array<[string, Override]> = [
   ["matcha-cat", { id: "4489078417" }],
 ];
 
-function findOverride(slug: string): Override | null {
+/**
+ * Match a slug to an override. Fragments must match at the START of the slug:
+ * a loose `includes` let one fragment (e.g. "cherry-blossom") stamp several
+ * different products with the same listing id, sending buyers to the wrong
+ * page. Each listing id is also claimed once — first (most specific) wins.
+ */
+function findOverride(slug: string, claimed: Set<string>): Override | null {
   for (const [fragment, o] of OVERRIDES) {
-    if (slug.includes(fragment)) return o;
+    if (!slug.startsWith(fragment)) continue;
+    if (o.id && claimed.has(o.id)) continue; // already assigned to another pack
+    if (o.id) claimed.add(o.id);
+    return o;
   }
   return null;
 }
@@ -351,6 +360,7 @@ function main() {
   const rows = parseCsvToObjects(readFileSync(resolve(file), "utf8"));
   const seen = new Set<string>();
   const packs: string[] = [];
+  const claimedIds = new Set<string>();
   let deepLinked = 0;
   let salePriced = 0;
   let skipped = 0;
@@ -372,7 +382,7 @@ function main() {
     while (seen.has(slug)) slug = `${slug}-${seen.size}`;
     seen.add(slug);
 
-    const o = findOverride(slug);
+    const o = findOverride(slug, claimedIds);
     if (o?.id) deepLinked++;
     if (o?.price) salePriced++;
 
