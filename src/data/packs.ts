@@ -486,7 +486,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Lofi Sunset Dog Shiba : Cozy — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/de77b4/8034402643/il_fullxfull.8034402643_r6q4.jpg",
-    etsy: "https://cozyjsstudio.etsy.com",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4499641740",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -649,7 +649,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Starry Forest Reaper : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/0281bc/7811259654/il_fullxfull.7811259654_7k7r.jpg",
-    etsy: "https://cozyjsstudio.etsy.com",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4472843786",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -886,7 +886,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Raccoon Forest Magic — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/0a7560/7890249571/il_fullxfull.7890249571_niuh.jpg",
-    etsy: "https://cozyjsstudio.etsy.com",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4477602825",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -1143,7 +1143,7 @@ export const PACKS: Pack[] = [
     price: "$13.85",
     description: "Matcha Cat : , YouTube, Kick — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/68af0b/7963517195/il_fullxfull.7963517195_49ec.jpg",
-    etsy: "https://cozyjsstudio.etsy.com",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4489078417",
     features: ["Animated Screens","Alerts","Panels","Emotes","Sub Badges"],
   },
   {
@@ -1153,7 +1153,7 @@ export const PACKS: Pack[] = [
     price: "$2.19",
     description: "Christmas TikTok (Digital Download) — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/2e71b0/7379465446/il_fullxfull.7379465446_q7wn.jpg",
-    etsy: "https://cozyjsstudio.etsy.com",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4398825435",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {
@@ -1163,7 +1163,7 @@ export const PACKS: Pack[] = [
     price: "$2.19",
     description: "Christmas : , YouTube, Kick, Facecam, Alerts, Christmas — cozy animated overlays: screens, alerts, panels & emotes.",
     image: "https://i.etsystatic.com/61635066/r/il/d73af3/7555303959/il_fullxfull.7555303959_9zjy.jpg",
-    etsy: "https://cozyjsstudio.etsy.com",
+    etsy: "https://cozyjsstudio.etsy.com/listing/4424174225",
     features: ["Animated Screens","Alerts","Panels","Emotes"],
   },
   {

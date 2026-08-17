@@ -78,8 +78,16 @@ const OVERRIDES: Array<[string, Override]> = [
   ["cozy-night-animated", { id: "4462927898", price: 3.89, compareAt: 15.55 }],
   ["cozy-garden", { id: "4532079977" }],
   // — seasonal / misc —
+  // NOTE: christmas fragments must stay specific-first — "christmas-animated-tiktok"
+  // and the red-gold/cozy-cat variants all contain "christmas-animated".
   ["red-gold-christmas", { id: "4414848255" }],
+  ["christmas-animated-tiktok", { id: "4398825435" }],
+  ["christmas-animated-stream", { id: "4424174225" }],
   ["lofi-sunset-raccoon", { id: "4499654979" }],
+  ["lofi-sunset-dog-shiba", { id: "4499641740" }],
+  ["raccoon-forest-magic", { id: "4477602825" }],
+  ["starry-forest-reaper", { id: "4472843786" }],
+  ["matcha-cat", { id: "4489078417" }],
 ];
 
 function findOverride(slug: string): Override | null {
