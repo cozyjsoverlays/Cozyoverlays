@@ -95,5 +95,5 @@ export const REVIEWS: Review[] = [
 
 export const REVIEW_SUMMARY = {
   average: "4.9",
-  count: 108,
+  count: 140,
 } as const;

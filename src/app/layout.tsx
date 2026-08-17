@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     template: "%s · CozyOverlays",
   },
   description:
-    "Cozy, animated stream overlay packs for Twitch, YouTube, Kick & TikTok by CozyJsStudio. Etsy Star Seller · 4.9★ from 91 reviews · 686+ sales · instant download.",
+    "Cozy, animated stream overlay packs for Twitch, YouTube, Kick & TikTok by CozyJsStudio. Etsy Star Seller · 4.9★ from 140 reviews · 973+ sales · instant download.",
   keywords: [
     "stream overlays",
     "animated overlays",
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     url: SITE.url,
     title: "CozyOverlays — Stream Overlays That Feel Alive & Cozy",
     description:
-      "Animated overlay packs for Twitch, YouTube, Kick & TikTok. Etsy Star Seller · 4.9★ · 686+ sales.",
+      "Animated overlay packs for Twitch, YouTube, Kick & TikTok. Etsy Star Seller · 4.9★ · 973+ sales.",
     siteName: SITE.name,
     images: [{ url: SITE.avatar, width: 180, height: 180, alt: "CozyJsStudio" }],
   },
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "CozyOverlays — Stream Overlays That Feel Alive & Cozy",
     description:
-      "Animated overlay packs for Twitch, YouTube, Kick & TikTok. Etsy Star Seller · 4.9★ · 686+ sales.",
+      "Animated overlay packs for Twitch, YouTube, Kick & TikTok. Etsy Star Seller · 4.9★ · 973+ sales.",
     creator: "@Cozyjsstudio",
     images: [SITE.avatar],
   },

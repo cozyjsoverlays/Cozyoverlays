@@ -7,7 +7,9 @@
     "description": "Kawaii orange tabbies in sakura jars — sub badges, bit badges and channel-point icons your chat will collect.",
     "image": "https://i.etsystatic.com/61635066/r/il/30c216/8358355852/il_570xN.8358355852_nvor.jpg",
     "etsy": "https://cozyjsstudio.etsy.com/listing/4552395178",
-    "features": ["Sub Badges"],
+    "features": [
+      "Sub Badges"
+    ],
     "isNew": true
   },
   {
@@ -18,7 +20,9 @@
     "description": "Kawaii black cats in sakura jars — a cozy loyalty badge set for Twitch subs, bits and channel points.",
     "image": "https://i.etsystatic.com/61635066/r/il/c79386/8413167917/il_570xN.8413167917_5f10.jpg",
     "etsy": "https://cozyjsstudio.etsy.com/listing/4553491392",
-    "features": ["Sub Badges"],
+    "features": [
+      "Sub Badges"
+    ],
     "isNew": true
   },
   {
@@ -29,7 +33,9 @@
     "description": "Tiny bats tucked into sakura jars — a spooky-cute badge set for Twitch subs and bits.",
     "image": "https://i.etsystatic.com/61635066/r/il/8400eb/8406317067/il_570xN.8406317067_rg1f.jpg",
     "etsy": "https://cozyjsstudio.etsy.com/listing/4552566671",
-    "features": ["Sub Badges"],
+    "features": [
+      "Sub Badges"
+    ],
     "isNew": true
   },
   {
@@ -40,7 +46,9 @@
     "description": "Soft bunnies in sakura jars — pastel sub badges and channel-point icons for your channel.",
     "image": "https://i.etsystatic.com/61635066/r/il/45cf53/8358507826/il_570xN.8358507826_dl96.jpg",
     "etsy": "https://cozyjsstudio.etsy.com/listing/4552571851",
-    "features": ["Sub Badges"],
+    "features": [
+      "Sub Badges"
+    ],
     "isNew": true
   },
   {
@@ -51,7 +59,9 @@
     "description": "Sleepy bears in sakura jars — a warm, collectible badge set for Twitch subs and bits.",
     "image": "https://i.etsystatic.com/61635066/r/il/002f86/8407506545/il_570xN.8407506545_9hcs.jpg",
     "etsy": "https://cozyjsstudio.etsy.com/listing/4552730235",
-    "features": ["Sub Badges"],
+    "features": [
+      "Sub Badges"
+    ],
     "isNew": true
   },
   {
@@ -62,7 +72,9 @@
     "description": "Unbothered capybaras in sakura jars — the coziest sub badge set on the shelf.",
     "image": "https://i.etsystatic.com/61635066/r/il/a3dce4/8360102218/il_570xN.8360102218_pigw.jpg",
     "etsy": "https://cozyjsstudio.etsy.com/listing/4552793252",
-    "features": ["Sub Badges"],
+    "features": [
+      "Sub Badges"
+    ],
     "isNew": true
   },
   {
@@ -73,7 +85,9 @@
     "description": "Cheeky raccoons in sakura jars — a full set of cozy Twitch sub badges and channel-point icons.",
     "image": "https://i.etsystatic.com/61635066/r/il/2fdd00/8413221883/il_570xN.8413221883_qc2m.jpg",
     "etsy": "https://cozyjsstudio.etsy.com/listing/4553489599",
-    "features": ["Sub Badges"],
+    "features": [
+      "Sub Badges"
+    ],
     "isNew": true
   },
   {
@@ -84,7 +98,9 @@
     "description": "Pandas napping in sakura jars — soft pastel sub badges and bit icons for your channel.",
     "image": "https://i.etsystatic.com/61635066/r/il/19e1f2/8365495070/il_570xN.8365495070_9b0h.jpg",
     "etsy": "https://cozyjsstudio.etsy.com/listing/4553513089",
-    "features": ["Sub Badges"],
+    "features": [
+      "Sub Badges"
+    ],
     "isNew": true
   },
   {
@@ -95,7 +111,650 @@
     "description": "Polar bears tucked into sakura jars — a cozy loyalty badge set for Twitch subs and bits.",
     "image": "https://i.etsystatic.com/61635066/r/il/af5429/8413406593/il_570xN.8413406593_7fev.jpg",
     "etsy": "https://cozyjsstudio.etsy.com/listing/4553528712",
-    "features": ["Sub Badges"],
+    "features": [
+      "Sub Badges"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "red-panda-overlay-animated-stream-package",
+    "name": "Red Panda Overlay Animated Stream Package",
+    "category": "bear",
+    "price": "$5.71",
+    "description": "Red Panda — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/038c73/7925951724/il_570xN.7925951724_femu.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4490674941",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "animated-halloween-twitch-overlay-pack",
+    "name": "Animated Halloween Twitch Overlay Pack",
+    "category": "seasonal",
+    "price": "$5.71",
+    "description": "Halloween — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/b5e131/8356739332/il_570xN.8356739332_jujo.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4552340452",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "animated-halloween-twitch-overlay-pack-raccoon",
+    "name": "Animated Halloween Twitch Overlay Pack — Raccoon",
+    "category": "seasonal",
+    "price": "$5.71",
+    "description": "Halloween — Raccoon — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/3a2313/8351402538/il_570xN.8351402538_8tj8.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4551572435",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "animated-halloween-twitch-stream-overlay-pack-axolotl",
+    "name": "Animated Halloween Twitch Stream Overlay Pack — Axolotl",
+    "category": "seasonal",
+    "price": "$5.71",
+    "description": "Halloween — Axolotl — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/7303ba/8351905314/il_570xN.8351905314_h7y7.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4551633701",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "mid-day-cats-sakura-animated-stream-package",
+    "name": "Mid-day Cats Sakura Animated Stream Package",
+    "category": "cat",
+    "price": "$5.71",
+    "description": "Mid-day Cats Sakura — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/159503/7633172258/il_570xN.7633172258_4guh.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4445968901",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "animated-halloween-twitch-stream-overlay-pack-bunny",
+    "name": "Animated Halloween Twitch Stream Overlay Pack — Bunny",
+    "category": "seasonal",
+    "price": "$5.71",
+    "description": "Halloween — Bunny — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/bea62b/8351149406/il_570xN.8351149406_3oup.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4551287946",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "animated-halloween-twitch-stream-overlay-pack-corgi",
+    "name": "Animated Halloween Twitch Stream Overlay Pack — Corgi",
+    "category": "seasonal",
+    "price": "$5.71",
+    "description": "Halloween — Corgi — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/18eb5f/8399371699/il_570xN.8399371699_192w.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4551599889",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "animated-halloween-twitch-stream-overlay-pack-wolf",
+    "name": "Animated Halloween Twitch Stream Overlay Pack — Wolf",
+    "category": "seasonal",
+    "price": "$5.71",
+    "description": "Halloween — Wolf — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/d61854/8399213987/il_570xN.8399213987_liaa.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4551571530",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "sakura-wolf-jars-twitch-badges",
+    "name": "Sakura Wolf Jars Twitch Badges",
+    "category": "japanese",
+    "price": "$1.95",
+    "description": "Sakura Wolf Jars Badges — a cozy set of Twitch sub badges, bit badges and channel-point icons.",
+    "image": "https://i.etsystatic.com/61635066/r/il/913104/8347533960/il_570xN.8347533960_dy5q.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4551047376",
+    "features": [
+      "Sub Badges"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "spooky-animated-halloween-cat-room-twitch-full-stream-pack",
+    "name": "Spooky Animated Halloween Cat Room Twitch Full Stream Pack",
+    "category": "seasonal",
+    "price": "$5.71",
+    "description": "Spooky Halloween Cat Room Full — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/275be2/8347933810/il_570xN.8347933810_n9zt.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4551158966",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "blossom-wolf-animated-stream-package",
+    "name": "Blossom Wolf Animated Stream Package",
+    "category": "japanese",
+    "price": "$5.71",
+    "description": "Blossom Wolf — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/bfd537/7670672551/il_570xN.7670672551_hcam.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4444326459",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "akita-inu-dog-overlay-animated-stream-package",
+    "name": "Akita Inu Dog Overlay Animated Stream Package",
+    "category": "japanese",
+    "price": "$5.71",
+    "description": "Akita Inu Dog — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/92fa0b/8347375082/il_570xN.8347375082_sunn.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4550979522",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "gothic-halloween-discord-kit",
+    "name": "Gothic Halloween Discord Kit",
+    "category": "seasonal",
+    "price": "$1.95",
+    "description": "Gothic Halloween Discord Kit — a cozy set of Twitch sub badges, bit badges and channel-point icons.",
+    "image": "https://i.etsystatic.com/61635066/r/il/e86b4f/8341423274/il_570xN.8341423274_jole.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4550206867",
+    "features": [
+      "Sub Badges",
+      "Emotes"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "gothic-halloween-witch-cat-bat-badges",
+    "name": "Gothic Halloween Witch Cat Bat Badges",
+    "category": "seasonal",
+    "price": "$1.95",
+    "description": "Gothic Halloween Witch Cat Bat Badges — a cozy set of Twitch sub badges, bit badges and channel-point icons.",
+    "image": "https://i.etsystatic.com/61635066/r/il/cad8e2/8387760937/il_570xN.8387760937_gepd.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4549983336",
+    "features": [
+      "Sub Badges"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "gothic-halloween-cat-sub-badges",
+    "name": "Gothic Halloween Cat Sub Badges",
+    "category": "seasonal",
+    "price": "$1.95",
+    "description": "Gothic Halloween Cat Sub Badges — a cozy set of Twitch sub badges, bit badges and channel-point icons.",
+    "image": "https://i.etsystatic.com/61635066/r/il/1a4fd8/8387327613/il_570xN.8387327613_nge7.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4549924786",
+    "features": [
+      "Sub Badges"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "spooky-animated-halloween-dragon-room-twitch-full-stream-pac",
+    "name": "Spooky Animated Halloween Dragon Room Twitch Full Stream Pack",
+    "category": "seasonal",
+    "price": "$5.71",
+    "description": "Spooky Halloween Dragon Room Full — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/b086c0/8382350853/il_570xN.8382350853_5xi1.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4549008577",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "dream-cats-sakura-animated-stream-package",
+    "name": "Dream Cats Sakura Animated Stream Package",
+    "category": "cat",
+    "price": "$5.71",
+    "description": "Dream Cats Sakura — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/1f8ca5/7648970225/il_570xN.7648970225_pp0c.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4440974713",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "otter-twitch-sub-badges",
+    "name": "Otter Twitch Sub Badges",
+    "category": "frog",
+    "price": "$1.95",
+    "description": "Otter Sub Badges — a cozy set of Twitch sub badges, bit badges and channel-point icons.",
+    "image": "https://i.etsystatic.com/61635066/r/il/18a47c/8248447882/il_570xN.8248447882_m1ur.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4537363623",
+    "features": [
+      "Sub Badges"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "capybara-forest-animated-stream-package",
+    "name": "Capybara Forest Animated Stream Package",
+    "category": "frog",
+    "price": "$5.71",
+    "description": "Capybara Forest — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/04cdef/7828034799/il_570xN.7828034799_9353.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4468130070",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "animated-stream-pack-raven",
+    "name": "Animated Stream Pack — Raven",
+    "category": "witchy",
+    "price": "$5.71",
+    "description": "— Raven — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/a84251/8345597695/il_570xN.8345597695_fswb.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4543895326",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "dragon-ember-jars-twitch-badges",
+    "name": "Dragon Ember Jars Twitch Badges",
+    "category": "dragon",
+    "price": "$1.95",
+    "description": "Dragon Ember Jars Badges — a cozy set of Twitch sub badges, bit badges and channel-point icons.",
+    "image": "https://i.etsystatic.com/61635066/r/il/9aaf8e/8285585232/il_570xN.8285585232_1vxu.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4542321017",
+    "features": [
+      "Sub Badges"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "starry-forest-bear-overlay-animated-stream-package-panda",
+    "name": "Starry Forest Bear Overlay Animated Stream Package — Panda",
+    "category": "bear",
+    "price": "$5.71",
+    "description": "Starry Forest Bear — Panda — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/9e0203/7859134683/il_570xN.7859134683_7hcf.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4472832822",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "lofi-sunset-orange-cat-overlay-animated-stream-package",
+    "name": "Lofi Sunset Orange Cat Overlay Animated Stream Package",
+    "category": "cat",
+    "price": "$5.71",
+    "description": "Lofi Sunset Orange Cat — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/fb39bb/8034286055/il_570xN.8034286055_fqqi.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4499633716",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "bunny-cloud-jars-twitch-badges",
+    "name": "Bunny Cloud Jars Twitch Badges",
+    "category": "frog",
+    "price": "$1.95",
+    "description": "Bunny Cloud Jars Badges — a cozy set of Twitch sub badges, bit badges and channel-point icons.",
+    "image": "https://i.etsystatic.com/61635066/r/il/4fc320/8254487324/il_570xN.8254487324_q975.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4538185449",
+    "features": [
+      "Sub Badges"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "wildflower-jars-twitch-badges",
+    "name": "Wildflower Jars Twitch Badges",
+    "category": "frog",
+    "price": "$1.95",
+    "description": "Wildflower Jars Badges — a cozy set of Twitch sub badges, bit badges and channel-point icons.",
+    "image": "https://i.etsystatic.com/61635066/r/il/ae267d/8266838880/il_570xN.8266838880_nvvs.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4539819736",
+    "features": [
+      "Sub Badges"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "fox-glow-jars-twitch-badges",
+    "name": "Fox Glow Jars Twitch Badges",
+    "category": "fox",
+    "price": "$1.95",
+    "description": "Fox Glow Jars Badges — a cozy set of Twitch sub badges, bit badges and channel-point icons.",
+    "image": "https://i.etsystatic.com/61635066/r/il/90708e/8298612917/il_570xN.8298612917_rqt2.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4537679824",
+    "features": [
+      "Sub Badges"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "otter-overlay-animated-stream-package",
+    "name": "Otter Overlay Animated Stream Package",
+    "category": "japanese",
+    "price": "$5.71",
+    "description": "Otter — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/76a964/7928779136/il_570xN.7928779136_apkb.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4491113896",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "magic-potion-jars-twitch-badges",
+    "name": "Magic Potion Jars Twitch Badges",
+    "category": "witchy",
+    "price": "$1.95",
+    "description": "Magic Potion Jars Badges — a cozy set of Twitch sub badges, bit badges and channel-point icons.",
+    "image": "https://i.etsystatic.com/61635066/r/il/a32e2f/8261482654/il_570xN.8261482654_8y0k.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4539103379",
+    "features": [
+      "Sub Badges"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "cherry-blossom-animated-stream-package-witch",
+    "name": "Cherry Blossom Animated Stream Package — Witch",
+    "category": "japanese",
+    "price": "$5.71",
+    "description": "Cherry Blossom — Witch — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/090930/7555294611/il_570xN.7555294611_93gh.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4424171887",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "lavender-spring-rabbit-animated-stream-package-bunny",
+    "name": "Lavender Spring Rabbit Animated Stream Package — Bunny",
+    "category": "frog",
+    "price": "$5.71",
+    "description": "Lavender Spring Rabbit — Bunny — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/7080d0/7959822653/il_570xN.7959822653_flh5.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4488516433",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "train-sunset-otter-overlay-animated-stream-package",
+    "name": "Train Sunset Otter Overlay Animated Stream Package",
+    "category": "frog",
+    "price": "$5.71",
+    "description": "Train Sunset Otter — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/e0d40c/7998970704/il_570xN.7998970704_dtbu.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4501760514",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "midnight-cozy-cat-orange-animated-stream-package",
+    "name": "Midnight Cozy Cat Orange Animated Stream Package",
+    "category": "cat",
+    "price": "$5.71",
+    "description": "Midnight Cozy Cat Orange — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/5ebbc0/7464226226/il_570xN.7464226226_7cb1.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4416199093",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "sakura-fox-setup-animated-stream-package",
+    "name": "Sakura Fox Setup Animated Stream Package",
+    "category": "fox",
+    "price": "$5.71",
+    "description": "Sakura Fox — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/7d3bb4/8019522845/il_570xN.8019522845_b2zl.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4497352943",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "star-pink-animated-stream-package-witch",
+    "name": "Star Pink Animated Stream Package — Witch",
+    "category": "frog",
+    "price": "$5.71",
+    "description": "Star Pink — Witch — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/299a1b/7507371086/il_570xN.7507371086_mfqy.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4424179010",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "matcha-wolf-animated-stream-package",
+    "name": "Matcha Wolf Animated Stream Package",
+    "category": "japanese",
+    "price": "$5.71",
+    "description": "Matcha Wolf — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/f53bf5/7967202381/il_570xN.7967202381_1o3d.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4489623059",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "train-sunset-monkey-overlay-animated-stream-package",
+    "name": "Train Sunset Monkey Overlay Animated Stream Package",
+    "category": "frog",
+    "price": "$5.71",
+    "description": "Train Sunset Monkey — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/197a8d/7998905040/il_570xN.7998905040_on5z.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4501377564",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "lofi-sunset-wolf-overlay-animated-stream-package",
+    "name": "Lofi Sunset Wolf Overlay Animated Stream Package",
+    "category": "japanese",
+    "price": "$5.41",
+    "description": "Lofi Sunset Wolf — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/b9e38a/8033760591/il_570xN.8033760591_rrof.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4499669198",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "lofi-sunset-otter-overlay-animated-stream-package",
+    "name": "Lofi Sunset Otter Overlay Animated Stream Package",
+    "category": "frog",
+    "price": "$5.41",
+    "description": "Lofi Sunset Otter — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/fffb4f/7986145508/il_570xN.7986145508_mitr.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4499651284",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "train-sunset-rabbit-overlay-animated-stream-package",
+    "name": "Train Sunset Rabbit Overlay Animated Stream Package",
+    "category": "frog",
+    "price": "$5.41",
+    "description": "Train Sunset Rabbit — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/3f7299/7999931874/il_570xN.7999931874_aiqb.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4501917078",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "red-gold-animated-stream-package-witch",
+    "name": "Red Gold Animated Stream Package — Witch",
+    "category": "frog",
+    "price": "$5.41",
+    "description": "Red Gold — Witch — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/841c64/7507264826/il_570xN.7507264826_5mej.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4424160986",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "royal-purple-night-animated-screens",
+    "name": "Royal Purple Night Animated Screens",
+    "category": "frog",
+    "price": "$5.41",
+    "description": "Royal Purple Night Screens — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/084b7a/7539978002/il_570xN.7539978002_t3mg.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4423762857",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "wolf-overlay-animated-stream-package",
+    "name": "Wolf Overlay Animated Stream Package",
+    "category": "japanese",
+    "price": "$5.41",
+    "description": "Wolf — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/bb6013/7926113872/il_570xN.7926113872_iu5x.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4490705676",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "fox-overlay-animated-stream-package",
+    "name": "Fox Overlay Animated Stream Package",
+    "category": "fox",
+    "price": "$5.41",
+    "description": "Fox — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/bc40af/7939112448/il_570xN.7939112448_sfuc.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4490713540",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "cat-overlay-animated-stream-package",
+    "name": "Cat Overlay Animated Stream Package",
+    "category": "cat",
+    "price": "$5.41",
+    "description": "Cat — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/cd7299/7973996981/il_570xN.7973996981_ijmf.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4490697700",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
     "isNew": true
   }
 ]

@@ -64,16 +64,16 @@ export const NAV_LINKS = [
 ] as const;
 
 export const HERO_STATS = [
-  "807+ happy streamers",
+  "973+ happy streamers",
   "⚡ Instant download",
-  "4.9★ from 108 reviews",
+  "4.9★ from 140 reviews",
   "🎮 OBS & Streamlabs ready",
-  "🌍 127 unique packs",
+  "🌍 170+ unique packs",
 ] as const;
 
 export const TRUST_ITEMS = [
   "⭐ Etsy Star Seller",
-  "108 Reviews · 4.9 avg",
+  "140 Reviews · 4.9 avg",
   "⚡ Instant secure download",
   "OBS & Streamlabs",
   ".WEBM + .PNG included",
@@ -90,9 +90,9 @@ export const COMPATIBILITY = [
 ] as const;
 
 export const ABOUT_CHIPS = [
-  "122 Unique Packs",
+  "170+ Unique Packs",
   "4.9★ Star Seller",
-  "686 Sales",
+  "973 Sales",
   "Instant Delivery",
   "Custom Commissions",
   "Worldwide",
