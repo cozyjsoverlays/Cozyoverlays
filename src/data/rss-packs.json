@@ -1,5 +1,33 @@
 [
   {
+    "slug": "30x-kawaii-cat-twitch-panels",
+    "name": "30x Kawaii Cat Twitch Panels",
+    "category": "cat",
+    "price": "$16.24",
+    "description": "30 kawaii cat profile panels — a cozy, matching set for your Twitch channel page.",
+    "image": "https://i.etsystatic.com/61635066/r/il/6d5c56/8412146400/il_570xN.8412146400_p539.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4559942795",
+    "features": [
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "animated-spooky-halloween-twitch-overlay-pack",
+    "name": "Animated Spooky Halloween Twitch Overlay Pack",
+    "category": "seasonal",
+    "price": "$24.40",
+    "description": "Spooky Halloween — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/c36e17/8443447470/il_570xN.8443447470_kyj3.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4564229687",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
     "slug": "sakura-cat-jars-twitch-badges-orange-tabby",
     "name": "Sakura Cat Jars Twitch Badges — Orange Tabby",
     "category": "cat",

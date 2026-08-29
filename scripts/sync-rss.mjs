@@ -60,14 +60,18 @@ function cleanName(title) {
 
 /** True for badge/emote-only products (no screens/alerts/panels in them). */
 function isAssetOnly(text) {
-  return /\b(badges?|bits|icons?|emotes?)\b/i.test(text) && !/\b(package|bundle|overlay)\b/i.test(text);
+  return (
+    /\b(badges?|bits|icons?|emotes?|panels?|stickers?|clipart|wallpapers?)\b/i.test(text) &&
+    !/\b(package|bundle|stream pack|overlay pack)\b/i.test(text)
+  );
 }
 
 function features(text) {
   if (isAssetOnly(text)) {
     const f = [];
     if (/badge|bits|icon/i.test(text)) f.push("Sub Badges");
-    if (/emote/i.test(text)) f.push("Emotes");
+    if (/emote|sticker/i.test(text)) f.push("Emotes");
+    if (/panel/i.test(text)) f.push("Panels");
     return f.length ? f : ["Sub Badges"];
   }
   const f = ["Animated Screens", "Alerts", "Panels"];
@@ -82,9 +86,10 @@ function describe(name) {
     .replace(/\s+/g, " ")
     .trim();
   if (isAssetOnly(name)) {
-    return theme
-      ? `${theme} — a cozy set of Twitch sub badges, bit badges and channel-point icons.`
-      : "A cozy set of Twitch sub badges, bit badges and channel-point icons.";
+    const kind = /panel/i.test(name)
+      ? "profile panels for your channel"
+      : "Twitch sub badges, bit badges and channel-point icons";
+    return theme ? `${theme} — a cozy set of ${kind}.` : `A cozy set of ${kind}.`;
   }
   return theme
     ? `${theme} — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.`
