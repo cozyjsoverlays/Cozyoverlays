@@ -3,6 +3,7 @@ import { EXTRA_POSTS } from "@/data/blog-extra";
 import { EXTRA_POSTS_2 } from "@/data/blog-extra-2";
 import { EXTRA_POSTS_3 } from "@/data/blog-extra-3";
 import { EXTRA_POSTS_4 } from "@/data/blog-extra-4";
+import { EXTRA_POSTS_5 } from "@/data/blog-extra-5";
 
 // Reusable destinations so every article funnels readers to the shop + Etsy.
 const SHOP = "/shop";
@@ -417,6 +418,7 @@ export const BLOG_POSTS: BlogPost[] = [
   ...EXTRA_POSTS_2,
   ...EXTRA_POSTS_3,
   ...EXTRA_POSTS_4,
+  ...EXTRA_POSTS_5,
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
