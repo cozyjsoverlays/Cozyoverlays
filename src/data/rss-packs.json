@@ -1,5 +1,65 @@
 [
   {
+    "slug": "minimalist-halloween-twitch-overlay-pack-animated",
+    "name": "Minimalist Halloween Twitch Overlay Pack Animated",
+    "category": "seasonal",
+    "price": "$24.40",
+    "description": "Minimalist Halloween — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/3f0cb0/8497185869/il_570xN.8497185869_rns2.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4565010825",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "spooky-animated-halloween-wolf-room-twitch-full-stream-pack",
+    "name": "Spooky Animated Halloween Wolf Room Twitch Full Stream Pack",
+    "category": "seasonal",
+    "price": "$24.60",
+    "description": "Spooky Halloween Wolf Room Full — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/917d41/8454069566/il_570xN.8454069566_clrg.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4565606338",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "spooky-animated-halloween-calico-cat-room-twitch-full-stream",
+    "name": "Spooky Animated Halloween Calico cat Room Twitch Full Stream Pack",
+    "category": "seasonal",
+    "price": "$24.60",
+    "description": "Spooky Halloween Calico cat Room Full — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/5a4408/8501974971/il_570xN.8501974971_8dlq.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4565633493",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "spooky-animated-halloween-red-panda-room-twitch-full-stream-",
+    "name": "Spooky Animated Halloween Red Panda Room Twitch Full Stream Pack",
+    "category": "seasonal",
+    "price": "$24.60",
+    "description": "Spooky Halloween Red Panda Room Full — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/f63b2f/8502158199/il_570xN.8502158199_ccpk.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4565683731",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
     "slug": "30x-kawaii-cat-twitch-panels",
     "name": "30x Kawaii Cat Twitch Panels",
     "category": "cat",
