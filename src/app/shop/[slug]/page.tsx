@@ -29,17 +29,23 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const product = await getProductBySlug(params.slug);
   if (!product) return { title: "Pack not found" };
-  const title = `${product.name} — Animated Stream Overlay`;
+  // Use the real Etsy listing title — it's already keyword-optimised — but keep
+  // it short enough for a search result.
+  const title =
+    product.title.length > 65
+      ? `${product.name} — Animated Stream Overlay`
+      : product.title;
   return {
     title,
     description: product.description,
+    keywords: product.tags.length ? product.tags : undefined,
     alternates: { canonical: `/shop/${product.slug}` },
     openGraph: {
       type: "website",
       title,
       description: product.description,
       url: `${SITE.url}/shop/${product.slug}`,
-      images: [{ url: product.image, alt: product.name }],
+      images: product.images.slice(0, 4).map((url) => ({ url, alt: product.name })),
     },
     twitter: {
       card: "summary_large_image",
@@ -82,11 +88,12 @@ export default async function ProductDetailPage({
   const productLd = {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: product.name,
-    description: product.description,
-    image: [product.image],
+    name: product.title || product.name,
+    description: product.details || product.description,
+    image: product.images,
     brand: { "@type": "Brand", name: SITE.shop },
     category: product.category,
+    ...(product.tags.length ? { keywords: product.tags.join(", ") } : {}),
     offers: {
       "@type": "Offer",
       url: product.etsyUrl || canonical,
@@ -271,6 +278,69 @@ export default async function ProductDetailPage({
                 </div>
               </div>
             </div>
+
+            {/* Full listing description, exactly as written on Etsy */}
+            {product.details && (
+              <div className="mt-14 max-w-3xl">
+                <h2 className="text-xl font-extrabold text-heading">
+                  About this pack
+                </h2>
+                <div className="mt-5 flex flex-col gap-3">
+                  {product.details
+                    .split("\n")
+                    .map((line) => line.trim())
+                    .filter(Boolean)
+                    .map((line, i) => {
+                      const isBullet = /^[✅✔•\-*]/.test(line);
+                      const isHeading =
+                        !isBullet &&
+                        line.length < 60 &&
+                        /^[A-Z0-9][^a-z]*$|includes|package|what will you get/i.test(line);
+                      if (isBullet) {
+                        return (
+                          <p key={i} className="pl-1 text-sm text-body">
+                            {line}
+                          </p>
+                        );
+                      }
+                      if (isHeading) {
+                        return (
+                          <h3
+                            key={i}
+                            className="mt-4 text-sm font-bold uppercase tracking-wide text-lavender"
+                          >
+                            {line}
+                          </h3>
+                        );
+                      }
+                      return (
+                        <p key={i} className="text-sm leading-relaxed text-body">
+                          {line}
+                        </p>
+                      );
+                    })}
+                </div>
+              </div>
+            )}
+
+            {/* Etsy listing tags — the shop's own keywords */}
+            {product.tags.length > 0 && (
+              <div className="mt-10 max-w-3xl">
+                <h2 className="text-xs font-bold uppercase tracking-wide text-muted">
+                  Tags
+                </h2>
+                <ul className="mt-3 flex flex-wrap gap-2">
+                  {product.tags.map((t) => (
+                    <li
+                      key={t}
+                      className="rounded-full border border-subtle bg-surface/60 px-3 py-1.5 text-xs text-body"
+                    >
+                      {t}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </section>
 

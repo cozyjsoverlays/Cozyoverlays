@@ -32,6 +32,27 @@ const ALL_PACKS: Pack[] = (() => {
   const byId = new Map<string, string>(); // listing id -> winning slug
   const byImg = new Map<string, string>(); // artwork  -> winning slug
 
+  /**
+   * Combine two records of the same product. Neither source is complete: the
+   * store sync carries the exact listing link, while the CSV export carries the
+   * real title, description, tags and full photo gallery. Take the best of each
+   * rather than discarding a copy.
+   */
+  const combine = (a: Pack, b: Pack): Pack => ({
+    ...a,
+    ...b,
+    // Keep whichever actually deep-links to the listing.
+    etsy: listingId(a.etsy) ? a.etsy : b.etsy,
+    // Prefer richer content wherever one side has it.
+    title: a.title ?? b.title,
+    details: a.details ?? b.details,
+    tags: a.tags?.length ? a.tags : b.tags,
+    images: (a.images?.length ?? 0) >= (b.images?.length ?? 0) ? a.images : b.images,
+    compareAt: a.compareAt ?? b.compareAt,
+    isNew: a.isNew || b.isNew,
+    bestseller: a.bestseller || b.bestseller,
+  });
+
   for (const pack of merged) {
     const id = listingId(pack.etsy);
     const img = imageKey(pack.image);
@@ -40,9 +61,14 @@ const ALL_PACKS: Pack[] = (() => {
 
     if (rivalSlug) {
       const rival = bySlug.get(rivalSlug);
-      // Prefer the entry that deep-links; otherwise keep the incumbent.
-      if (!rival || listingId(rival.etsy) || !id) continue;
-      bySlug.delete(rivalSlug);
+      if (rival) {
+        // Same product seen twice — fold the two records together under the
+        // incumbent's slug (it was first, so links to it already exist).
+        bySlug.set(rivalSlug, { ...combine(rival, pack), slug: rival.slug });
+        if (id) byId.set(id, rivalSlug);
+        if (img) byImg.set(img, rivalSlug);
+        continue;
+      }
     }
 
     bySlug.set(pack.slug, pack);
@@ -58,13 +84,21 @@ export interface ProductDTO {
   id: string;
   slug: string;
   name: string;
+  /** Full Etsy listing title (keyword-rich) for SEO metadata. */
+  title: string;
   category: string;
   description: string;
+  /** Full listing description from Etsy. */
+  details: string | null;
+  /** Seller's own Etsy tags. */
+  tags: string[];
   priceCents: number;
   /** Original price in cents when the pack is on sale (strikethrough framing). */
   compareAtCents: number | null;
   currency: string;
   image: string;
+  /** All listing photos, first is the cover. */
+  images: string[];
   video: string | null;
   features: string[];
   bestseller: boolean;
@@ -89,12 +123,16 @@ function packToDTO(p: Pack): ProductDTO {
     id: p.slug,
     slug: p.slug,
     name: p.name,
+    title: p.title ?? p.name,
     category: p.category,
     description: p.description,
+    details: p.details ?? null,
+    tags: p.tags ?? [],
     priceCents: priceToCents(p.price),
     compareAtCents: p.compareAt ? priceToCents(p.compareAt) : null,
     currency: "USD",
     image: p.image,
+    images: p.images?.length ? p.images : [p.image],
     video: p.video ?? null,
     features: p.features,
     bestseller: p.bestseller ?? false,

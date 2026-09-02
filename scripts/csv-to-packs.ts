@@ -313,6 +313,55 @@ function describe(name: string): string {
     : "Cozy animated stream overlays — screens, alerts, panels & emotes.";
 }
 
+/** Every listing photo Etsy exported, in order (IMAGE1 first). */
+function galleryImages(row: Record<string, string>): string[] {
+  const out: string[] = [];
+  for (let i = 1; i <= 10; i++) {
+    const url = (row[`image${i}`] || "").trim();
+    if (url && !out.includes(url)) out.push(url);
+  }
+  return out;
+}
+
+/** The seller's own Etsy tags, tidied into readable keywords. */
+function parseTags(raw: string | undefined): string[] {
+  return (raw || "")
+    .split(",")
+    .map((t) => t.replace(/_/g, " ").replace(/\s+/g, " ").trim().toLowerCase())
+    .filter(Boolean)
+    .slice(0, 13);
+}
+
+/**
+ * The listing description, kept as written but normalised: CRLF collapsed and
+ * runs of blank lines squeezed so it renders as clean paragraphs.
+ */
+function cleanDetails(raw: string | undefined): string | undefined {
+  const text = (raw || "")
+    .replace(/\r\n?/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+  return text.length > 40 ? text : undefined;
+}
+
+/**
+ * Card summary: the first real sentence of the seller's description (skipping
+ * the repeated title line), falling back to a generated line.
+ */
+function summarize(raw: string | undefined, name: string): string {
+  const text = (raw || "").replace(/\r\n?/g, "\n").trim();
+  const paras = text
+    .split(/\n+/)
+    .map((p) => p.trim())
+    .filter((p) => p.length > 45 && !/^[✅•\-*]/.test(p) && !/INSTANT DIGITAL/i.test(p));
+  // The first paragraph is usually the title restated — prefer the next one.
+  const pick = paras.find((p) => !p.toLowerCase().startsWith(name.toLowerCase().slice(0, 18)));
+  const chosen = pick || paras[0];
+  if (!chosen) return describe(name);
+  const trimmed = chosen.length > 190 ? chosen.slice(0, 187).replace(/\s+\S*$/, "") + "…" : chosen;
+  return trimmed;
+}
+
 function features(haystack: string): string[] {
   const f = ["Animated Screens", "Alerts", "Panels", "Emotes"];
   if (/\bbadge/i.test(haystack)) f.push("Sub Badges");
@@ -322,11 +371,15 @@ function features(haystack: string): string[] {
 interface Entry {
   slug: string;
   name: string;
+  title?: string;
   category: string;
   price: string;
   compareAt?: string;
   description: string;
+  details?: string;
   image: string;
+  images?: string[];
+  tags?: string[];
   etsy: string;
   features: string[];
   isNew?: boolean;
@@ -336,13 +389,20 @@ function emit(e: Entry): string {
   const lines = [
     `    slug: ${JSON.stringify(e.slug)},`,
     `    name: ${JSON.stringify(e.name)},`,
+  ];
+  if (e.title && e.title !== e.name) lines.push(`    title: ${JSON.stringify(e.title)},`);
+  lines.push(
     `    category: ${JSON.stringify(e.category)},`,
     `    price: ${JSON.stringify(e.price)},`,
-  ];
+  );
   if (e.compareAt) lines.push(`    compareAt: ${JSON.stringify(e.compareAt)},`);
+  lines.push(`    description: ${JSON.stringify(e.description)},`);
+  if (e.details) lines.push(`    details: ${JSON.stringify(e.details)},`);
+  lines.push(`    image: ${JSON.stringify(e.image)},`);
+  if (e.images && e.images.length > 1)
+    lines.push(`    images: ${JSON.stringify(e.images)},`);
+  if (e.tags && e.tags.length) lines.push(`    tags: ${JSON.stringify(e.tags)},`);
   lines.push(
-    `    description: ${JSON.stringify(e.description)},`,
-    `    image: ${JSON.stringify(e.image)},`,
     `    etsy: ${JSON.stringify(e.etsy)},`,
     `    features: ${JSON.stringify(e.features)},`,
   );
@@ -390,11 +450,15 @@ function main() {
       emit({
         slug,
         name,
+        title,
         category: mapCategory(`${title} ${r.tags || ""}`),
         price: o?.price ? money(o.price) : priceStr(r.price),
         compareAt: o?.compareAt ? money(o.compareAt) : undefined,
-        description: describe(name),
+        description: summarize(r.description, name),
+        details: cleanDetails(r.description),
         image,
+        images: galleryImages(r),
+        tags: parseTags(r.tags),
         etsy: o?.id ? `${SHOP_URL}/listing/${o.id}` : SHOP_URL,
         features: features(`${title} ${r.description || ""} ${r.tags || ""}`),
       }),
