@@ -1,6 +1,7 @@
 import { PACKS } from "@/data/packs";
 import rssPacks from "@/data/rss-packs.json";
 import type { Pack } from "@/lib/types";
+import { packTags } from "@/lib/seo";
 
 /** Etsy listing id from a pack's buy URL (null when it falls back to the shop). */
 function listingId(etsy?: string): string | null {
@@ -118,6 +119,34 @@ function priceToCents(price: string): number {
   return Number.isFinite(n) ? Math.round(n * 100) : 0;
 }
 
+/**
+ * Packs synced from the RSS feed arrive with only a name, price and cover
+ * photo — the feed carries nothing else. Rather than leaving those pages thin,
+ * fall back to what is genuinely true of every pack in this shop: the delivery
+ * method and the file formats. No pack-specific claims are invented.
+ */
+function standardDetails(p: Pack): string {
+  const assets = p.features.length
+    ? p.features.join(", ")
+    : "animated screens, alerts and panels";
+  return [
+    `${p.name} — a cozy animated set for Twitch, YouTube, Kick and TikTok.`,
+    "",
+    "INSTANT DIGITAL DOWNLOAD",
+    "This is a digital product — nothing physical will be shipped.",
+    "When you purchase, you receive a PDF containing a direct link to a Google Drive folder with the complete package.",
+    "",
+    "Package includes",
+    `✅ ${assets}`,
+    "✅ Animated files as transparent .WEBM (loop-ready)",
+    "✅ Static .PNG versions included",
+    "✅ Sized for Twitch, YouTube, Kick and TikTok",
+    "✅ Works with OBS Studio, Streamlabs and StreamElements",
+    "",
+    "Licensed for personal use on your own channels. Resale or redistribution is not permitted.",
+  ].join("\n");
+}
+
 function packToDTO(p: Pack): ProductDTO {
   return {
     id: p.slug,
@@ -126,8 +155,8 @@ function packToDTO(p: Pack): ProductDTO {
     title: p.title ?? p.name,
     category: p.category,
     description: p.description,
-    details: p.details ?? null,
-    tags: p.tags ?? [],
+    details: p.details ?? standardDetails(p),
+    tags: p.tags?.length ? p.tags : packTags(p.name, p.category),
     priceCents: priceToCents(p.price),
     compareAtCents: p.compareAt ? priceToCents(p.compareAt) : null,
     currency: "USD",
