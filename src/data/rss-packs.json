@@ -1,5 +1,20 @@
 [
   {
+    "slug": "witch-cat-animated-overlay-pack",
+    "name": "Witch Cat Animated Overlay Pack",
+    "category": "witchy",
+    "price": "$22.60",
+    "description": "Witch Cat — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/e09912/8549040138/il_570xN.8549040138_16kj.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4577456421",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
     "slug": "purple-fantasy-moon-twitch-stream-overlay-pack",
     "name": "Purple Fantasy Moon Twitch Stream Overlay Pack",
     "category": "frog",
