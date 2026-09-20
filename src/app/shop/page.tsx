@@ -7,7 +7,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { getAllProducts } from "@/lib/products";
 
 export const metadata: Metadata = {
-  title: "Shop — Animated Stream Overlay Packs",
+  title: "Shop - Animated Stream Overlay Packs",
   description:
     "Browse cozy, animated stream overlay packs for Twitch, YouTube, Kick & TikTok. Instant secure download, pay safely with PayPal.",
   alternates: { canonical: "/shop" },

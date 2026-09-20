@@ -9,7 +9,7 @@ import { TOOL_CTA } from "@/lib/tools-config";
 import { SITE } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "Cozy Color Palette Generator — Cottagecore, Kawaii, Witchy & Lofi",
+  title: "Cozy Color Palette Generator - Cottagecore, Kawaii, Witchy & Lofi",
   description:
     "Free cozy color palette generator for streamers: make harmonious cottagecore, kawaii pastel, witchy and lofi palettes. Lock colors, reshuffle, copy HEX, export PNG or CSS variables.",
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     title: "Cozy Color Palette Generator (Free) · CozyOverlays",
-    description: "Cottagecore, kawaii, witchy and lofi palettes — copy HEX, export PNG or CSS.",
+    description: "Cottagecore, kawaii, witchy and lofi palettes - copy HEX, export PNG or CSS.",
     url: `${SITE.url}/free-tools/palette-generator`,
   },
 };
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 const FAQS: Faq[] = [
   {
     q: "What colors are 'cozy' or cottagecore?",
-    a: "Cozy palettes lean on warm, muted, earthy tones — sage greens, cream, soft terracotta and dusty rose for cottagecore; soft pinks, lilacs and mint for kawaii pastel; deep purples, candlelit gold and near-black for witchy; and muted lavender, peach and plum for lofi bedroom vibes.",
+    a: "Cozy palettes lean on warm, muted, earthy tones - sage greens, cream, soft terracotta and dusty rose for cottagecore; soft pinks, lilacs and mint for kawaii pastel; deep purples, candlelit gold and near-black for witchy; and muted lavender, peach and plum for lofi bedroom vibes.",
   },
   {
     q: "How do I use these colors for my stream?",
@@ -39,7 +39,7 @@ const FAQS: Faq[] = [
   },
   {
     q: "Can I lock a color I like and reshuffle the rest?",
-    a: "Yes — lock any swatches you want to keep, then hit Reshuffle to generate new options for the unlocked ones until the whole palette feels right.",
+    a: "Yes - lock any swatches you want to keep, then hit Reshuffle to generate new options for the unlocked ones until the whole palette feels right.",
   },
 ];
 
@@ -53,7 +53,7 @@ export default function PaletteGeneratorPage() {
     url: `${SITE.url}/free-tools/palette-generator`,
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
     description:
-      "Free generator for cozy stream color palettes — cottagecore, kawaii, witchy and lofi — with HEX, PNG and CSS export.",
+      "Free generator for cozy stream color palettes - cottagecore, kawaii, witchy and lofi - with HEX, PNG and CSS export.",
   };
 
   return (
@@ -68,13 +68,13 @@ export default function PaletteGeneratorPage() {
             <span className="gradient-text">Palette Generator</span>
           </>
         }
-        subtitle="Generate harmonious cozy palettes by vibe — cottagecore, kawaii pastel, witchy and lofi. Lock the colors you love, reshuffle the rest, then copy the HEX or export a swatch."
+        subtitle="Generate harmonious cozy palettes by vibe - cottagecore, kawaii pastel, witchy and lofi. Lock the colors you love, reshuffle the rest, then copy the HEX or export a swatch."
       >
         <PaletteGenerator />
 
         <ToolCTA
           heading="Love this palette? We have packs built around it."
-          text="Our overlay packs come in cottagecore, kawaii, witchy and lofi aesthetics — a whole matching world in your colors. Browse 125+ and download instantly from Etsy."
+          text="Our overlay packs come in cottagecore, kawaii, witchy and lofi aesthetics - a whole matching world in your colors. Browse 125+ and download instantly from Etsy."
           href={TOOL_CTA.shop}
           label="Find your aesthetic"
         />

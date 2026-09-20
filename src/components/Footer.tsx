@@ -26,14 +26,14 @@ export function Footer() {
         className="glow-blob absolute -top-32 left-1/2 h-72 w-[40rem] -translate-x-1/2 bg-lavender opacity-15"
       />
       <div className="container-page relative py-16">
-        {/* Email capture — new drops + free overlay */}
+        {/* Email capture - new drops + free overlay */}
         <div className="mb-14 grid items-center gap-8 rounded-3xl border border-subtle bg-surface p-8 md:grid-cols-2 md:p-10">
           <div>
             <h2 className="text-2xl font-extrabold text-heading">
               Get new drops <span className="gradient-text">+ a free overlay</span>
             </h2>
             <p className="mt-2 max-w-md text-sm text-body">
-              Join the cozy list — the free Cozy Starter Pack lands in your
+              Join the cozy list - the free Cozy Starter Pack lands in your
               inbox, plus first peek at every new pack. Or hang out with us on{" "}
               <a
                 href={LINKS.telegram}

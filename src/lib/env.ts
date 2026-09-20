@@ -1,7 +1,7 @@
 /**
  * Centralized, typed environment access.
  *
- * We deliberately do NOT throw at module-import time for missing secrets — that
+ * We deliberately do NOT throw at module-import time for missing secrets - that
  * would break `next build` and local dev when, say, PayPal isn't configured yet.
  * Instead each feature exposes a `config`/`isConfigured` pair and only throws
  * when the feature is actually invoked without the keys it needs.
@@ -44,7 +44,7 @@ export const env = {
   sessionSecret: optional(process.env.SESSION_SECRET),
   cronSecret: optional(process.env.CRON_SECRET),
 
-  // Etsy (optional — only used when isEtsyConfigured is true)
+  // Etsy (optional - only used when isEtsyConfigured is true)
   etsyClientId: optional(process.env.ETSY_CLIENT_ID),
   etsyClientSecret: optional(process.env.ETSY_CLIENT_SECRET),
   etsyShopId: optional(process.env.ETSY_SHOP_ID),

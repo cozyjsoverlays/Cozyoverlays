@@ -5,7 +5,7 @@ import { env, isStorageConfigured } from "@/lib/env";
 /**
  * Storage abstraction. Swap the implementation (S3/R2 → GCS, Backblaze, etc.)
  * without touching the rest of the app. We only ever hand out short-lived
- * signed URLs — permanent public file URLs are never exposed.
+ * signed URLs - permanent public file URLs are never exposed.
  */
 export interface StorageProvider {
   /** Mint a presigned GET URL for `key`, valid for `expiresInSeconds`. */
@@ -19,7 +19,7 @@ export interface StorageProvider {
   readonly isReal: boolean;
 }
 
-const DEFAULT_TTL = 60; // seconds — deliberately short; minted per download request.
+const DEFAULT_TTL = 60; // seconds - deliberately short; minted per download request.
 
 class S3StorageProvider implements StorageProvider {
   readonly isReal = true;

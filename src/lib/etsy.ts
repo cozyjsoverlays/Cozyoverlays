@@ -2,7 +2,7 @@
  * Etsy Open API v3 client.
  *
  * Status (as of mid-2025): Etsy v3 is generally available but new app
- * approvals are selective — apply at https://www.etsy.com/developers/register.
+ * approvals are selective - apply at https://www.etsy.com/developers/register.
  * Rate limits: 10,000 req/day, 10 req/sec. Paginate with offset+limit.
  * This module is entirely optional; all callers check isEtsyConfigured first.
  */

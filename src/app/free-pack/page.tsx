@@ -7,9 +7,9 @@ import { FreePackForm } from "@/components/marketing/FreePackForm";
 import { SITE } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "Free Cozy Starter Pack — Stream Screens & 28 Panels",
+  title: "Free Cozy Starter Pack - Stream Screens & 28 Panels",
   description:
-    "Grab the free Cozy Starter Pack: Starting Soon, Be Right Back, Ending and Offline screens plus 28 matching panels. Ready for OBS in minutes — emailed instantly.",
+    "Grab the free Cozy Starter Pack: Starting Soon, Be Right Back, Ending and Offline screens plus 28 matching panels. Ready for OBS in minutes - emailed instantly.",
   alternates: { canonical: "/free-pack" },
   openGraph: {
     type: "website",
@@ -24,7 +24,7 @@ const BENEFITS = [
   "Starting Soon, Be Right Back, Ending & Offline screens",
   "28 matching profile panels",
   "Ready for OBS, Streamlabs & StreamElements in minutes",
-  "Instant email delivery — nothing ships",
+  "Instant email delivery - nothing ships",
   "A taste of the full cozy house style",
 ];
 
@@ -44,7 +44,7 @@ export default function FreePackPage() {
               <span className="gradient-text">Cozy Starter Pack</span>
             </h1>
             <p className="mx-auto mt-5 max-w-xl text-lg text-body">
-              Make your stream feel like home before you spend a cent — a full
+              Make your stream feel like home before you spend a cent - a full
               set of screens and panels, straight to your inbox.
             </p>
 

@@ -3,7 +3,7 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
-/** Minimal snapshot stored in the cart. Price is display-only — the server
+/** Minimal snapshot stored in the cart. Price is display-only - the server
  * always recomputes the authoritative total from the DB at checkout. */
 export interface CartItem {
   slug: string;

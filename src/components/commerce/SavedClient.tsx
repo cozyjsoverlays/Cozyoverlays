@@ -61,7 +61,7 @@ export function SavedClient() {
           {sharedSlugs ? "This shared list is empty" : "No saved packs yet"}
         </h1>
         <p className="max-w-md text-body">
-          Tap the ♡ on any pack to keep it here — no account needed, it lives in
+          Tap the ♡ on any pack to keep it here - no account needed, it lives in
           your browser.
         </p>
         <Link

@@ -32,7 +32,7 @@ export function ProductGallery({ product }: { product: ProductDTO }) {
             playsInline
             preload="metadata"
             aria-label={`Animated preview of the ${product.name} stream overlay pack`}
-            title={`${product.name} — animated stream overlay preview`}
+            title={`${product.name} - animated stream overlay preview`}
             className="h-full w-full object-cover"
           />
         ) : (
@@ -51,7 +51,7 @@ export function ProductGallery({ product }: { product: ProductDTO }) {
         </span>
       </button>
 
-      {/* Thumbnail strip — every photo from the Etsy listing */}
+      {/* Thumbnail strip - every photo from the Etsy listing */}
       {photos.length > 1 && (
         <ul className="mt-3 grid grid-cols-5 gap-2 sm:grid-cols-6">
           {photos.map((src, i) => (
@@ -70,7 +70,7 @@ export function ProductGallery({ product }: { product: ProductDTO }) {
               >
                 <Image
                   src={src}
-                  alt={`${product.name} — preview photo ${i + 1}`}
+                  alt={`${product.name} - preview photo ${i + 1}`}
                   fill
                   sizes="120px"
                   className="object-cover"

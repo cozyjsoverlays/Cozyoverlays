@@ -56,7 +56,7 @@ export function Hero() {
             variants={reduce ? undefined : item}
             className="mx-auto mt-6 max-w-2xl text-pretty text-lg text-body md:text-xl"
           >
-            Animated stream packs for Twitch, Kick, TikTok &amp; YouTube —
+            Animated stream packs for Twitch, Kick, TikTok &amp; YouTube -
             clean, cute, clutter-free. Screens, alerts, panels &amp; emotes
             ready to drop into OBS in minutes.
           </motion.p>

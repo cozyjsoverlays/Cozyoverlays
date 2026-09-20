@@ -1,7 +1,7 @@
 /**
  * AES-256-GCM symmetric encryption for sensitive values stored in the database
  * (Etsy OAuth tokens). Requires TOKEN_ENCRYPTION_KEY env var: 64 hex chars (32 bytes).
- * Falls back to a deterministic dev key — insecure, only for local testing.
+ * Falls back to a deterministic dev key - insecure, only for local testing.
  */
 import crypto from "crypto";
 
@@ -10,7 +10,7 @@ const ALGO = "aes-256-gcm" as const;
 function getKey(): Buffer {
   const hex = process.env.TOKEN_ENCRYPTION_KEY ?? "";
   if (hex.length === 64) return Buffer.from(hex, "hex");
-  // Dev fallback — not secure; warns loudly in logs
+  // Dev fallback - not secure; warns loudly in logs
   if (process.env.NODE_ENV === "production") {
     throw new Error("TOKEN_ENCRYPTION_KEY must be set in production (64 hex chars).");
   }

@@ -122,7 +122,7 @@ export function ProductGrid({
 
       {visible.length === 0 && (
         <p className="mt-10 text-center text-body">
-          No packs in this category yet — check back soon!
+          No packs in this category yet - check back soon!
         </p>
       )}
 

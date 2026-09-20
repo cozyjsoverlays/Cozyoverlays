@@ -4,7 +4,7 @@ import { Footer } from "@/components/Footer";
 import { SavedClient } from "@/components/commerce/SavedClient";
 
 export const metadata: Metadata = {
-  title: "Saved Packs — Your Cozy Wishlist",
+  title: "Saved Packs - Your Cozy Wishlist",
   description:
     "Packs you've saved for later. Share your wishlist with a single link.",
   robots: { index: false },

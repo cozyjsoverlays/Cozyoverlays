@@ -9,9 +9,9 @@ import { TOOL_CTA } from "@/lib/tools-config";
 import { SITE } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "Twitch Bitrate Calculator — Best OBS Settings for Your Upload (Free)",
+  title: "Twitch Bitrate Calculator - Best OBS Settings for Your Upload (Free)",
   description:
-    "Free stream bitrate calculator: pick your resolution, framerate and upload speed to get the recommended OBS video bitrate, keyframe and encoder settings — with a plain-language verdict.",
+    "Free stream bitrate calculator: pick your resolution, framerate and upload speed to get the recommended OBS video bitrate, keyframe and encoder settings - with a plain-language verdict.",
   keywords: [
     "twitch bitrate calculator",
     "best obs bitrate",
@@ -39,7 +39,7 @@ const FAQS: Faq[] = [
   },
   {
     q: "What keyframe interval should I use?",
-    a: "Set the keyframe interval to 2 seconds — both Twitch and YouTube recommend it. Use a hardware encoder (NVENC, AMD, or Apple) if you have one to spare your CPU.",
+    a: "Set the keyframe interval to 2 seconds - both Twitch and YouTube recommend it. Use a hardware encoder (NVENC, AMD, or Apple) if you have one to spare your CPU.",
   },
   {
     q: "Is there a max bitrate on Twitch?",
@@ -72,7 +72,7 @@ export default function BitrateCalculatorPage() {
             <span className="gradient-text">Calculator</span>
           </>
         }
-        subtitle="Pick your resolution, framerate and upload speed to get the right OBS video bitrate, keyframe and encoder settings — plus a plain-language verdict on whether your connection can handle it."
+        subtitle="Pick your resolution, framerate and upload speed to get the right OBS video bitrate, keyframe and encoder settings - plus a plain-language verdict on whether your connection can handle it."
       >
         <BitrateCalculator />
 

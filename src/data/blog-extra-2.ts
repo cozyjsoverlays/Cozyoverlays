@@ -1,7 +1,7 @@
 import type { BlogPost } from "@/lib/types";
 
 /**
- * Batch 2 of SEO articles — fresh streamer searches (growth, seasonal, gear,
+ * Batch 2 of SEO articles - fresh streamer searches (growth, seasonal, gear,
  * aesthetics, mistakes). Each gives a real answer and funnels to the shop +
  * Etsy. Concatenated into BLOG_POSTS in blog.ts.
  */
@@ -41,7 +41,7 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     slug: "how-to-get-your-first-10-followers-on-twitch",
     title: "How to Get Your First 10 Followers on Twitch",
     excerpt:
-      "The hardest followers are the first ones. Here's a practical plan to earn them — and why your channel's look matters more than you think.",
+      "The hardest followers are the first ones. Here's a practical plan to earn them - and why your channel's look matters more than you think.",
     date: "May 18, 2026",
     isoDate: "2026-05-18",
     readingTime: "6 min read",
@@ -70,8 +70,8 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     heroImage: IMG_WOLF,
     body: [
       { paragraphs: ["You don't need to be a tech wizard to get a clean stream out of [OBS]("+OBS+"). These starting settings work for most people."] },
-      { heading: "Resolution and FPS", paragraphs: ["Output at 1080p and 30 or 60 FPS depending on your upload speed. Design your scene on a 1920×1080 canvas — every [CozyOverlays pack]("+SHOP+") is full HD, so it fits perfectly."] },
-      { heading: "Bitrate and encoder", paragraphs: ["Use hardware encoding (NVENC/AMD) if you have it to spare your CPU. Pick a bitrate your connection can sustain — smoother beats sharper."] },
+      { heading: "Resolution and FPS", paragraphs: ["Output at 1080p and 30 or 60 FPS depending on your upload speed. Design your scene on a 1920×1080 canvas - every [CozyOverlays pack]("+SHOP+") is full HD, so it fits perfectly."] },
+      { heading: "Bitrate and encoder", paragraphs: ["Use hardware encoding (NVENC/AMD) if you have it to spare your CPU. Pick a bitrate your connection can sustain - smoother beats sharper."] },
       { heading: "Smooth overlays", paragraphs: ["Enable hardware decoding on Media Sources so animated screens never stutter. More on that in our [OBS lag fixes](/blog/why-is-my-obs-overlay-lagging)."] },
     ],
     cta: shopCta("Overlays that play clean in OBS", "Lightweight, full-HD animated packs built to run smooth. Browse 125+ on Etsy and download instantly."),
@@ -81,7 +81,7 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     slug: "how-often-should-you-stream",
     title: "How Often Should You Stream? A Schedule That Actually Grows You",
     excerpt:
-      "Consistency beats marathon sessions. Here's how to build a streaming schedule you can keep — and that helps you grow.",
+      "Consistency beats marathon sessions. Here's how to build a streaming schedule you can keep - and that helps you grow.",
     date: "May 16, 2026",
     isoDate: "2026-05-16",
     readingTime: "5 min read",
@@ -90,7 +90,7 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     heroImage: IMG_DRAGON,
     body: [
       { paragraphs: ["The algorithm and your audience both reward consistency. Three predictable streams a week beat seven random ones you can't sustain. Here's how to set a schedule that lasts."] },
-      { heading: "Pick a cadence you can keep", paragraphs: ["Start with 3 fixed days at a fixed time. Show it on a Schedule panel so viewers know when to come back — every [pack]("+SHOP+") includes one."] },
+      { heading: "Pick a cadence you can keep", paragraphs: ["Start with 3 fixed days at a fixed time. Show it on a Schedule panel so viewers know when to come back - every [pack]("+SHOP+") includes one."] },
       { heading: "Protect your energy", paragraphs: ["Burnout kills more channels than the algorithm. Shorter, regular streams keep you fresh and your content consistent."] },
       { heading: "Make every stream look the part", paragraphs: ["A cohesive [overlay]("+SHOP+") makes even a quiet stream feel intentional, so first-time visitors take you seriously."] },
     ],
@@ -101,7 +101,7 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     slug: "kick-vs-twitch-where-to-stream",
     title: "Kick vs Twitch: Where Should You Stream in 2026?",
     excerpt:
-      "Both platforms have pros and cons. Here's a quick, honest comparison — and the good news about your overlay either way.",
+      "Both platforms have pros and cons. Here's a quick, honest comparison - and the good news about your overlay either way.",
     date: "May 15, 2026",
     isoDate: "2026-05-15",
     readingTime: "5 min read",
@@ -110,7 +110,7 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     heroImage: IMG_WOLF,
     body: [
       { paragraphs: ["Kick offers better revenue splits and looser rules; Twitch has the bigger audience and discovery. Many creators now do both. Here's how to think about it."] },
-      { heading: "Audience vs payout", paragraphs: ["Twitch is where most viewers already are; Kick pays creators more per dollar. If you're starting out, discovery usually matters more — but multistreaming hedges your bets."] },
+      { heading: "Audience vs payout", paragraphs: ["Twitch is where most viewers already are; Kick pays creators more per dollar. If you're starting out, discovery usually matters more - but multistreaming hedges your bets."] },
       { heading: "Your overlay works on both", paragraphs: ["Because overlays are just layers in [OBS]("+OBS+"), one [pack]("+SHOP+") covers Twitch, Kick, YouTube and TikTok. No need to redesign per platform."] },
       { heading: "Keep one brand everywhere", paragraphs: ["Use the same theme across platforms so people recognize you. Pick your world in the [shop]("+SHOP+")."] },
     ],
@@ -149,7 +149,7 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     keywords: ["stream overlay colors", "Twitch brand colors", "overlay color palette", "stream aesthetic colors"],
     heroImage: IMG_GOTHIC,
     body: [
-      { paragraphs: ["Your palette is the fastest way to set a mood and stay recognizable. You don't have to design it from scratch — pick a pack whose colors already say what you want."] },
+      { paragraphs: ["Your palette is the fastest way to set a mood and stay recognizable. You don't have to design it from scratch - pick a pack whose colors already say what you want."] },
       { heading: "Warm vs cool", paragraphs: ["Warm tones (amber, pink, lavender) read cozy and inviting; cool tones (teal, deep purple) read calm or mysterious. Browse the [shop]("+SHOP+") by feeling."] },
       { heading: "Keep it readable", paragraphs: ["High-contrast text over busy color is hard to read. Our packs balance atmosphere with legibility so your alerts and labels stay clear."] },
       { heading: "Match it everywhere", paragraphs: ["Carry the palette into panels, emotes and your offline banner. A single [pack]("+SHOP+") keeps it all consistent."] },
@@ -169,8 +169,8 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     keywords: ["starting soon screen", "Twitch starting soon overlay", "stream waiting screen", "best starting soon screen"],
     heroImage: IMG_DRAGON,
     body: [
-      { paragraphs: ["Early viewers often land on your Starting Soon screen — and decide whether to wait. A great one keeps them around until you go live."] },
-      { heading: "Give them something to watch", paragraphs: ["A static image is dead air. An animated Starting Soon screen with gentle motion holds attention. Every [pack]("+SHOP+") includes one — see the [Dragon Sakura set](/shop/dragon-sakura-animated-stream-package)."] },
+      { paragraphs: ["Early viewers often land on your Starting Soon screen - and decide whether to wait. A great one keeps them around until you go live."] },
+      { heading: "Give them something to watch", paragraphs: ["A static image is dead air. An animated Starting Soon screen with gentle motion holds attention. Every [pack]("+SHOP+") includes one - see the [Dragon Sakura set](/shop/dragon-sakura-animated-stream-package)."] },
       { heading: "Add music and a countdown", paragraphs: ["Lofi and a timer make waiting feel intentional, not awkward. Pair it with a cozy animated scene for the full effect."] },
       { heading: "Tease what's coming", paragraphs: ["A line about today's stream gives people a reason to stay. Keep your visuals on-brand with a matching [overlay]("+SHOP+")."] },
     ],
@@ -189,12 +189,12 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     keywords: ["Halloween stream overlay", "spooky Twitch overlay", "witchy stream setup", "October stream theme"],
     heroImage: IMG_GOTHIC,
     body: [
-      { paragraphs: ["Halloween is the perfect excuse for a seasonal refresh — and a spooky-cute look pulls viewers in. Here's how to do it without going full horror."] },
+      { paragraphs: ["Halloween is the perfect excuse for a seasonal refresh - and a spooky-cute look pulls viewers in. Here's how to do it without going full horror."] },
       { heading: "Go witchy, not scary", paragraphs: ["Candlelight, moody purples, a black cat by a spellbook. The [witchy collection]("+WITCHY+") nails cozy-spooky."] },
-      { heading: "Swap just for the season", paragraphs: ["You don't need to rebrand — load a Halloween [pack]("+SHOP+") into [OBS]("+OBS+") for October, then switch back. Our [refresh guide](/blog/refresh-your-stream-look) shows how fast it is."] },
+      { heading: "Swap just for the season", paragraphs: ["You don't need to rebrand - load a Halloween [pack]("+SHOP+") into [OBS]("+OBS+") for October, then switch back. Our [refresh guide](/blog/refresh-your-stream-look) shows how fast it is."] },
       { heading: "Match alerts and emotes", paragraphs: ["Themed alerts and emotes complete the spell. Grab a coordinated set on [Etsy]("+ETSY+")."] },
     ],
-    cta: shopCta("Get spooky-cozy for October", "Witchy and gothic animated overlay packs — candlelight, black cats and moody magic. Browse on Etsy."),
+    cta: shopCta("Get spooky-cozy for October", "Witchy and gothic animated overlay packs - candlelight, black cats and moody magic. Browse on Etsy."),
     resources: baseResources,
   },
   {
@@ -209,7 +209,7 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     keywords: ["Christmas stream overlay", "winter Twitch overlay", "holiday stream theme", "festive stream setup"],
     heroImage: IMG_CAT,
     body: [
-      { paragraphs: ["Nothing says cozy like a wintery stream — soft snow, warm light, a fireplace glow. A seasonal overlay makes your channel feel festive and inviting."] },
+      { paragraphs: ["Nothing says cozy like a wintery stream - soft snow, warm light, a fireplace glow. A seasonal overlay makes your channel feel festive and inviting."] },
       { heading: "Warm light, gentle snow", paragraphs: ["Look for falling snow and warm interior scenes. The [seasonal]("+SEASONAL+") and [cozy rooms]("+ROOM+") collections are built for it."] },
       { heading: "Seasonal, then back to normal", paragraphs: ["Run a holiday [pack]("+SHOP+") through December, then switch back in January. Swapping in [OBS]("+OBS+") takes minutes."] },
       { heading: "Festive alerts and emotes", paragraphs: ["Holiday-themed emotes give chat a seasonal mood. Pick a coordinated set on [Etsy]("+ETSY+")."] },
@@ -229,7 +229,7 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     keywords: ["BRB screen", "be right back overlay", "stream break screen", "BRB screen ideas"],
     heroImage: IMG_WOLF,
     body: [
-      { paragraphs: ["Breaks are inevitable — dead air during them isn't. A warm, animated BRB screen keeps your stream feeling alive while you grab water."] },
+      { paragraphs: ["Breaks are inevitable - dead air during them isn't. A warm, animated BRB screen keeps your stream feeling alive while you grab water."] },
       { heading: "Keep it animated and on-brand", paragraphs: ["A looping scene with gentle motion beats a frozen image. Every [pack]("+SHOP+") includes a matching BRB screen so your break still looks intentional."] },
       { heading: "Add music and a timer", paragraphs: ["Lofi plus a 'back in 5' note tells viewers it's worth waiting."] },
       { heading: "Match it to your whole look", paragraphs: ["Your BRB should feel like the same world as your main overlay. Grab the full set on [Etsy]("+ETSY+")."] },
@@ -249,10 +249,10 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     keywords: ["webcam frame", "Twitch cam border", "stream webcam overlay", "facecam frame ideas"],
     heroImage: IMG_DRAGON,
     body: [
-      { paragraphs: ["Your face-cam is where viewers connect with you — framing it makes the whole scene feel finished."] },
+      { paragraphs: ["Your face-cam is where viewers connect with you - framing it makes the whole scene feel finished."] },
       { heading: "Match the frame to your theme", paragraphs: ["A cozy cabin frame, a blossom border, a witchy arch. Pick one that matches your [overlay]("+SHOP+") so everything reads as one set."] },
       { heading: "Keep it subtle", paragraphs: ["The frame should enhance, not distract. Our packs keep cam borders gentle so your expressions stay the star."] },
-      { heading: "Get it as part of a pack", paragraphs: ["Cam framing works best alongside matching screens and panels — grab the whole world on [Etsy]("+ETSY+")."] },
+      { heading: "Get it as part of a pack", paragraphs: ["Cam framing works best alongside matching screens and panels - grab the whole world on [Etsy]("+ETSY+")."] },
     ],
     cta: shopCta("Frame your face-cam in style", "Cohesive overlay packs that tie your camera into the whole scene. Browse 125+ on Etsy."),
     resources: baseResources,
@@ -271,7 +271,7 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     body: [
       { paragraphs: ["When you're not live, your channel page is still working for you. A polished offline page convinces visitors to follow before they've even seen you stream."] },
       { heading: "Add an offline banner", paragraphs: ["A themed offline screen says 'come back soon' with style instead of a plain 'offline' card. Many [packs]("+SHOP+") include one."] },
-      { heading: "Fill out matching panels", paragraphs: ["About, Schedule, Socials, Donate — all in one look. Correctly-sized panels come in every [pack]("+SHOP+"); see our [panel setup guide](/blog/how-to-add-panels-to-twitch)."] },
+      { heading: "Fill out matching panels", paragraphs: ["About, Schedule, Socials, Donate - all in one look. Correctly-sized panels come in every [pack]("+SHOP+"); see our [panel setup guide](/blog/how-to-add-panels-to-twitch)."] },
       { heading: "Point people somewhere", paragraphs: ["Link panels to your socials and content so visitors have a next step. Grab a coordinated set on [Etsy]("+ETSY+")."] },
     ],
     cta: shopCta("Turn your offline page into a follow-magnet", "Matching offline banners and panels in cozy animated packs. Browse 125+ on Etsy."),
@@ -311,7 +311,7 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     body: [
       { paragraphs: ["Great emotes turn passive viewers into a chatty community. The trick is matching them to your channel's character so they feel native."] },
       { heading: "Match the theme", paragraphs: ["A forest cat channel wants cat emotes; a dragon channel wants dragon ones. Every [pack]("+SHOP+") includes emotes styled to its world."] },
-      { heading: "Cover the everyday reactions", paragraphs: ["Love, laugh, hype, cozy — the feelings chat uses most. Themed versions of these get spammed the most."] },
+      { heading: "Cover the everyday reactions", paragraphs: ["Love, laugh, hype, cozy - the feelings chat uses most. Themed versions of these get spammed the most."] },
       { heading: "Upload at the right sizes", paragraphs: ["Packs include the correct emote sizes so uploading is painless. Grab a set on [Etsy]("+ETSY+")."] },
     ],
     cta: shopCta("Give chat a language", "Themed emotes in every animated pack, sized and ready to upload. Browse 125+ on Etsy."),
@@ -321,7 +321,7 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     slug: "animated-vs-static-overlays",
     title: "Animated vs Static Overlays: Which Should You Use?",
     excerpt:
-      "Static overlays are simple; animated ones feel alive. Here's how to decide — and how to get both in one pack.",
+      "Static overlays are simple; animated ones feel alive. Here's how to decide - and how to get both in one pack.",
     date: "May 4, 2026",
     isoDate: "2026-05-04",
     readingTime: "5 min read",
@@ -331,7 +331,7 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     body: [
       { paragraphs: ["Static overlays load anywhere and never lag; animated ones feel premium and hold attention. The good news: you don't have to choose."] },
       { heading: "When static makes sense", paragraphs: ["Very low-end PCs or simple setups. Every [CozyOverlays pack]("+SHOP+") includes static **.PNG** versions for exactly this."] },
-      { heading: "Why animated wins for most", paragraphs: ["Gentle motion reads as 'alive' and keeps viewers watching during quiet moments — without distracting. See the difference on the [shop]("+SHOP+")."] },
+      { heading: "Why animated wins for most", paragraphs: ["Gentle motion reads as 'alive' and keeps viewers watching during quiet moments - without distracting. See the difference on the [shop]("+SHOP+")."] },
       { heading: "Get both in one download", paragraphs: ["Our packs ship animated .WEBM and static .PNG together, so you're covered on any tool or PC. Grab one on [Etsy]("+ETSY+")."] },
     ],
     cta: shopCta("Animated and static, in one pack", "Every pack includes .WEBM and .PNG versions. Browse 125+ on Etsy and download instantly."),
@@ -349,8 +349,8 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     keywords: ["stream on low-end PC", "low spec streaming", "stream without lag", "lightweight stream overlay"],
     heroImage: IMG_WOLF,
     body: [
-      { paragraphs: ["You can run a clean, good-looking stream on modest hardware — you just have to be smart about what you load."] },
-      { heading: "Keep overlays lightweight", paragraphs: ["Use one animated screen, not five. The lightweight .WEBM files in every [pack]("+SHOP+") are far kinder to your CPU than heavy MP4s — and PNG versions are included for the lightest setups."] },
+      { paragraphs: ["You can run a clean, good-looking stream on modest hardware - you just have to be smart about what you load."] },
+      { heading: "Keep overlays lightweight", paragraphs: ["Use one animated screen, not five. The lightweight .WEBM files in every [pack]("+SHOP+") are far kinder to your CPU than heavy MP4s - and PNG versions are included for the lightest setups."] },
       { heading: "Tune OBS", paragraphs: ["Hardware encoding, a sensible bitrate, and hardware decoding on Media Sources. Our [OBS lag fixes](/blog/why-is-my-obs-overlay-lagging) cover it."] },
       { heading: "Look good without the cost", paragraphs: ["A cohesive theme makes even a simple setup look intentional. Browse the [shop]("+SHOP+") or [Etsy]("+ETSY+")."] },
     ],
@@ -361,7 +361,7 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     slug: "stream-overlay-mistakes-that-make-you-look-new",
     title: "7 Stream Overlay Mistakes That Make You Look New",
     excerpt:
-      "Little overlay slip-ups quietly signal 'beginner.' Here are the common ones — and how to fix them fast.",
+      "Little overlay slip-ups quietly signal 'beginner.' Here are the common ones - and how to fix them fast.",
     date: "May 2, 2026",
     isoDate: "2026-05-02",
     readingTime: "5 min read",
@@ -371,7 +371,7 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     body: [
       { paragraphs: ["You can fix most 'this person is new' signals in an afternoon. Here are the overlay mistakes viewers notice most."] },
       { heading: "Mismatched assets", paragraphs: ["A free overlay, random alerts, and stock panels don't go together. One coordinated [pack]("+SHOP+") solves it instantly."] },
-      { heading: "Blurry or wrong-sized images", paragraphs: ["Panels and emotes uploaded at the wrong size look amateur. Our packs are pre-sized — see the [dimensions guide](/blog/stream-overlay-dimensions-sizes-guide)."] },
+      { heading: "Blurry or wrong-sized images", paragraphs: ["Panels and emotes uploaded at the wrong size look amateur. Our packs are pre-sized - see the [dimensions guide](/blog/stream-overlay-dimensions-sizes-guide)."] },
       { heading: "Empty offline page and no BRB screen", paragraphs: ["Blank panels and dead air during breaks read as unfinished. Every [pack]("+SHOP+") fixes both. Grab one on [Etsy]("+ETSY+")."] },
     ],
     cta: shopCta("Fix the 'beginner' look fast", "A coordinated, correctly-sized pack solves the most common mistakes at once. Browse 125+ on Etsy."),
@@ -389,19 +389,19 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     keywords: ["overlay for cozy games", "match overlay to game", "stream overlay by genre", "cozy game overlay"],
     heroImage: IMG_CAT,
     body: [
-      { paragraphs: ["The best setups feel intentional — the overlay's mood matches the kind of games you stream. Here's how to line them up."] },
-      { heading: "Cozy and farming games", paragraphs: ["Stardew, Animal Crossing, Palia — pair them with warm, gentle overlays like the [cat]("+CAT+") and [cozy rooms]("+ROOM+") themes for a perfect match."] },
-      { heading: "Fantasy and RPGs", paragraphs: ["Sweeping, atmospheric games suit the dragon and Japanese themes — see the bestselling [Dragon Sakura pack](/shop/dragon-sakura-animated-stream-package)."] },
+      { paragraphs: ["The best setups feel intentional - the overlay's mood matches the kind of games you stream. Here's how to line them up."] },
+      { heading: "Cozy and farming games", paragraphs: ["Stardew, Animal Crossing, Palia - pair them with warm, gentle overlays like the [cat]("+CAT+") and [cozy rooms]("+ROOM+") themes for a perfect match."] },
+      { heading: "Fantasy and RPGs", paragraphs: ["Sweeping, atmospheric games suit the dragon and Japanese themes - see the bestselling [Dragon Sakura pack](/shop/dragon-sakura-animated-stream-package)."] },
       { heading: "Keep it readable over gameplay", paragraphs: ["Whatever you play, a calm overlay keeps the screen legible. Browse by vibe in the [shop]("+SHOP+")."] },
     ],
-    cta: shopCta("Match your vibe to your games", "Cozy, fantasy, lofi and more — find an overlay that fits your content. Browse 125+ on Etsy."),
+    cta: shopCta("Match your vibe to your games", "Cozy, fantasy, lofi and more - find an overlay that fits your content. Browse 125+ on Etsy."),
     resources: baseResources,
   },
   {
     slug: "build-a-stream-brand-kit",
     title: "How to Build a Complete Stream Brand Kit",
     excerpt:
-      "A brand kit keeps everything you make consistent. Here's what goes in one — and how to get it without a designer.",
+      "A brand kit keeps everything you make consistent. Here's what goes in one - and how to get it without a designer.",
     date: "Apr 30, 2026",
     isoDate: "2026-04-30",
     readingTime: "5 min read",
@@ -411,10 +411,10 @@ export const EXTRA_POSTS_2: BlogPost[] = [
     body: [
       { paragraphs: ["A brand kit is just your reusable look in one place: colors, theme, and a matching set of assets. It keeps everything you post recognizably you."] },
       { heading: "Start with one theme", paragraphs: ["Pick a single world from the [shop]("+SHOP+") and let it define your colors and mood."] },
-      { heading: "Gather the matching assets", paragraphs: ["Overlay, alerts, panels, emotes, offline banner — all coordinated. A complete [pack]("+SHOP+") is an instant brand kit."] },
-      { heading: "Use it everywhere", paragraphs: ["Stream, socials, thumbnails — same look across the board. Grab your kit on [Etsy]("+ETSY+") and stay consistent."] },
+      { heading: "Gather the matching assets", paragraphs: ["Overlay, alerts, panels, emotes, offline banner - all coordinated. A complete [pack]("+SHOP+") is an instant brand kit."] },
+      { heading: "Use it everywhere", paragraphs: ["Stream, socials, thumbnails - same look across the board. Grab your kit on [Etsy]("+ETSY+") and stay consistent."] },
     ],
-    cta: shopCta("Your instant brand kit", "A complete animated pack is a brand kit in one download — screens, alerts, panels, emotes. Browse 125+ on Etsy."),
+    cta: shopCta("Your instant brand kit", "A complete animated pack is a brand kit in one download - screens, alerts, panels, emotes. Browse 125+ on Etsy."),
     resources: baseResources,
   },
 ];

@@ -29,11 +29,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const product = await getProductBySlug(params.slug);
   if (!product) return { title: "Pack not found" };
-  // Use the real Etsy listing title — it's already keyword-optimised — but keep
+  // Use the real Etsy listing title - it's already keyword-optimised - but keep
   // it short enough for a search result.
   const title =
     product.title.length > 65
-      ? `${product.name} — Animated Stream Overlay`
+      ? `${product.name} - Animated Stream Overlay`
       : product.title;
   return {
     title,
@@ -255,7 +255,7 @@ export default async function ProductDetailPage({
                       📦 How delivery works
                     </summary>
                     <p className="mt-3 text-sm text-body">
-                      Instant digital download — nothing physical ships. Your
+                      Instant digital download - nothing physical ships. Your
                       purchase delivers a PDF containing a direct link to a
                       Google Drive folder with the complete package (animated
                       .WEBM with transparency, plus .PNG versions), ready to
@@ -267,10 +267,10 @@ export default async function ProductDetailPage({
                       📜 License &amp; refunds
                     </summary>
                     <p className="mt-3 text-sm text-body">
-                      Licensed for personal use on your own channels — resale or
+                      Licensed for personal use on your own channels - resale or
                       redistribution isn&apos;t allowed. Because these are
                       digital products, orders can&apos;t be refunded, but
-                      we&apos;ll always help fix any issue — message us and
+                      we&apos;ll always help fix any issue - message us and
                       we&apos;ll make it right. Small tweak requests are often
                       free.
                     </p>
@@ -323,7 +323,7 @@ export default async function ProductDetailPage({
               </div>
             )}
 
-            {/* Etsy listing tags — the shop's own keywords */}
+            {/* Etsy listing tags - the shop's own keywords */}
             {product.tags.length > 0 && (
               <div className="mt-10 max-w-3xl">
                 <h2 className="text-xs font-bold uppercase tracking-wide text-muted">

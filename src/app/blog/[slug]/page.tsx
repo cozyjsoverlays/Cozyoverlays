@@ -128,7 +128,7 @@ export default function BlogPostPage({ params }: PageProps) {
               ))}
             </div>
 
-            {/* Primary call-to-action — drive readers to the shop / Etsy */}
+            {/* Primary call-to-action - drive readers to the shop / Etsy */}
             {post.cta && (
               <Reveal>
                 <div className="mt-12 overflow-hidden rounded-2xl border border-lavender/30 bg-gradient-to-br from-surface-2 to-surface p-7 shadow-card">

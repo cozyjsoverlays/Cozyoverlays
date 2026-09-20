@@ -9,9 +9,9 @@ import { TOOL_CTA } from "@/lib/tools-config";
 import { SITE } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "Twitch Emote & Badge Previewer — See Every Size in Real Chat (Free)",
+  title: "Twitch Emote & Badge Previewer - See Every Size in Real Chat (Free)",
   description:
-    "Free Twitch emote tester: drop in your emote or sub badge and preview it at 112, 56 and 28px in real Twitch, Discord and YouTube chat mockups (light & dark). Runs in your browser — nothing uploaded.",
+    "Free Twitch emote tester: drop in your emote or sub badge and preview it at 112, 56 and 28px in real Twitch, Discord and YouTube chat mockups (light & dark). Runs in your browser - nothing uploaded.",
   keywords: [
     "twitch emote previewer",
     "emote tester",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const FAQS: Faq[] = [
   {
     q: "What size should a Twitch emote be?",
-    a: "Twitch emotes are uploaded as a single high-resolution image and displayed at three sizes: 112×112, 56×56 and 28×28 pixels. Design at 112×112 (or larger and scale down) with a transparent background, and make sure the artwork still reads clearly at 28×28 — that's the size used in chat.",
+    a: "Twitch emotes are uploaded as a single high-resolution image and displayed at three sizes: 112×112, 56×56 and 28×28 pixels. Design at 112×112 (or larger and scale down) with a transparent background, and make sure the artwork still reads clearly at 28×28 - that's the size used in chat.",
   },
   {
     q: "What size is a Twitch sub badge?",
@@ -40,7 +40,7 @@ const FAQS: Faq[] = [
   },
   {
     q: "Is this emote previewer free, and are my files uploaded?",
-    a: "It's completely free with no login. Everything runs locally in your browser using your device — your image is never uploaded to a server. You can refresh the page and it's gone.",
+    a: "It's completely free with no login. Everything runs locally in your browser using your device - your image is never uploaded to a server. You can refresh the page and it's gone.",
   },
   {
     q: "Does it support animated emotes (GIF)?",
@@ -77,13 +77,13 @@ export default function EmotePreviewerPage() {
             <span className="gradient-text">Previewer</span>
           </>
         }
-        subtitle="Drop in your emote or sub badge and see it at every native size — live in Twitch, Discord and YouTube chat. Everything runs in your browser; your files never leave your device."
+        subtitle="Drop in your emote or sub badge and see it at every native size - live in Twitch, Discord and YouTube chat. Everything runs in your browser; your files never leave your device."
       >
         <EmotePreviewer />
 
         <ToolCTA
           heading="Need emotes that read clean at every size?"
-          text="Our packs include emotes, sub badges, panels and alerts designed to stay crisp from 112px all the way down to 28px — themed to one cozy world. Browse 125+ and download instantly from Etsy."
+          text="Our packs include emotes, sub badges, panels and alerts designed to stay crisp from 112px all the way down to 28px - themed to one cozy world. Browse 125+ and download instantly from Etsy."
           href={TOOL_CTA.emotes}
           label="Browse our packs"
         />

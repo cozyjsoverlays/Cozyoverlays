@@ -9,15 +9,15 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { LINKS, SITE } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "Custom Animated Stream Overlay Commission — Your Channel, Bespoke",
+  title: "Custom Animated Stream Overlay Commission - Your Channel, Bespoke",
   description:
-    "Commission a fully custom animated overlay pack — screens, alerts, emotes and badges built around your character and vibe. Full pack bundle now $99.87 (was $399.50).",
+    "Commission a fully custom animated overlay pack - screens, alerts, emotes and badges built around your character and vibe. Full pack bundle now $99.87 (was $399.50).",
   alternates: { canonical: "/custom" },
   openGraph: {
     type: "website",
     title: "Custom Overlay Commission · CozyOverlays",
     description:
-      "A fully bespoke animated overlay pack for your channel — $99.87 (was $399.50).",
+      "A fully bespoke animated overlay pack for your channel - $99.87 (was $399.50).",
     url: `${SITE.url}/custom`,
   },
 };
@@ -38,15 +38,15 @@ const FAQS: Faq[] = [
   },
   {
     q: "How many revisions do I get?",
-    a: "Reasonable revisions are included — small tweaks are always free. We keep going until the pack feels like your channel.",
+    a: "Reasonable revisions are included - small tweaks are always free. We keep going until the pack feels like your channel.",
   },
   {
     q: "What formats do I receive?",
-    a: "OBS-ready files: transparent looping .WEBM for animated pieces, .PNG stills, emotes at 112/56/28 and badges at 72/36/18 — everything sized for Twitch, Kick, YouTube and TikTok.",
+    a: "OBS-ready files: transparent looping .WEBM for animated pieces, .PNG stills, emotes at 112/56/28 and badges at 72/36/18 - everything sized for Twitch, Kick, YouTube and TikTok.",
   },
   {
     q: "How do I start?",
-    a: "Fill the brief below (it writes itself), then order the Custom Full Pack Bundle on Etsy and send us the brief — or message us on Etsy first if you have questions.",
+    a: "Fill the brief below (it writes itself), then order the Custom Full Pack Bundle on Etsy and send us the brief - or message us on Etsy first if you have questions.",
   },
 ];
 
@@ -67,7 +67,7 @@ export default function CustomPage() {
               <span className="gradient-text">just for your channel</span>
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-lg text-body">
-              Your character, your palette, your vibe — a complete animated pack
+              Your character, your palette, your vibe - a complete animated pack
               designed from scratch so no other stream looks like yours.
             </p>
             <div className="mt-6 flex items-baseline justify-center gap-3">
@@ -114,7 +114,7 @@ export default function CustomPage() {
               Start your brief
             </h2>
             <p className="mt-2 max-w-2xl text-body">
-              Answer a few questions and get a ready-to-send commission brief —
+              Answer a few questions and get a ready-to-send commission brief -
               copy it into your Etsy order message and we&apos;ll take it from
               there.
             </p>

@@ -3,7 +3,7 @@ import { ProductGrid } from "@/components/commerce/ProductGrid";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export async function FeaturedShop() {
-  // The homepage shows the whole shop — filterable, revealed via "Load more".
+  // The homepage shows the whole shop - filterable, revealed via "Load more".
   const products = await getAllProducts();
 
   return (
@@ -17,7 +17,7 @@ export async function FeaturedShop() {
               <span className="gradient-text">chat will love</span>
             </>
           }
-          subtitle={`All ${products.length} animated packs — screens, alerts, panels & emotes for Twitch, YouTube & Kick. Buy securely on Etsy, download instantly.`}
+          subtitle={`All ${products.length} animated packs - screens, alerts, panels & emotes for Twitch, YouTube & Kick. Buy securely on Etsy, download instantly.`}
         />
 
         <div className="mt-10">

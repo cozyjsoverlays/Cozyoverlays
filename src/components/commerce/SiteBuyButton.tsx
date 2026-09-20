@@ -7,7 +7,7 @@ import { PAYPAL_CLIENT_ID } from "@/data/site";
 import { clsx } from "@/lib/clsx";
 
 /**
- * "Buy on Site" — direct purchase via PayPal Smart Buttons, fully client-side
+ * "Buy on Site" - direct purchase via PayPal Smart Buttons, fully client-side
  * (static-export friendly: no server, no API routes). The PayPal JS SDK is
  * lazy-loaded only when a buyer opens the modal. After capture, the buyer sees
  * a confirmation; fulfillment is manual (PayPal emails the shop each sale, and
@@ -164,7 +164,7 @@ export function SiteBuyButton({ name, price, large = false }: SiteBuyButtonProps
                     PayPal email shortly.
                   </p>
                   <p className="mt-3 inline-flex items-center gap-1.5 text-xs text-muted">
-                    <Mail size={13} /> Check your inbox (and spam) — questions?
+                    <Mail size={13} /> Check your inbox (and spam) - questions?
                     Reply to the receipt email.
                   </p>
                 </div>
@@ -187,7 +187,7 @@ export function SiteBuyButton({ name, price, large = false }: SiteBuyButtonProps
                     )}
                     {stage === "error" && (
                       <p className="rounded-xl bg-pink/10 px-4 py-3 text-sm text-pink">
-                        Couldn&apos;t load PayPal checkout. Please try again — or
+                        Couldn&apos;t load PayPal checkout. Please try again - or
                         use the &quot;Buy on Etsy&quot; button instead.
                       </p>
                     )}

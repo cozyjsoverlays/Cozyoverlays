@@ -89,10 +89,10 @@ function describe(name) {
     const kind = /panel/i.test(name)
       ? "profile panels for your channel"
       : "Twitch sub badges, bit badges and channel-point icons";
-    return theme ? `${theme} — a cozy set of ${kind}.` : `A cozy set of ${kind}.`;
+    return theme ? `${theme} - a cozy set of ${kind}.` : `A cozy set of ${kind}.`;
   }
   return theme
-    ? `${theme} — cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.`
+    ? `${theme} - cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.`
     : "Cozy animated stream overlays: screens, alerts, panels & emotes.";
 }
 

@@ -142,7 +142,7 @@ export function EmoteResizer() {
           {/* Warnings */}
           {notSquare && (
             <p className="inline-flex items-center gap-2 rounded-xl bg-pink/10 px-4 py-2.5 text-sm text-pink">
-              <AlertTriangle size={15} /> Your image isn&apos;t square ({srcDims!.w}×{srcDims!.h}). It&apos;s been centered with transparent padding — for best results, start from a square canvas.
+              <AlertTriangle size={15} /> Your image isn&apos;t square ({srcDims!.w}×{srcDims!.h}). It&apos;s been centered with transparent padding - for best results, start from a square canvas.
             </p>
           )}
 
@@ -200,7 +200,7 @@ export function EmoteResizer() {
               Start over
             </button>
             <span className="inline-flex items-center gap-1.5 text-xs text-cyan">
-              <CheckCircle2 size={13} /> Resized in your browser — nothing uploaded.
+              <CheckCircle2 size={13} /> Resized in your browser - nothing uploaded.
             </span>
           </div>
         </>

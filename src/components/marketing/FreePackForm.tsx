@@ -80,7 +80,7 @@ export function FreePackForm() {
       </div>
       {status === "error" && (
         <p className="text-sm font-semibold text-pink">
-          That email doesn&apos;t look right — mind checking it?
+          That email doesn&apos;t look right - mind checking it?
         </p>
       )}
       <p className="text-xs text-muted">

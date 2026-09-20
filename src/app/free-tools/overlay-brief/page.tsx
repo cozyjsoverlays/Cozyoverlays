@@ -9,7 +9,7 @@ import { TOOL_CTA } from "@/lib/tools-config";
 import { SITE } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "Stream Overlay Brief Generator — Plan Your Custom Cozy Pack (Free)",
+  title: "Stream Overlay Brief Generator - Plan Your Custom Cozy Pack (Free)",
   description:
     "Free overlay brief generator: answer a few cozy questions and get a ready-to-use brief for commissioning or generating a custom stream-overlay pack. Runs in your browser.",
   keywords: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const FAQS: Faq[] = [
   {
     q: "What is a stream overlay brief?",
-    a: "It's a clear, structured description of the overlay pack you want — your channel, vibe, aesthetic, the assets you need (Starting Soon, BRB, alerts, panels, emotes, badges) and the production specs. A good brief gets you a more accurate result whether you commission a designer or use an AI image generator.",
+    a: "It's a clear, structured description of the overlay pack you want - your channel, vibe, aesthetic, the assets you need (Starting Soon, BRB, alerts, panels, emotes, badges) and the production specs. A good brief gets you a more accurate result whether you commission a designer or use an AI image generator.",
   },
   {
     q: "How do I use the generated brief?",
@@ -40,7 +40,7 @@ const FAQS: Faq[] = [
   },
   {
     q: "Is this free and private?",
-    a: "Yes — it's completely free, no login, and everything runs in your browser. Nothing you type is uploaded or stored on a server.",
+    a: "Yes - it's completely free, no login, and everything runs in your browser. Nothing you type is uploaded or stored on a server.",
   },
   {
     q: "Can you make the pack for me?",
@@ -73,13 +73,13 @@ export default function OverlayBriefPage() {
             <span className="gradient-text">Generator</span>
           </>
         }
-        subtitle="Answer a few cozy questions about your channel and get a ready-to-use brief — perfect for commissioning a custom pack or generating one yourself. Everything runs in your browser; nothing is stored."
+        subtitle="Answer a few cozy questions about your channel and get a ready-to-use brief - perfect for commissioning a custom pack or generating one yourself. Everything runs in your browser; nothing is stored."
       >
         <BriefGenerator />
 
         <ToolCTA
           heading="Want us to bring your brief to life?"
-          text="CozyJsStudio designs cozy custom overlay packs — or grab a ready-made one from 125+ in the shop. Browse and download instantly from Etsy."
+          text="CozyJsStudio designs cozy custom overlay packs - or grab a ready-made one from 125+ in the shop. Browse and download instantly from Etsy."
           href={TOOL_CTA.shop}
           label="Browse the packs"
         />

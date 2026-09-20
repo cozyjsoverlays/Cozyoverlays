@@ -72,7 +72,7 @@ export function ProductLightbox({ product, onClose }: ProductLightboxProps) {
                   playsInline
                   controls
                   aria-label={`Animated preview of the ${product.name} stream overlay pack`}
-                  title={`${product.name} — animated stream overlay preview`}
+                  title={`${product.name} - animated stream overlay preview`}
                 />
               ) : (
                 // eslint-disable-next-line @next/next/no-img-element

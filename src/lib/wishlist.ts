@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 
 /**
- * Wishlist ("Save ♡") — localStorage-backed, no account needed.
+ * Wishlist ("Save ♡") - localStorage-backed, no account needed.
  * All hearts + the navbar badge stay in sync via a window event.
  */
 

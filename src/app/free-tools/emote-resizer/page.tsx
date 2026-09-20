@@ -9,9 +9,9 @@ import { TOOL_CTA } from "@/lib/tools-config";
 import { SITE } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "Twitch Emote Resizer — Make 112/56/28px Emotes Free (No Upload)",
+  title: "Twitch Emote Resizer - Make 112/56/28px Emotes Free (No Upload)",
   description:
-    "Free Twitch emote & badge resizer: drop one image and download every required size (112/56/28, badges 72/36/18, Discord 128, YouTube) as PNGs or a .zip. Runs in your browser — nothing uploaded.",
+    "Free Twitch emote & badge resizer: drop one image and download every required size (112/56/28, badges 72/36/18, Discord 128, YouTube) as PNGs or a .zip. Runs in your browser - nothing uploaded.",
   keywords: [
     "twitch emote resizer",
     "emote size converter",
@@ -73,7 +73,7 @@ export default function EmoteResizerPage() {
             <span className="gradient-text">Resizer</span>
           </>
         }
-        subtitle="Drop one high-res image and download every required size — Twitch emotes & badges, Discord and YouTube emojis — as PNGs or a single .zip. All done in your browser; your files never leave your device."
+        subtitle="Drop one high-res image and download every required size - Twitch emotes & badges, Discord and YouTube emojis - as PNGs or a single .zip. All done in your browser; your files never leave your device."
       >
         <EmoteResizer />
 

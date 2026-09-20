@@ -40,7 +40,7 @@ export function ShareButton({ slug, name, image }: ShareButtonProps) {
         await navigator.share({ title: name, text, url });
         return;
       } catch {
-        /* user cancelled or unsupported — fall through to popover */
+        /* user cancelled or unsupported - fall through to popover */
       }
     }
     setOpen((v) => !v);

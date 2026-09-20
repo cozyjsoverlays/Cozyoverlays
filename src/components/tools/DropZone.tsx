@@ -12,7 +12,7 @@ interface DropZoneProps {
 }
 
 /**
- * Drag-and-drop / click file picker. Purely local — it hands File objects to
+ * Drag-and-drop / click file picker. Purely local - it hands File objects to
  * the parent, which reads them in the browser. Nothing is ever uploaded.
  */
 export function DropZone({

@@ -1,7 +1,7 @@
 /**
  * Minimal in-memory rate limiter (fixed window). Good enough for a single
  * instance / local dev. For multi-instance production, swap this implementation
- * for Upstash Redis (`@upstash/ratelimit`) — the `rateLimit` signature stays
+ * for Upstash Redis (`@upstash/ratelimit`) - the `rateLimit` signature stays
  * the same so call sites don't change.
  */
 

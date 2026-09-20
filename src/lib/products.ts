@@ -15,7 +15,7 @@ function listingId(etsy?: string): string | null {
  * scripts/sync-rss.mjs). CSV packs win on any duplicate slug or listing id;
  * new RSS packs are shown first.
  */
-/** Etsy image fingerprint — the numeric asset id identifies the same artwork
+/** Etsy image fingerprint - the numeric asset id identifies the same artwork
  *  even when the URL size/hash segments differ. */
 function imageKey(image?: string): string | null {
   const m = (image || "").match(/\/(\d{9,})\//);
@@ -24,9 +24,9 @@ function imageKey(image?: string): string | null {
 
 const ALL_PACKS: Pack[] = (() => {
   // Merge CSV + RSS-synced packs, then collapse entries that are really the
-  // same product. The same pack can arrive twice — once from the CSV export
+  // same product. The same pack can arrive twice - once from the CSV export
   // (long truncated slug, often no deep-link) and once from the store sync
-  // (clean slug + exact listing URL) — so dedupe on slug, listing id AND
+  // (clean slug + exact listing URL) - so dedupe on slug, listing id AND
   // artwork, keeping whichever entry actually deep-links to its listing.
   const merged = [...(rssPacks as Pack[]), ...PACKS];
   const bySlug = new Map<string, Pack>();
@@ -63,7 +63,7 @@ const ALL_PACKS: Pack[] = (() => {
     if (rivalSlug) {
       const rival = bySlug.get(rivalSlug);
       if (rival) {
-        // Same product seen twice — fold the two records together under the
+        // Same product seen twice - fold the two records together under the
         // incumbent's slug (it was first, so links to it already exist).
         bySlug.set(rivalSlug, { ...combine(rival, pack), slug: rival.slug });
         if (id) byId.set(id, rivalSlug);
@@ -109,7 +109,7 @@ export interface ProductDTO {
 
 /**
  * The storefront reads from the STATIC catalog in `src/data/packs.ts`. The site
- * is a static export that sells on Etsy, so there's no database or server — it
+ * is a static export that sells on Etsy, so there's no database or server - it
  * deploys as plain files on any host.
  */
 
@@ -121,7 +121,7 @@ function priceToCents(price: string): number {
 
 /**
  * Packs synced from the RSS feed arrive with only a name, price and cover
- * photo — the feed carries nothing else. Rather than leaving those pages thin,
+ * photo - the feed carries nothing else. Rather than leaving those pages thin,
  * fall back to what is genuinely true of every pack in this shop: the delivery
  * method and the file formats. No pack-specific claims are invented.
  */
@@ -130,10 +130,10 @@ function standardDetails(p: Pack): string {
     ? p.features.join(", ")
     : "animated screens, alerts and panels";
   return [
-    `${p.name} — a cozy animated set for Twitch, YouTube, Kick and TikTok.`,
+    `${p.name} - a cozy animated set for Twitch, YouTube, Kick and TikTok.`,
     "",
     "INSTANT DIGITAL DOWNLOAD",
-    "This is a digital product — nothing physical will be shipped.",
+    "This is a digital product - nothing physical will be shipped.",
     "When you purchase, you receive a PDF containing a direct link to a Google Drive folder with the complete package.",
     "",
     "Package includes",

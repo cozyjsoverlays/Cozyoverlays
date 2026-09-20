@@ -5,7 +5,7 @@ export const SITE = {
   shop: "CozyJsStudio",
   url: "https://cozyoverlays.com",
   tagline:
-    "Animated stream overlay packs that feel alive & cozy — for Twitch, YouTube, Kick & TikTok.",
+    "Animated stream overlay packs that feel alive & cozy - for Twitch, YouTube, Kick & TikTok.",
   avatar:
     "https://i.etsystatic.com/61635066/r/isla/962937/85081868/isla_180x180.85081868_iwuxhcgu.jpg",
 } as const;
@@ -17,11 +17,11 @@ export const SITE = {
  */
 export const BUY_ON_ETSY = true;
 
-/** Etsy shop home — fallback target when a pack has no specific listing URL. */
+/** Etsy shop home - fallback target when a pack has no specific listing URL. */
 export const ETSY_SHOP_URL = "https://cozyjsstudio.etsy.com";
 
 /**
- * Direct on-site purchase via PayPal Smart Buttons (runs fully in the browser —
+ * Direct on-site purchase via PayPal Smart Buttons (runs fully in the browser -
  * static-site friendly). Paste your LIVE PayPal **Client ID** (a public value,
  * safe to commit) from https://developer.paypal.com/dashboard/ → Apps & Credentials.
  * Leave empty to hide the "Buy on Site" button (Etsy stays the only option).
@@ -105,7 +105,7 @@ export const HOW_IT_WORKS = [
   },
   {
     title: "Pay with PayPal",
-    desc: "Check out securely in seconds — no account or Etsy detour required.",
+    desc: "Check out securely in seconds - no account or Etsy detour required.",
   },
   {
     title: "Instant Secure Download",
@@ -139,12 +139,12 @@ export const FAQ: FaqEntry[] = [
   {
     question: "How do I get my files?",
     answer:
-      "Instant digital download — nothing physical ships. Your purchase delivers a PDF containing a direct link to a Google Drive folder with the complete package: animated .WEBM files (transparent, loop-ready) plus .PNG versions.",
+      "Instant digital download - nothing physical ships. Your purchase delivers a PDF containing a direct link to a Google Drive folder with the complete package: animated .WEBM files (transparent, loop-ready) plus .PNG versions.",
   },
   {
     question: "Will these work with OBS and Streamlabs?",
     answer:
-      "Yes. Every animated screen ships as a transparent .WEBM you can drop into OBS Studio, Streamlabs, or StreamElements as a browser/media source. If Streamlabs gives you upload trouble, add the files manually the same way you would in OBS — they're standard .WEBM and .PNG.",
+      "Yes. Every animated screen ships as a transparent .WEBM you can drop into OBS Studio, Streamlabs, or StreamElements as a browser/media source. If Streamlabs gives you upload trouble, add the files manually the same way you would in OBS - they're standard .WEBM and .PNG.",
   },
   {
     question: "Which platforms and sizes are supported?",
@@ -154,12 +154,12 @@ export const FAQ: FaqEntry[] = [
   {
     question: "Can I request redesigns or extra assets?",
     answer:
-      "Yes — message us! Small tweaks are often free, and bigger additions are usually a small fee. For full personalization (your own character, palette, and emotes), grab a custom commission.",
+      "Yes - message us! Small tweaks are often free, and bigger additions are usually a small fee. For full personalization (your own character, palette, and emotes), grab a custom commission.",
   },
   {
     question: "What's your refund policy?",
     answer:
-      "Because these are instant-download digital goods, orders can't be refunded — but we'll always help fix any issue. Contact us and we'll make it right.",
+      "Because these are instant-download digital goods, orders can't be refunded - but we'll always help fix any issue. Contact us and we'll make it right.",
   },
   {
     question: "Do you take custom commissions?",

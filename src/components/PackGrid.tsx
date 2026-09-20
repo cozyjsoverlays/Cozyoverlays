@@ -35,7 +35,7 @@ export function PackGrid() {
               Cozy packs your <span className="gradient-text">chat will love</span>
             </>
           }
-          subtitle="Every pack is fully animated and includes screens, alerts, panels, and emotes — ready for OBS, Streamlabs, and StreamElements."
+          subtitle="Every pack is fully animated and includes screens, alerts, panels, and emotes - ready for OBS, Streamlabs, and StreamElements."
         />
 
         {/* Filter tabs */}

@@ -14,7 +14,7 @@ export function BrowseByAnimal() {
               Find <span className="gradient-text">your</span> creature
             </>
           }
-          subtitle="Pick the companion that matches your channel's vibe — there's a cozy world for everyone."
+          subtitle="Pick the companion that matches your channel's vibe - there's a cozy world for everyone."
         />
 
         <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">

@@ -19,19 +19,19 @@ export const COLLECTIONS: Collection[] = [
   {
     slug: "twitch-bundles",
     name: "Twitch Overlay Bundles",
-    blurb: "Complete animated bundles — screens, alerts, panels and more in one cozy set.",
+    blurb: "Complete animated bundles - screens, alerts, panels and more in one cozy set.",
     pattern: "package|bundle",
   },
   {
     slug: "cat-overlays",
     name: "Cat Twitch Overlays",
-    blurb: "Forest cats, sakura cats, gothic cats — a whole clowder of cozy.",
+    blurb: "Forest cats, sakura cats, gothic cats - a whole clowder of cozy.",
     categories: ["cat"],
   },
   {
     slug: "cute-animals",
     name: "Cute Animal Overlays",
-    blurb: "Otters, frogs, pandas, turtles and friends — the softest corner of the shop.",
+    blurb: "Otters, frogs, pandas, turtles and friends - the softest corner of the shop.",
     categories: ["bear", "frog"],
   },
   {
@@ -67,7 +67,7 @@ export const COLLECTIONS: Collection[] = [
   {
     slug: "otter-overlays",
     name: "Otter Twitch Overlays",
-    blurb: "Playful otters — under the sea and deep in the forest.",
+    blurb: "Playful otters - under the sea and deep in the forest.",
     pattern: "otter",
   },
   {

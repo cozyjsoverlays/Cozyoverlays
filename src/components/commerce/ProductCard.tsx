@@ -29,7 +29,7 @@ export function ProductCard({ product, onOpenMedia }: ProductCardProps) {
       ? Math.round(100 - (product.priceCents / product.compareAtCents) * 100)
       : null;
 
-  // Hovering plays the pack's own listing photos as a slideshow — a real
+  // Hovering plays the pack's own listing photos as a slideshow - a real
   // preview of what's inside, without needing a video file.
   useEffect(() => {
     if (!hover || !canFlip) return;
@@ -65,7 +65,7 @@ export function ProductCard({ product, onOpenMedia }: ProductCardProps) {
           below sit above it with a higher z-index so they still work. */}
       <Link
         href={`/shop/${product.slug}`}
-        aria-label={`View ${product.name} — animated stream overlay pack`}
+        aria-label={`View ${product.name} - animated stream overlay pack`}
         className="absolute inset-0 z-10"
       >
         <span className="sr-only">View {product.name}</span>
@@ -79,7 +79,7 @@ export function ProductCard({ product, onOpenMedia }: ProductCardProps) {
             alt={
               i === 0
                 ? packImageAlt(product.name, product.category)
-                : `${product.name} — preview photo ${i + 1}`
+                : `${product.name} - preview photo ${i + 1}`
             }
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -99,7 +99,7 @@ export function ProductCard({ product, onOpenMedia }: ProductCardProps) {
             playsInline
             preload="none"
             aria-label={`Animated preview of the ${product.name} stream overlay pack`}
-            title={`${product.name} — animated stream overlay preview`}
+            title={`${product.name} - animated stream overlay preview`}
             className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-500 ${
               hover ? "opacity-100" : "opacity-0"
             }`}

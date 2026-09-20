@@ -10,15 +10,15 @@ import { TOOLS, TOOL_CTA } from "@/lib/tools-config";
 import { SITE } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "Free Tools for Streamers — Emote Previewer, Resizer & More",
+  title: "Free Tools for Streamers - Emote Previewer, Resizer & More",
   description:
-    "Free, no-login browser tools for streamers: preview Twitch emotes & badges at every size, resize emotes, and more. Everything runs on your device — files never leave your browser.",
+    "Free, no-login browser tools for streamers: preview Twitch emotes & badges at every size, resize emotes, and more. Everything runs on your device - files never leave your browser.",
   alternates: { canonical: "/free-tools" },
   openGraph: {
     type: "website",
     title: "Free Tools for Streamers · CozyOverlays",
     description:
-      "Cozy, free browser tools for streamers — emote previewer, resizer and more. No login, nothing uploaded.",
+      "Cozy, free browser tools for streamers - emote previewer, resizer and more. No login, nothing uploaded.",
     url: `${SITE.url}/free-tools`,
   },
 };
@@ -30,7 +30,7 @@ export default function FreeToolsPage() {
     name: "Free Tools for Streamers",
     url: `${SITE.url}/free-tools`,
     description:
-      "Free, no-login browser tools for streamers by CozyJsStudio — emote & badge previewer, resizer and more.",
+      "Free, no-login browser tools for streamers by CozyJsStudio - emote & badge previewer, resizer and more.",
   };
 
   return (
@@ -49,7 +49,7 @@ export default function FreeToolsPage() {
               <span className="gradient-text">Streamers</span>
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-lg text-body">
-              A cozy little toolbox for Twitch, YouTube & Kick creators — preview
+              A cozy little toolbox for Twitch, YouTube & Kick creators - preview
               and resize emotes, check sizes, and more. No login, no sign-up, and
               your files never leave your device.
             </p>
@@ -100,7 +100,7 @@ export default function FreeToolsPage() {
 
             <div className="mx-auto mt-12 max-w-3xl">
               <ToolCTA
-                heading="Skip the work — get a matching pack"
+                heading="Skip the work - get a matching pack"
                 text="Our overlay packs already include emotes, badges, panels and alerts at every correct size, themed to one cozy world. Browse 125+ and download instantly from Etsy."
                 href={TOOL_CTA.shop}
                 label="Browse the packs"

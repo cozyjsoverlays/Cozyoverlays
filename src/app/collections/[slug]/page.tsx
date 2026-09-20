@@ -23,7 +23,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const c = getCollection(params.slug);
   if (!c) return { title: "Collection not found" };
   return {
-    title: `${c.name} — Animated Stream Overlay Packs`,
+    title: `${c.name} - Animated Stream Overlay Packs`,
     description: c.blurb,
     alternates: { canonical: `/collections/${c.slug}` },
     openGraph: {
@@ -83,7 +83,7 @@ export default function CollectionPage({ params }: PageProps) {
               <ProductGrid products={products} showFilters={false} />
             ) : (
               <p className="py-16 text-center text-body">
-                Nothing here yet — new packs drop often.{" "}
+                Nothing here yet - new packs drop often.{" "}
                 <Link href="/shop" className="font-bold text-lavender">
                   Browse everything
                 </Link>

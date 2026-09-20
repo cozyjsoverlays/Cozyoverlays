@@ -1,6 +1,6 @@
 /**
  * Single source of truth for the Free Tools section.
- * Platforms change their sizes/limits over time — edit them HERE only.
+ * Platforms change their sizes/limits over time - edit them HERE only.
  */
 
 import { LucideIcon } from "lucide-react";
@@ -15,7 +15,7 @@ export const PLATFORM = {
   discordEmoji: { size: 128, maxKB: 256, label: "Discord emoji" },
   youtubeEmoji: { size: 48, label: "YouTube custom emoji" },
   twitchPanelMaxWidth: 320,
-  // Recommended ceilings (kbps) — editable as platforms change.
+  // Recommended ceilings (kbps) - editable as platforms change.
   bitrate: {
     twitchMaxVideoKbps: 6000,
     youtubeMaxVideoKbps: 9000,

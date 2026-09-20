@@ -9,7 +9,7 @@ import { ChatPreview, type ChatTheme } from "@/components/tools/ChatPreview";
 import { PLATFORM } from "@/lib/tools-config";
 import { clsx } from "@/lib/clsx";
 
-// ── Built-in sample assets (CozyJsStudio's own simple SVGs — no copyrighted art).
+// ── Built-in sample assets (CozyJsStudio's own simple SVGs - no copyrighted art).
 const svg = (inner: string) =>
   `data:image/svg+xml;utf8,${encodeURIComponent(
     `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">${inner}</svg>`,
@@ -142,7 +142,7 @@ export function EmotePreviewer() {
         </div>
         {usingSample && (
           <span className="rounded-full bg-lavender/15 px-3 py-1 text-xs font-bold text-lavender">
-            Showing sample — drop your own above
+            Showing sample - drop your own above
           </span>
         )}
       </div>
@@ -153,7 +153,7 @@ export function EmotePreviewer() {
           Every {mode === "emote" ? "Twitch emote" : "Twitch badge"} size at once
         </h2>
         <p className="mt-1 text-sm text-muted">
-          Watch the smallest one — that&apos;s where detail dies. Aim for a bold, simple shape.
+          Watch the smallest one - that&apos;s where detail dies. Aim for a bold, simple shape.
         </p>
         <div className="mt-5 flex flex-wrap items-end gap-6">
           {sizes.map((size, i) => (

@@ -62,14 +62,14 @@ const EMPTY: Fields = {
 function buildBrief(d: Fields, sel: { platform: string[]; style: string[]; assets: string[] }) {
   const styles = [...sel.style];
   if (d.styleOther) styles.push(d.styleOther);
-  const styleStr = list(styles, "cozy — pick what fits the channel best");
+  const styleStr = list(styles, "cozy - pick what fits the channel best");
 
   const motions = [
     ...new Set(sel.style.flatMap((s) => (MOTION_BY_STYLE[s] || "").split(", ").filter(Boolean))),
   ];
   const motionStr = motions.length
     ? motions.slice(0, 4).join("; ")
-    : "one or two living details — e.g. rain on the window, a candle flicker, a breathing pet";
+    : "one or two living details - e.g. rain on the window, a candle flicker, a breathing pet";
 
   const assets = list(
     sel.assets,
@@ -78,7 +78,7 @@ function buildBrief(d: Fields, sel: { platform: string[]; style: string[]; asset
 
   const L: string[] = [];
   L.push(
-    "Design a cohesive, custom cozy stream-overlay pack — in the cozyoverlays.com house style. Make it feel like a *place*, not a template, and like nobody else's channel.",
+    "Design a cohesive, custom cozy stream-overlay pack - in the cozyoverlays.com house style. Make it feel like a *place*, not a template, and like nobody else's channel.",
   );
   L.push("");
   L.push("## The streamer");
@@ -91,7 +91,7 @@ function buildBrief(d: Fields, sel: { platform: string[]; style: string[]; asset
   L.push(`- Style: ${styleStr}`);
   L.push(`- Palette: ${d.colors || "a soft, cohesive cozy palette that suits the vibe"}`);
   L.push(`- Living details to include (subtle, looping): ${motionStr}.`);
-  L.push("- Mood: warm, soft, a little dreamy — calm but never flat. One signature detail the channel becomes known for.");
+  L.push("- Mood: warm, soft, a little dreamy - calm but never flat. One signature detail the channel becomes known for.");
   L.push("");
   L.push("## Assets to produce (one consistent set)");
   L.push(`- ${assets}`);
@@ -200,7 +200,7 @@ export function BriefGenerator() {
 
       <div>
         <label className={labelCls}>
-          Aesthetic <span className="font-medium text-muted">— pick any that fit</span>
+          Aesthetic <span className="font-medium text-muted">- pick any that fit</span>
         </label>
         <div className="flex flex-wrap gap-2">
           {STYLES.map((s) => (
@@ -241,7 +241,7 @@ export function BriefGenerator() {
         <label className={labelCls}>
           Email or Discord <span className="font-medium text-muted">(optional)</span>
         </label>
-        <input className={inputCls} value={f.email} onChange={set("email")} placeholder="So we can send your previews — leave blank otherwise." />
+        <input className={inputCls} value={f.email} onChange={set("email")} placeholder="So we can send your previews - leave blank otherwise." />
       </div>
 
       <button

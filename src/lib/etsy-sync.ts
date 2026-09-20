@@ -1,5 +1,5 @@
 /**
- * Core Etsy sync logic — runs a full paginated upsert from the shop's active listings.
+ * Core Etsy sync logic - runs a full paginated upsert from the shop's active listings.
  * Called by both /api/etsy/sync (admin-triggered) and /api/cron/etsy-sync (Vercel Cron).
  */
 

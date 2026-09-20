@@ -8,9 +8,9 @@ import { NewsletterCTA } from "@/components/NewsletterCTA";
 import { BLOG_POSTS } from "@/data/blog";
 
 export const metadata: Metadata = {
-  title: "Blog — Stream Setup Guides & Studio Stories",
+  title: "Blog - Stream Setup Guides & Studio Stories",
   description:
-    "Guides, tips, and behind-the-scenes stories from CozyJsStudio — OBS setup, choosing overlays, and the making of our cozy packs.",
+    "Guides, tips, and behind-the-scenes stories from CozyJsStudio - OBS setup, choosing overlays, and the making of our cozy packs.",
   alternates: { canonical: "/blog" },
 };
 
@@ -31,7 +31,7 @@ export default function BlogIndexPage() {
               </h1>
               <p className="mx-auto mt-5 max-w-2xl text-lg text-body">
                 Setup walkthroughs, design tips, and the stories behind the
-                packs — everything to help your channel feel alive.
+                packs - everything to help your channel feel alive.
               </p>
             </Reveal>
           </div>

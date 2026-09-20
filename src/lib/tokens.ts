@@ -9,7 +9,7 @@ import { env } from "@/lib/env";
  *   wasn't minted by us is rejected before we ever touch the database.
  *
  * The DB row (DownloadToken) holds the authoritative expiry, download cap, and
- * order linkage — the signature is just a cheap first gate.
+ * order linkage - the signature is just a cheap first gate.
  */
 
 function sign(id: string): string {
@@ -24,7 +24,7 @@ export function createDownloadToken(): { token: string; id: string } {
   return { token: `${id}.${sig}`, id };
 }
 
-/** Verify signature only (not expiry/limits — those are DB-enforced). */
+/** Verify signature only (not expiry/limits - those are DB-enforced). */
 export function verifyTokenSignature(token: string): boolean {
   const dot = token.lastIndexOf(".");
   if (dot <= 0) return false;

@@ -6,7 +6,7 @@ import { env, isPayPalConfigured, assertConfigured } from "@/lib/env";
  * We use the REST endpoints directly (OAuth2 client-credentials → create →
  * capture) rather than a heavyweight SDK so the integration is transparent and
  * version-stable. To swap to the official `@paypal/paypal-server-sdk`, replace
- * the bodies of `createOrder` / `captureOrder` — the call sites won't change.
+ * the bodies of `createOrder` / `captureOrder` - the call sites won't change.
  *
  * The client secret is read here and NEVER reaches the browser.
  */

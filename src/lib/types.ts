@@ -19,7 +19,7 @@ export type PackFeature =
 export interface Pack {
   slug: string;
   name: string;
-  /** Full Etsy listing title (keyword-rich) — used for SEO metadata. */
+  /** Full Etsy listing title (keyword-rich) - used for SEO metadata. */
   title?: string;
   category: PackCategory;
   price: string;
@@ -32,7 +32,7 @@ export interface Pack {
   image: string;
   /** Every listing photo, in Etsy's order (image is the first). */
   images?: string[];
-  /** Etsy listing tags — the seller's own keywords. */
+  /** Etsy listing tags - the seller's own keywords. */
   tags?: string[];
   video?: string;
   etsy: string;

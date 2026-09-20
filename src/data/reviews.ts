@@ -73,7 +73,7 @@ export const REVIEWS: Review[] = [
     date: "May 22, 2026",
     stars: 5,
     quote:
-      "Love it and I like dragons — it was such a fun theme, perfect for my stream!",
+      "Love it and I like dragons - it was such a fun theme, perfect for my stream!",
     pack: "Dragon Sakura Package",
   },
   {

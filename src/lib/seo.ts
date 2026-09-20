@@ -1,9 +1,9 @@
 /**
- * Central SEO helpers — descriptive alt text and keyword tags.
+ * Central SEO helpers - descriptive alt text and keyword tags.
  *
  * Alt text is written to be genuinely descriptive first (screen readers) and
  * keyword-bearing second: a readable sentence naming the pack, its theme and
- * the platforms it's for. No keyword stuffing — Google demotes that.
+ * the platforms it's for. No keyword stuffing - Google demotes that.
  */
 
 /** Human-readable theme per catalog category, used in alt text + tags. */
@@ -23,19 +23,19 @@ const PLATFORMS = "Twitch, YouTube, Kick and TikTok";
 
 /**
  * Alt text for a pack's preview image.
- * e.g. "Cat Forest — animated cat stream overlay pack for Twitch, YouTube,
+ * e.g. "Cat Forest - animated cat stream overlay pack for Twitch, YouTube,
  *       Kick and TikTok, showing screens, alerts and panels"
  */
 export function packImageAlt(name: string, category?: string | null): string {
   const theme = category ? CATEGORY_THEME[category] : undefined;
   const themed = theme ? `${theme} ` : "cozy ";
-  return `${name} — animated ${themed}stream overlay pack for ${PLATFORMS}, with Starting Soon, BRB and Ending screens, alerts and panels`;
+  return `${name} - animated ${themed}stream overlay pack for ${PLATFORMS}, with Starting Soon, BRB and Ending screens, alerts and panels`;
 }
 
 /** Shorter alt for small thumbnails (cart rows, galleries). */
 export function packThumbAlt(name: string, category?: string | null): string {
   const theme = category ? CATEGORY_THEME[category] : undefined;
-  return `${name} — animated ${theme ? `${theme} ` : "cozy "}stream overlay pack preview`;
+  return `${name} - animated ${theme ? `${theme} ` : "cozy "}stream overlay pack preview`;
 }
 
 /** Theme keywords derived from a pack's title. First match order matters little. */
@@ -57,7 +57,7 @@ const TAG_RULES: Array<[RegExp, string[]]> = [
 ];
 
 /**
- * Keyword tags for a pack — theme + category + platform terms.
+ * Keyword tags for a pack - theme + category + platform terms.
  * Used for meta keywords and the visible tag chips on product pages.
  */
 export function packTags(name: string, category?: string | null): string[] {

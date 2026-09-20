@@ -51,7 +51,7 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "CozyOverlays — Animated Stream Overlay Packs for Twitch & More",
+    default: "CozyOverlays - Animated Stream Overlay Packs for Twitch & More",
     template: "%s · CozyOverlays",
   },
   description:
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: SITE.url,
-    title: "CozyOverlays — Stream Overlays That Feel Alive & Cozy",
+    title: "CozyOverlays - Stream Overlays That Feel Alive & Cozy",
     description:
       "Animated overlay packs for Twitch, YouTube, Kick & TikTok. Etsy Star Seller · 4.9★ · 973+ sales.",
     siteName: SITE.name,
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CozyOverlays — Stream Overlays That Feel Alive & Cozy",
+    title: "CozyOverlays - Stream Overlays That Feel Alive & Cozy",
     description:
       "Animated overlay packs for Twitch, YouTube, Kick & TikTok. Etsy Star Seller · 4.9★ · 973+ sales.",
     creator: "@Cozyjsstudio",

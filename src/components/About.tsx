@@ -16,7 +16,7 @@ export function About() {
               />
               <Image
                 src={SITE.avatar}
-                alt="CozyJsStudio — Etsy Star Seller shop making animated cozy stream overlays for Twitch, YouTube, Kick and TikTok"
+                alt="CozyJsStudio - Etsy Star Seller shop making animated cozy stream overlays for Twitch, YouTube, Kick and TikTok"
                 width={180}
                 height={180}
                 className="rounded-3xl border border-subtle shadow-card"
@@ -49,7 +49,7 @@ export function About() {
               </p>
               <p>
                 Since 2025 we&apos;ve shipped 122 unique packs to streamers in
-                every corner of the world — earning Etsy Star Seller status and a
+                every corner of the world - earning Etsy Star Seller status and a
                 4.9-star average from real creators. No bloated templates, no
                 stock clip-art. Just cozy, clean, stream-ready design.
               </p>
