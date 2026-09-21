@@ -1,5 +1,20 @@
 [
   {
+    "slug": "witch-cat-calico-animated-overlay-pack",
+    "name": "Witch Cat Calico Animated Overlay Pack",
+    "category": "witchy",
+    "price": "$22.60",
+    "description": "Witch Cat Calico - cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/80776a/8600137821/il_570xN.8600137821_nnfc.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4579048904",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
     "slug": "witch-cat-animated-overlay-pack",
     "name": "Witch Cat Animated Overlay Pack",
     "category": "witchy",
