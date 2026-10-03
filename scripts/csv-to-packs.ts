@@ -289,9 +289,37 @@ function slugify(name: string): string {
     .slice(0, 60);
 }
 
+/**
+ * Distinctive subjects used to tell sibling listings apart. Whole families
+ * ("Animated Halloween Twitch Overlay Pack | Purple Gothic Raccoon ...") share
+ * an identical first segment and differ only after the pipe, so taking just
+ * that segment produced several packs with the same name and a numeric slug.
+ * Longest first so "red panda" wins over "panda".
+ */
+const SUBJECTS = [
+  "polar bear", "red panda", "calico cat", "orange tabby", "black cat",
+  "axolotl", "capybara", "raccoon", "corgi", "shiba", "akita", "bunny",
+  "rabbit", "monkey", "turtle", "koala", "snake", "swan", "raven", "dragon",
+  "panda", "otter", "wolf", "frog", "cat", "fox", "bear", "dog", "witch",
+  "samurai", "ghost", "bat", "pumpkin",
+];
+
 function cleanName(title: string): string {
   // The display name is the first segment before the first " | ".
   return title.split("|")[0].replace(/\s+/g, " ").trim();
+}
+
+/**
+ * Qualify a name with the subject named later in the title, so sibling
+ * listings get distinct names and slugs instead of colliding.
+ */
+function distinguish(name: string, title: string): string {
+  const hay = title.toLowerCase();
+  const lower = name.toLowerCase();
+  const subject = SUBJECTS.find((s) => hay.includes(s) && !lower.includes(s));
+  if (!subject) return name;
+  const Cap = subject.replace(/\b\w/g, (ch) => ch.toUpperCase());
+  return `${name} (${Cap})`;
 }
 
 function money(n: number): string {
@@ -433,11 +461,20 @@ function main() {
       continue;
     }
 
-    const name = cleanName(title);
+    let name = cleanName(title);
     let slug = slugify(name);
     if (!slug) {
       skipped++;
       continue;
+    }
+    // On a collision, qualify by the listing's own subject before falling back
+    // to a meaningless numeric suffix.
+    if (seen.has(slug)) {
+      const qualified = distinguish(name, title);
+      if (qualified !== name && !seen.has(slugify(qualified))) {
+        name = qualified;
+        slug = slugify(qualified);
+      }
     }
     while (seen.has(slug)) slug = `${slug}-${seen.size}`;
     seen.add(slug);

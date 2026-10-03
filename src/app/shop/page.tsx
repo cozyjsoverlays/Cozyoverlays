@@ -4,7 +4,9 @@ import { Footer } from "@/components/Footer";
 import { ProductGrid } from "@/components/commerce/ProductGrid";
 import { AuroraBackground } from "@/components/ui/AuroraBackground";
 import { Reveal } from "@/components/ui/Reveal";
-import { getAllProducts } from "@/lib/products";
+import Link from "next/link";
+import { getAllProducts, getCatalogPacks } from "@/lib/products";
+import { COLLECTIONS, packsInCollection } from "@/data/collections";
 
 export const metadata: Metadata = {
   title: "Shop - Animated Stream Overlay Packs",
@@ -15,6 +17,14 @@ export const metadata: Metadata = {
 
 export default async function ShopPage() {
   const products = await getAllProducts();
+
+  // Collection pages were only reachable from each other, so neither shoppers
+  // nor crawlers could find them. Surface every non-empty one here.
+  const packs = getCatalogPacks();
+  const collections = COLLECTIONS.map((c) => ({
+    ...c,
+    count: packsInCollection(packs, c).length,
+  })).filter((c) => c.count > 0);
 
   return (
     <>
@@ -39,7 +49,28 @@ export default async function ShopPage() {
           </div>
         </section>
 
-        <section className="section-pad pt-4">
+        <section className="pt-2">
+          <div className="container-page">
+            <h2 className="text-xs font-bold uppercase tracking-wide text-muted">
+              Shop by collection
+            </h2>
+            <ul className="mt-3 flex flex-wrap gap-2">
+              {collections.map((c) => (
+                <li key={c.slug}>
+                  <Link
+                    href={`/collections/${c.slug}`}
+                    className="inline-flex items-center gap-1.5 rounded-full border border-subtle bg-white/5 px-4 py-2 text-sm font-medium text-body transition-colors hover:border-lavender/40 hover:text-heading"
+                  >
+                    {c.name}
+                    <span className="text-xs text-muted">{c.count}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
+        <section className="section-pad pt-8">
           <div className="container-page">
             <ProductGrid products={products} syncUrl />
           </div>

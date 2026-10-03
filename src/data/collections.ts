@@ -89,6 +89,13 @@ export const COLLECTIONS: Collection[] = [
     pattern: "badge|bits\\b|icon",
   },
   {
+    slug: "channel-points",
+    name: "Channel Point Icons",
+    blurb:
+      "Custom channel-point reward icons so your redeem menu looks like the rest of your channel, not Twitch's defaults.",
+    pattern: "channel[ -]?point",
+  },
+  {
     slug: "custom",
     name: "Custom Overlays",
     blurb: "A fully bespoke animated pack, built around your channel.",
@@ -102,9 +109,15 @@ export function getCollection(slug: string): Collection | undefined {
 
 export function packsInCollection(packs: readonly Pack[], c: Collection): Pack[] {
   const re = c.pattern ? new RegExp(c.pattern, "i") : null;
-  return packs.filter(
-    (p) =>
-      (re ? re.test(p.name) : false) ||
-      (c.categories ? c.categories.includes(p.category) : false),
-  );
+  return packs.filter((p) => {
+    if (c.categories?.includes(p.category)) return true;
+    if (!re) return false;
+    // Match the name, then the pack's own Etsy tags. A pack called "Cozy Cats
+    // Jars Twitch Badges" never says "channel points" in its title even though
+    // the set includes them, so a name-only match hid most of the catalog.
+    // Tags are the seller's own keywords and stay precise; the full description
+    // is far too noisy (nearly every listing says "package" and "icons").
+    if (re.test(p.name)) return true;
+    return p.tags?.some((t) => re.test(t)) ?? false;
+  });
 }
