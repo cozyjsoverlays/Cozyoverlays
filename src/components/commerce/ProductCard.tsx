@@ -9,7 +9,7 @@ import type { ProductDTO } from "@/lib/products";
 import { formatCents } from "@/lib/money";
 import { AddToCartButtons } from "@/components/commerce/AddToCartButtons";
 import { WishlistButton } from "@/components/commerce/WishlistButton";
-import { packImageAlt } from "@/lib/seo";
+import { packGalleryAlt } from "@/lib/seo";
 
 interface ProductCardProps {
   product: ProductDTO;
@@ -76,11 +76,7 @@ export function ProductCard({ product, onOpenMedia }: ProductCardProps) {
           <Image
             key={src}
             src={src}
-            alt={
-              i === 0
-                ? packImageAlt(product.name, product.category)
-                : `${product.name} - preview photo ${i + 1}`
-            }
+            alt={packGalleryAlt(product.name, product.category, i)}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className={`object-cover transition-opacity duration-500 ${

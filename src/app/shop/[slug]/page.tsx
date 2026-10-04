@@ -14,6 +14,7 @@ import { COMPATIBILITY, BUY_ON_ETSY, SITE } from "@/data/site";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { WishlistButton } from "@/components/commerce/WishlistButton";
 import { ShareButton } from "@/components/commerce/ShareButton";
+import { packKeywords } from "@/lib/seo";
 
 // Prerender every product page as static HTML at build time (great for SEO and
 // crawl coverage). The catalog is static data, so no database is needed.
@@ -38,7 +39,12 @@ export async function generateMetadata({
   return {
     title,
     description: product.description,
-    keywords: product.tags.length ? product.tags : undefined,
+    // The shop's own Etsy tags first (most accurate), then the search phrases
+    // people actually type for this subject in both word orders.
+    keywords: [
+      ...product.tags,
+      ...packKeywords(product.name, product.category),
+    ].filter((v, i, a) => a.indexOf(v) === i),
     alternates: { canonical: `/shop/${product.slug}` },
     openGraph: {
       type: "website",
@@ -156,6 +162,14 @@ export default async function ProductDetailPage({
                 </span>
                 <h1 className="mt-3 text-[clamp(1.9rem,4vw,2.8rem)] font-extrabold leading-tight text-heading">
                   {product.name}
+                  {/* The full Etsy listing title. Shortened above so the page
+                      reads well, but kept here in full so a shopper searching
+                      the exact Etsy title still lands on this page. Screen
+                      readers get it too - it is the real product name, so it
+                      is accessible text rather than hidden keyword stuffing. */}
+                  {product.title !== product.name && (
+                    <span className="sr-only"> - {product.title}</span>
+                  )}
                 </h1>
                 <p className="mt-4 text-lg text-body">{product.description}</p>
 

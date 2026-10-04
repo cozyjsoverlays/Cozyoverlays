@@ -2,6 +2,7 @@ import { PACKS } from "@/data/packs";
 import rssPacks from "@/data/rss-packs.json";
 import type { Pack } from "@/lib/types";
 import { packTags } from "@/lib/seo";
+import { affiliateEtsyUrl } from "@/lib/etsy-url";
 
 /** Etsy listing id from a pack's buy URL (null when it falls back to the shop). */
 function listingId(etsy?: string): string | null {
@@ -166,7 +167,9 @@ function packToDTO(p: Pack): ProductDTO {
     features: p.features,
     bestseller: p.bestseller ?? false,
     isNew: p.isNew ?? false,
-    etsyUrl: p.etsy ?? null,
+    // Force every buy link onto the shop's own subdomain so the visit is
+    // credited to the shop, whatever the source data says.
+    etsyUrl: affiliateEtsyUrl(p.etsy),
   };
 }
 

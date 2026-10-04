@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Play, Maximize2 } from "lucide-react";
 import type { ProductDTO } from "@/lib/products";
 import { ProductLightbox } from "@/components/commerce/ProductLightbox";
-import { packImageAlt } from "@/lib/seo";
+import { packGalleryAlt } from "@/lib/seo";
 import { clsx } from "@/lib/clsx";
 
 export function ProductGallery({ product }: { product: ProductDTO }) {
@@ -38,7 +38,7 @@ export function ProductGallery({ product }: { product: ProductDTO }) {
         ) : (
           <Image
             src={current}
-            alt={packImageAlt(product.name, product.category)}
+            alt={packGalleryAlt(product.name, product.category, active)}
             fill
             priority
             sizes="(max-width: 1024px) 100vw, 50vw"
@@ -70,7 +70,7 @@ export function ProductGallery({ product }: { product: ProductDTO }) {
               >
                 <Image
                   src={src}
-                  alt={`${product.name} - preview photo ${i + 1}`}
+                  alt={packGalleryAlt(product.name, product.category, i)}
                   fill
                   sizes="120px"
                   className="object-cover"

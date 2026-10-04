@@ -43,10 +43,10 @@ export const NEWSLETTER_FORM_ACTION =
 export const LINKS = {
   etsy: "https://cozyjsstudio.etsy.com",
   etsyCats:
-    "https://www.etsy.com/shop/CozyJsStudio?section_id=56165083",
-  etsyContact: "https://www.etsy.com/messages/new?with_id=1121232907",
+    "https://cozyjsstudio.etsy.com?section_id=56165083",
+  etsyContact: "https://cozyjsstudio.etsy.com/messages/new?with_id=1121232907",
   etsyCustom:
-    "https://www.etsy.com/listing/4500763545/custom-animated-twitch-stream-overlay",
+    "https://cozyjsstudio.etsy.com/listing/4500763545/custom-animated-twitch-stream-overlay",
   youtube: "https://www.youtube.com/@cozyjsstudio",
   telegram: "https://t.me/Cozyjsstudio",
   pinterest: "https://www.pinterest.com/cozyjsstudio/",
