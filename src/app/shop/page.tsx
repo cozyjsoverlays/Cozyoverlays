@@ -51,9 +51,17 @@ export default async function ShopPage() {
 
         <section className="pt-2">
           <div className="container-page">
-            <h2 className="text-xs font-bold uppercase tracking-wide text-muted">
-              Shop by collection
-            </h2>
+            <div className="flex items-baseline justify-between gap-4">
+              <h2 className="text-xs font-bold uppercase tracking-wide text-muted">
+                Shop by collection
+              </h2>
+              <Link
+                href="/collections"
+                className="text-xs font-bold text-lavender transition-colors hover:text-pink"
+              >
+                All {collections.length} collections
+              </Link>
+            </div>
             <ul className="mt-3 flex flex-wrap gap-2">
               {collections.map((c) => (
                 <li key={c.slug}>

@@ -56,6 +56,7 @@ export const LINKS = {
 
 export const NAV_LINKS = [
   { label: "Shop", href: "/shop" },
+  { label: "Collections", href: "/collections" },
   { label: "Free Tools", href: "/free-tools" },
   { label: "Reviews", href: "/#reviews" },
   { label: "Tutorials", href: "/#tutorials" },

@@ -8,7 +8,8 @@ import { AuroraBackground } from "@/components/ui/AuroraBackground";
 import { ProductGallery } from "@/components/commerce/ProductGallery";
 import { RelatedProducts } from "@/components/commerce/RelatedProducts";
 import { AddToCartButtons } from "@/components/commerce/AddToCartButtons";
-import { getProductBySlug, getAllProducts } from "@/lib/products";
+import { getProductBySlug, getAllProducts, getCatalogPacks } from "@/lib/products";
+import { COLLECTIONS, packsInCollection } from "@/data/collections";
 import { formatCents } from "@/lib/money";
 import { COMPATIBILITY, BUY_ON_ETSY, SITE } from "@/data/site";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -85,6 +86,14 @@ export default async function ProductDetailPage({
     related.length > 0
       ? related
       : all.filter((p) => p.slug !== product.slug).slice(0, 3);
+
+  // Every collection this pack belongs to. These links are what makes the
+  // collection pages findable: without them each theme page is an island with
+  // nothing pointing into it.
+  const packs = getCatalogPacks();
+  const inCollections = COLLECTIONS.filter((c) =>
+    packsInCollection(packs, c).some((p) => p.slug === product.slug),
+  );
 
   const canonical = `${SITE.url}/shop/${product.slug}`;
   const saleOff =
@@ -357,6 +366,27 @@ export default async function ProductDetailPage({
             )}
           </div>
         </section>
+
+        {/* Collections this pack belongs to */}
+        {inCollections.length > 0 && (
+          <section className="container-page pb-4">
+            <h2 className="text-sm font-bold uppercase tracking-wide text-muted">
+              Browse more like this
+            </h2>
+            <ul className="mt-3 flex flex-wrap gap-2">
+              {inCollections.map((c) => (
+                <li key={c.slug}>
+                  <Link
+                    href={`/collections/${c.slug}`}
+                    className="rounded-full border border-subtle bg-white/5 px-4 py-2 text-sm font-medium text-body transition-colors hover:border-lavender/40 hover:text-heading"
+                  >
+                    {c.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {/* Related */}
         <section className="section-pad border-t border-subtle pt-16">

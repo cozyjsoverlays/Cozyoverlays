@@ -7,7 +7,13 @@ import { Footer } from "@/components/Footer";
 import { AuroraBackground } from "@/components/ui/AuroraBackground";
 import { ProductGrid } from "@/components/commerce/ProductGrid";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { COLLECTIONS, getCollection, packsInCollection } from "@/data/collections";
+import {
+  COLLECTIONS,
+  collectionHeading,
+  collectionKeywords,
+  getCollection,
+  packsInCollection,
+} from "@/data/collections";
 import { getAllProductsSync, getCatalogPacks } from "@/lib/products";
 import { SITE } from "@/data/site";
 
@@ -25,6 +31,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
   return {
     title: `${c.name} - Animated Stream Overlay Packs`,
     description: c.blurb,
+    keywords: collectionKeywords(c),
     alternates: { canonical: `/collections/${c.slug}` },
     openGraph: {
       type: "website",
@@ -41,6 +48,7 @@ export default function CollectionPage({ params }: PageProps) {
 
   const slugs = new Set(packsInCollection(getCatalogPacks(), collection).map((p) => p.slug));
   const products = getAllProductsSync().filter((p) => slugs.has(p.slug));
+  const [lead, highlight] = collectionHeading(collection.name);
 
   const collectionLd = {
     "@context": "https://schema.org",
@@ -65,8 +73,8 @@ export default function CollectionPage({ params }: PageProps) {
               <ArrowLeft size={15} /> All packs
             </Link>
             <h1 className="mt-5 text-[clamp(2.2rem,6vw,3.6rem)] font-extrabold leading-tight text-heading">
-              {collection.name.replace(" Twitch Overlays", "")}{" "}
-              <span className="gradient-text">overlays</span>
+              {lead}{" "}
+              <span className="gradient-text">{highlight}</span>
             </h1>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-body">
               {collection.blurb}
@@ -94,9 +102,17 @@ export default function CollectionPage({ params }: PageProps) {
 
         {/* Other collections */}
         <section className="container-page pb-20">
-          <h2 className="text-sm font-bold uppercase tracking-wide text-muted">
-            More collections
-          </h2>
+          <div className="flex items-baseline justify-between gap-4">
+            <h2 className="text-sm font-bold uppercase tracking-wide text-muted">
+              More collections
+            </h2>
+            <Link
+              href="/collections"
+              className="text-xs font-bold text-lavender transition-colors hover:text-pink"
+            >
+              See all
+            </Link>
+          </div>
           <ul className="mt-4 flex flex-wrap gap-2">
             {COLLECTIONS.filter((c) => c.slug !== collection.slug).map((c) => (
               <li key={c.slug}>
