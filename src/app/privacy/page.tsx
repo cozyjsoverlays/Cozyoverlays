@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { LegalPage } from "@/components/LegalPage";
+import { CONTACT_EMAIL } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -34,7 +35,7 @@ export default function PrivacyPage() {
         {
           heading: "Your choices",
           body: [
-            "Want your order data removed after your download window closes? Contact us and we'll take care of it.",
+            `Want your order data removed after your download window closes? Email ${CONTACT_EMAIL} and we'll take care of it.`,
           ],
         },
       ]}

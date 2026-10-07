@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Youtube, Send, Instagram } from "lucide-react";
-import { LINKS, SITE } from "@/data/site";
+import { LINKS, SITE, CONTACT_EMAIL } from "@/data/site";
 import { PACKS } from "@/data/packs";
 import { CATEGORIES } from "@/data/categories";
 import { XIcon, PinterestIcon, EtsyIcon } from "@/components/icons";
@@ -108,7 +108,10 @@ export function Footer() {
             <FooterLink href="/terms">Terms</FooterLink>
             <FooterLink href="/privacy">Privacy</FooterLink>
             <FooterLink href={LINKS.etsyContact} external>
-              Contact
+              Message on Etsy
+            </FooterLink>
+            <FooterLink href={LINKS.email} external>
+              {CONTACT_EMAIL}
             </FooterLink>
           </FooterCol>
         </div>
@@ -151,12 +154,15 @@ function FooterLink({
   const className =
     "text-sm text-body transition-colors hover:text-lavender";
   if (external) {
+    // mailto: hands off to the mail client - opening a blank tab for it just
+    // leaves the visitor staring at an empty window.
+    const isMail = href.startsWith("mailto:");
     return (
       <li>
         <a
           href={href}
-          target="_blank"
-          rel="noopener noreferrer"
+          target={isMail ? undefined : "_blank"}
+          rel={isMail ? undefined : "noopener noreferrer"}
           className={className}
         >
           {children}

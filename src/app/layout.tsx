@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Nunito, Fraunces } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
-import { SITE, LINKS } from "@/data/site";
+import { SITE, LINKS, CONTACT_EMAIL } from "@/data/site";
 import { CartDrawer } from "@/components/commerce/CartDrawer";
 import { JsonLd } from "@/components/seo/JsonLd";
 
@@ -13,6 +13,13 @@ const organizationLd = {
   url: SITE.url,
   logo: SITE.avatar,
   description: SITE.tagline,
+  email: CONTACT_EMAIL,
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "customer support",
+    email: CONTACT_EMAIL,
+    availableLanguage: ["English"],
+  },
   sameAs: [
     LINKS.etsy,
     LINKS.youtube,

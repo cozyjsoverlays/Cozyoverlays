@@ -21,6 +21,13 @@ export const BUY_ON_ETSY = true;
 export const ETSY_SHOP_URL = "https://cozyjsstudio.etsy.com";
 
 /**
+ * Where customer email actually lands. The site tells people to "contact us"
+ * in several places, so it needs a real inbox and not only an Etsy message
+ * thread - buyers who haven't ordered yet can't start one.
+ */
+export const CONTACT_EMAIL = "cozyjsstudio@gmail.com";
+
+/**
  * Direct on-site purchase via PayPal Smart Buttons (runs fully in the browser -
  * static-site friendly). Paste your LIVE PayPal **Client ID** (a public value,
  * safe to commit) from https://developer.paypal.com/dashboard/ → Apps & Credentials.
@@ -41,6 +48,7 @@ export const NEWSLETTER_FORM_ACTION =
   "https://app.kit.com/forms/9623698/subscriptions";
 
 export const LINKS = {
+  email: `mailto:${CONTACT_EMAIL}`,
   etsy: "https://cozyjsstudio.etsy.com",
   etsyCats:
     "https://cozyjsstudio.etsy.com?section_id=56165083",
@@ -155,12 +163,12 @@ export const FAQ: FaqEntry[] = [
   {
     question: "Can I request redesigns or extra assets?",
     answer:
-      "Yes - message us! Small tweaks are often free, and bigger additions are usually a small fee. For full personalization (your own character, palette, and emotes), grab a custom commission.",
+      `Yes - email ${CONTACT_EMAIL} or message us on Etsy. Small tweaks are often free, and bigger additions are usually a small fee. For full personalization (your own character, palette, and emotes), grab a custom commission.`,
   },
   {
     question: "What's your refund policy?",
     answer:
-      "Because these are instant-download digital goods, orders can't be refunded - but we'll always help fix any issue. Contact us and we'll make it right.",
+      `Because these are instant-download digital goods, orders can't be refunded - but we'll always help fix any issue. Email ${CONTACT_EMAIL} and we'll make it right.`,
   },
   {
     question: "Do you take custom commissions?",

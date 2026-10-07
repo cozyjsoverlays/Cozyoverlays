@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { Sparkles, Copy, Check } from "lucide-react";
+import { Sparkles, Copy, Check, Mail } from "lucide-react";
 import { clsx } from "@/lib/clsx";
+import { CONTACT_EMAIL } from "@/data/site";
 
 // Aesthetic-specific cozy motion details (cozyoverlays house style).
 const MOTION_BY_STYLE: Record<string, string> = {
@@ -256,19 +257,36 @@ export function BriefGenerator() {
         <div id="brief-out" className="overflow-hidden rounded-2xl border border-subtle bg-surface/40">
           <div className="flex items-center justify-between border-b border-subtle bg-surface-2 px-4 py-3">
             <span className="text-xs font-bold uppercase tracking-wide text-lavender">Your overlay brief</span>
-            <button
-              type="button"
-              onClick={copy}
-              className="inline-flex items-center gap-1.5 rounded-lg border border-subtle bg-white/5 px-3 py-1.5 text-xs font-bold text-heading hover:border-lavender/40"
-            >
-              {copied ? <Check size={13} /> : <Copy size={13} />} {copied ? "Copied" : "Copy"}
-            </button>
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={copy}
+                className="inline-flex items-center gap-1.5 rounded-lg border border-subtle bg-white/5 px-3 py-1.5 text-xs font-bold text-heading hover:border-lavender/40"
+              >
+                {copied ? <Check size={13} /> : <Copy size={13} />} {copied ? "Copied" : "Copy"}
+              </button>
+              {/* Copy first: long briefs get truncated by some mail clients, so
+                  the full text is always on the clipboard to paste. */}
+              <a
+                href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(
+                  "Custom overlay brief",
+                )}&body=${encodeURIComponent(brief)}`}
+                onClick={copy}
+                className="inline-flex items-center gap-1.5 rounded-lg border border-subtle bg-white/5 px-3 py-1.5 text-xs font-bold text-heading hover:border-lavender/40"
+              >
+                <Mail size={13} /> Email it
+              </a>
+            </div>
           </div>
           <pre className="max-h-[420px] overflow-auto whitespace-pre-wrap break-words p-4 font-mono text-[12.5px] leading-relaxed text-body">
             {brief}
           </pre>
           <p className="border-t border-subtle bg-surface/60 px-4 py-3 text-xs text-muted">
-            Drop this into your image generator to create the pack, or send it over as your commission brief.
+            Drop this into your image generator to create the pack, or send it to{" "}
+            <a href={`mailto:${CONTACT_EMAIL}`} className="font-bold text-lavender hover:text-pink">
+              {CONTACT_EMAIL}
+            </a>{" "}
+            as your commission brief.
           </p>
         </div>
       )}

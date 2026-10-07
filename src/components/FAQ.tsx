@@ -1,4 +1,4 @@
-import { FAQ as FAQ_DATA } from "@/data/site";
+import { FAQ as FAQ_DATA, CONTACT_EMAIL } from "@/data/site";
 import { FAQItem } from "@/components/FAQItem";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
@@ -14,7 +14,7 @@ export function FAQ() {
               Questions, <span className="gradient-text">answered</span>
             </>
           }
-          subtitle="Everything you need to know before you grab a pack. Still curious? Message us on Etsy."
+          subtitle={`Everything you need to know before you grab a pack. Still curious? Email ${CONTACT_EMAIL}.`}
         />
 
         <div className="mx-auto mt-10 flex max-w-3xl flex-col gap-3">

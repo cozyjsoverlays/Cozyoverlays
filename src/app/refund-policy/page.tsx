@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { LegalPage } from "@/components/LegalPage";
+import { CONTACT_EMAIL } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Refund Policy",
@@ -22,13 +23,13 @@ export default function RefundPolicyPage() {
         {
           heading: "Technical issues",
           body: [
-            "If a file is corrupted, won't open, or a download link isn't working, contact us within a reasonable time and we'll repair the file or re-issue your download links. We want every pack working on your stream.",
+            `If a file is corrupted, won't open, or a download link isn't working, email ${CONTACT_EMAIL} within a reasonable time and we'll repair the file or re-issue your download links. We want every pack working on your stream.`,
           ],
         },
         {
           heading: "Accidental or duplicate purchases",
           body: [
-            "If you were charged twice for the same pack or purchased in error before downloading, reach out and we'll review it case by case.",
+            `If you were charged twice for the same pack or purchased in error before downloading, email ${CONTACT_EMAIL} and we'll review it case by case.`,
           ],
         },
       ]}
