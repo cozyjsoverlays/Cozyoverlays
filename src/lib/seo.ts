@@ -22,12 +22,25 @@ export const CATEGORY_THEME: Record<string, string> = {
 const PLATFORMS = "Twitch, YouTube, Kick and TikTok";
 
 /**
+ * The theme word for alt text: the pack's own subject when the title names one,
+ * otherwise the broad category.
+ *
+ * Categories are coarse by design - "wolf" lives under `japanese` because most
+ * wolf packs here are sakura wolves - so a plain "Cute Wolf Twitch Emotes" was
+ * being described as "sakura and Japanese". The title is the better source
+ * whenever it actually names the subject.
+ */
+function packTheme(name: string, category?: string | null): string | undefined {
+  return packSubjects(name)[0] ?? (category ? CATEGORY_THEME[category] : undefined);
+}
+
+/**
  * Alt text for a pack's preview image.
  * e.g. "Cat Forest - animated cat stream overlay pack for Twitch, YouTube,
  *       Kick and TikTok, showing screens, alerts and panels"
  */
 export function packImageAlt(name: string, category?: string | null): string {
-  const theme = category ? CATEGORY_THEME[category] : undefined;
+  const theme = packTheme(name, category);
   const themed = theme ? `${theme} ` : "cozy ";
   const kind = packNoun(name);
   // Describe what the pack actually contains. A badge or panel set has no
@@ -104,7 +117,7 @@ export function packGalleryAlt(
   const kind = packNoun(name);
   const aspects = GALLERY_ASPECTS[kind] ?? GALLERY_ASPECTS.overlay;
   const aspect = aspects[index % aspects.length];
-  const theme = category ? CATEGORY_THEME[category] : undefined;
+  const theme = packTheme(name, category);
   const thing =
     kind === "overlay"
       ? `animated ${theme ? `${theme} ` : "cozy "}stream overlay pack`
@@ -114,7 +127,7 @@ export function packGalleryAlt(
 
 /** Shorter alt for small thumbnails (cart rows, galleries). */
 export function packThumbAlt(name: string, category?: string | null): string {
-  const theme = category ? CATEGORY_THEME[category] : undefined;
+  const theme = packTheme(name, category);
   return `${name} - animated ${theme ? `${theme} ` : "cozy "}stream overlay pack preview`;
 }
 
@@ -123,16 +136,20 @@ const TAG_RULES: Array<[RegExp, string[]]> = [
   [/sakura|cherry blossom|blossom/i, ["sakura overlay", "cherry blossom"]],
   [/lofi|lo-fi|chill/i, ["lofi overlay"]],
   [/kawaii|cute|pastel/i, ["kawaii overlay", "pastel"]],
-  [/witch|spooky|halloween|goth|raven|skull/i, ["witchy overlay", "gothic"]],
+  // "witch" without a boundary matches "Twitch", which tagged almost the whole
+  // catalog as witchy/gothic.
+  [/\bwitch(y|es)?\b|spooky|halloween|gothic|\braven\b|\bskulls?\b/i, ["witchy overlay", "gothic"]],
   [/christmas|winter|snow|new year/i, ["christmas overlay", "winter"]],
-  [/neon|cyber|y2k|crt/i, ["neon overlay", "cyberpunk"]],
+  [/neon|cyber|y2k|\bcrt\b/i, ["neon overlay", "cyberpunk"]],
   [/forest|garden|nature|woodland/i, ["forest overlay", "cottagecore"]],
-  [/night|moon|star|celestial|galaxy/i, ["night sky overlay", "celestial"]],
+  // "star" bare would match "Starting Soon"; "room" would match "mushroom".
+  [/night|moon|\bstars?\b|starry|celestial|galaxy/i, ["night sky overlay", "celestial"]],
   [/vtuber/i, ["vtuber overlay"]],
-  [/badge|bits/i, ["twitch sub badges", "bit badges"]],
+  // "bits" bare would match "rabbits".
+  [/badge|\bbits\b/i, ["twitch sub badges", "bit badges"]],
   [/emote/i, ["twitch emotes"]],
   [/panel/i, ["twitch panels"]],
-  [/bedroom|room|cafe|library/i, ["cozy room overlay"]],
+  [/bedroom|\broom\b|cafe|library/i, ["cozy room overlay"]],
   [/tiktok/i, ["tiktok overlay", "vertical overlay"]],
 ];
 
@@ -198,12 +215,32 @@ export function packSubjects(name: string): string[] {
   return [];
 }
 
-/** What the pack actually is, used to build natural phrase variations. */
+/**
+ * What the pack actually is, used to build natural phrase variations.
+ *
+ * Decided by which word the title leads with, not a fixed priority order.
+ * Listings name several asset types ("10 Cute Panda Twitch Emotes, ...,
+ * Twitch Badges, Chibi Panda Emote Bundle"); the one the seller put first is
+ * what the product is, and a fixed order made every emote set claim to be a
+ * badge set - wrong alt text, and keywords built around the wrong search term.
+ */
+const NOUN_PATTERNS: Array<[RegExp, "badges" | "emotes" | "panels"]> = [
+  [/\bpanels?\b/i, "panels"],
+  [/\bbadges?\b|\bbits\b|channel[ -]?points?\b/i, "badges"],
+  [/\bemotes?\b/i, "emotes"],
+];
+
 function packNoun(name: string): "badges" | "emotes" | "panels" | "overlay" {
-  if (/\bpanels?\b/i.test(name)) return "panels";
-  if (/\bbadges?\b|\bbits\b|channel[ -]?point/i.test(name)) return "badges";
-  if (/\bemotes?\b/i.test(name)) return "emotes";
-  return "overlay";
+  let best: "badges" | "emotes" | "panels" | "overlay" = "overlay";
+  let bestAt = Infinity;
+  for (const [re, noun] of NOUN_PATTERNS) {
+    const at = name.search(re);
+    if (at !== -1 && at < bestAt) {
+      bestAt = at;
+      best = noun;
+    }
+  }
+  return best;
 }
 
 /**

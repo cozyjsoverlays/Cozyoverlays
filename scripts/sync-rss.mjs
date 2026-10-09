@@ -40,30 +40,44 @@ function mapCategory(text) {
 }
 
 function slugify(name) {
-  return name
+  const s = name
     .toLowerCase()
     .replace(/[^a-z0-9\s-]/g, "")
     .trim()
     .replace(/\s+/g, "-")
-    .replace(/-+/g, "-")
-    .slice(0, 60);
+    .replace(/-+/g, "-");
+  if (s.length <= 60) return s;
+  // Cut on a word boundary, never mid-word and never leaving a trailing dash
+  // ("...chat-emotes-for-" reads like a broken link).
+  return s.slice(0, 60).replace(/-[^-]*$/, "").replace(/-+$/, "");
 }
 
+/**
+ * Display name = the first segment of the Etsy title.
+ *
+ * Etsy titles are keyword lists. Older listings separate with " | ", newer ones
+ * with commas ("10 Cute Panda Twitch Emotes, Text Emotes, Panda Chat Emotes for
+ * Discord, Twitch Badges, Chibi Panda Emote Bundle"), so splitting on the pipe
+ * alone left the whole list as the on-page heading. The full title is kept
+ * separately and still rendered for search - it just isn't the visible name.
+ */
 function cleanName(title) {
-  // Display name = first segment before " | ", minus the " by CozyJsStudio" tail.
-  return title
-    .split("|")[0]
-    .replace(/\s+by CozyJsStudio\s*$/i, "")
-    .replace(/\s+/g, " ")
-    .trim();
+  const head = title.split("|")[0].replace(/\s+by CozyJsStudio\s*$/i, "").trim();
+  const first = head.split(",")[0].trim();
+  // Only take the first comma segment when it stands on its own as a name.
+  const short = first.length >= 12 ? first : head;
+  return short.replace(/\s+/g, " ").trim();
 }
 
 /** True for badge/emote-only products (no screens/alerts/panels in them). */
 function isAssetOnly(text) {
-  return (
-    /\b(badges?|bits|icons?|emotes?|panels?|stickers?|clipart|wallpapers?)\b/i.test(text) &&
-    !/\b(package|bundle|stream pack|overlay pack)\b/i.test(text)
-  );
+  if (!/\b(badges?|bits|icons?|emotes?|panels?|stickers?|clipart|wallpapers?)\b/i.test(text)) {
+    return false;
+  }
+  // Excluding on "bundle" alone misread "Chibi Panda Emote Bundle" as a full
+  // stream pack, so an emote set advertised screens and alerts it doesn't have.
+  // A real package names what makes it one: screens, alerts, or "overlay pack".
+  return !/\b(screens?|alerts?|starting soon|overlay pack(age)?|stream pack(age)?)\b/i.test(text);
 }
 
 function features(text) {
@@ -86,9 +100,23 @@ function describe(name) {
     .replace(/\s+/g, " ")
     .trim();
   if (isAssetOnly(name)) {
-    const kind = /panel/i.test(name)
-      ? "profile panels for your channel"
-      : "Twitch sub badges, bit badges and channel-point icons";
+    // Decide by the word the title leads with. A listing names several asset
+    // types ("... Twitch Emotes, ..., Twitch Badges, ... Emote Bundle"), and a
+    // fixed order described every emote set as a badge set.
+    const kinds = [
+      [/\bpanels?\b/i, "profile panels for your channel"],
+      [/\bemotes?\b|\bstickers?\b/i, "Twitch emotes in every size chat needs"],
+      [/\bbadges?\b|\bbits\b|\bicons?\b/i, "Twitch sub badges, bit badges and channel-point icons"],
+    ];
+    let kind = "Twitch sub badges, bit badges and channel-point icons";
+    let at = Infinity;
+    for (const [re, label] of kinds) {
+      const i = name.search(re);
+      if (i !== -1 && i < at) {
+        at = i;
+        kind = label;
+      }
+    }
     return theme ? `${theme} - a cozy set of ${kind}.` : `A cozy set of ${kind}.`;
   }
   return theme
@@ -155,6 +183,9 @@ async function main() {
     current.unshift({
       slug,
       name,
+      // Full Etsy title, kept so the product page can carry it for search even
+      // when the visible heading is the short name.
+      title: title.replace(/\s+by CozyJsStudio\s*$/i, "").trim(),
       category,
       price,
       description: describe(name),
