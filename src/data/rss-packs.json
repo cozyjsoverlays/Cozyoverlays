@@ -1,5 +1,53 @@
 [
   {
+    "slug": "festival-animated-stream-package-twitch-overlay",
+    "name": "Festival Animated Stream Package : Twitch Overlay",
+    "title": "Festival Animated Stream Package : Twitch Overlay, YouTube, Kick, Purple Overlays",
+    "category": "seasonal",
+    "price": "$26.40",
+    "description": "Festival : - cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/4f373a/7365131058/il_570xN.7365131058_i23d.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4399962279",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "animated-purple-christmas-stream-decoration",
+    "name": "Animated Purple Christmas Stream Decoration",
+    "title": "Animated Purple Christmas Stream Decoration | Holiday Garland Twitch Overlay, Cozy Winter Fairy Lights Decor Pack (Digital Download)",
+    "category": "seasonal",
+    "price": "$18.99",
+    "description": "Purple Christmas Decoration - cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/ccf8dd/8806996691/il_570xN.8806996691_f8oa.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4605168139",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
+    "slug": "animated-purple-christmas-twitch-overlay-pack",
+    "name": "Animated Purple Christmas Twitch Overlay Pack",
+    "title": "Animated Purple Christmas Twitch Overlay Pack | Cozy Holiday Gaming Room Stream Package, Winter Lofi Stream Decor (Digital Download)",
+    "category": "seasonal",
+    "price": "$21.40",
+    "description": "Purple Christmas - cozy animated overlays for Twitch, YouTube, Kick & TikTok: screens, alerts, panels & emotes.",
+    "image": "https://i.etsystatic.com/61635066/r/il/f09697/8806805423/il_570xN.8806805423_ggpb.jpg",
+    "etsy": "https://cozyjsstudio.etsy.com/listing/4605158000",
+    "features": [
+      "Animated Screens",
+      "Alerts",
+      "Panels"
+    ],
+    "isNew": true
+  },
+  {
     "slug": "halloween-cat-overlay-animated-stream-pack",
     "name": "Halloween Cat Overlay Animated Stream Pack",
     "title": "Halloween Cat Overlay Animated Stream Pack | Purple Spooky Twitch Overlay Bundle | Emotes| Cozy Black Cat VTuber OBS | Youtube | Kick",
